@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#0b1220">
+<title>Arabic Learning — One Word at a Time</title>
+<style>
+  :root{
+    --bg:#0b1220;
+    --surface:#131c31;
+    --surface2:#1e293b;
+    --line:#243349;
+    --text:#e6edf7;
+    --muted:#8b9bb4;
+    --primary:#4f8cff;
+    --primary2:#3b6fe0;
+    --success:#22c55e;
+    --success2:#16a34a;
+    --radius:18px;
+    --shadow:0 10px 30px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{
+    margin:0;padding:0;background:var(--bg);color:var(--text);
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    min-height:100vh;
+  }
+  #app{
+    max-width:520px;margin:0 auto;padding:20px 16px 40px;
+    min-height:100vh;display:flex;flex-direction:column;
+  }
+
+  /* ---------- Top bar ---------- */
+  .top{
+    display:flex;justify-content:space-between;align-items:center;
+    margin-bottom:22px;
+  }
+  .brand{display:flex;align-items:center;gap:10px}
+  .brand .logo{font-size:1.6rem;line-height:1}
+  .brand h1{font-size:1rem;margin:0;font-weight:700}
+  .brand small{display:block;color:var(--muted);font-size:.7rem;margin-top:2px}
+  .reset-btn{
+    background:var(--surface);border:1px solid var(--line);
+    color:var(--muted);padding:8px 12px;border-radius:10px;
+    font-size:.75rem;cursor:pointer;font-family:inherit;font-weight:600;
+  }
+  .reset-btn:active{transform:scale(.96)}
+
+  /* ---------- Screens ---------- */
+  .screen{display:none;flex-direction:column;flex:1}
+  .screen.active{display:flex}
+
+  /* ---------- Home ---------- */
+  .hero{
+    background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);padding:28px 22px;
+    text-align:center;box-shadow:var(--shadow);margin-bottom:18px;
+  }
+  .hero .bism{
+    font-size:2.4rem;color:var(--primary);margin-bottom:8px;
+    font-family:"Amiri","Scheherazade","Traditional Arabic",serif;
+  }
+  .hero h2{margin:0 0 6px;font-size:1.15rem;font-weight:700}
+  .hero p{margin:0;color:var(--muted);font-size:.88rem;line-height:1.5}
+
+  .progress-card{
+    background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);padding:20px;
+    box-shadow:var(--shadow);margin-bottom:18px;
+  }
+  .progress-head{
+    display:flex;justify-content:space-between;align-items:baseline;
+    margin-bottom:12px;
+  }
+  .progress-head .label{
+    color:var(--muted);font-size:.75rem;text-transform:uppercase;
+    letter-spacing:.8px;font-weight:700;
+  }
+  .progress-head .count{
+    font-weight:800;font-size:1.2rem;
+  }
+  .progress-head .count small{color:var(--muted);font-weight:500;font-size:.85rem}
+  .bar{
+    height:10px;background:var(--surface2);
+    border-radius:99px;overflow:hidden;
+  }
+  .bar-fill{
+    height:100%;
+    background:linear-gradient(90deg,var(--primary),var(--primary2));
+    border-radius:99px;transition:width .5s ease;
+  }
+  .progress-foot{
+    margin-top:10px;color:var(--muted);font-size:.82rem;
+    display:flex;justify-content:space-between;
+  }
+
+  .next-preview{
+    background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);padding:22px;
+    text-align:center;box-shadow:var(--shadow);margin-bottom:16px;
+  }
+  .next-preview .hint{
+    color:var(--muted);font-size:.75rem;text-transform:uppercase;
+    letter-spacing:.8px;margin-bottom:12px;font-weight:700;
+  }
+  .next-preview .ar{
+    font-size:2.6rem;direction:rtl;line-height:1.3;
+    font-family:"Amiri","Scheherazade",serif;
+  }
+  .next-preview .translit{
+    color:var(--muted);font-size:.95rem;font-style:italic;
+    margin-top:6px;
+  }
+
+  /* ---------- Buttons ---------- */
+  .btn{
+    width:100%;padding:16px;border:none;border-radius:14px;
+    font-size:1rem;font-weight:700;cursor:pointer;
+    font-family:inherit;transition:transform .08s,filter .15s;
+    letter-spacing:.2px;
+  }
+  .btn:active{transform:scale(.98)}
+  .btn.primary{
+    background:linear-gradient(180deg,var(--primary),var(--primary2));
+    color:#fff;box-shadow:0 8px 22px rgba(79,140,255,.35);
+  }
+  .btn.success{
+    background:linear-gradient(180deg,var(--success),var(--success2));
+    color:#fff;box-shadow:0 8px 22px rgba(34,197,94,.35);
+  }
+  .btn.secondary{
+    background:var(--surface);border:1px solid var(--line);
+    color:var(--text);
+  }
+
+  /* ---------- Learn screen ---------- */
+  .learn-header{
+    text-align:center;margin-bottom:18px;
+  }
+  .learn-header .step-num{
+    color:var(--muted);font-size:.78rem;text-transform:uppercase;
+    letter-spacing:1px;font-weight:700;
+  }
+  .mini-bar{
+    height:6px;background:var(--surface2);border-radius:99px;
+    overflow:hidden;margin-top:10px;
+  }
+  .mini-bar-fill{
+    height:100%;
+    background:linear-gradient(90deg,var(--primary),var(--primary2));
+    border-radius:99px;transition:width .4s ease;
+  }
+
+  .word-card{
+    background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);padding:36px 24px;
+    box-shadow:var(--shadow);text-align:center;margin-bottom:20px;
+    flex:1;display:flex;flex-direction:column;justify-content:center;
+    min-height:300px;
+  }
+  .arabic{
+    font-size:4rem;line-height:1.3;direction:rtl;
+    font-family:"Amiri","Scheherazade","Traditional Arabic",serif;
+    margin-bottom:10px;
+  }
+  .translit{
+    color:var(--muted);font-size:1.05rem;font-style:italic;
+    margin-bottom:18px;
+  }
+  .meaning{
+    font-size:1.5rem;font-weight:800;color:var(--text);
+    padding-top:18px;border-top:1px dashed var(--line);
+  }
+
+  .learn-controls{display:flex;flex-direction:column;gap:12px}
+  .row{display:flex;gap:10px}
+  .row .btn{flex:1}
+
+  /* ---------- Done screen ---------- */
+  .done-wrap{
+    background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);padding:40px 24px;
+    text-align:center;box-shadow:var(--shadow);margin-bottom:18px;
+  }
+  .done-wrap .emoji{font-size:4rem;margin-bottom:12px}
+  .done-wrap h2{
+    margin:0 0 8px;font-size:1.4rem;color:var(--success);
+  }
+  .done-wrap p{
+    margin:0;color:var(--muted);font-size:.9rem;line-height:1.6;
+  }
+
+  .note{
+    text-align:center;color:var(--muted);font-size:.78rem;
+    margin-top:18px;opacity:.75;
+  }
+</style>
+</head>
+<body>
+<div id="app">
+
+  <!-- ===== Top bar ===== -->
+  <div class="top">
+    <div class="brand">
+      <span class="logo">﷽</span>
+      <div>
+        <h1>Arabic Learning</h1>
+        <small>Ek waqt, ek lafz</small>
+      </div>
+    </div>
+    <button class="reset-btn" id="resetBtn">Reset</button>
+  </div>
+
+  <!-- ===== SCREEN 1: HOME ===== -->
+  <section class="screen active" id="screen-home">
+    <div class="hero">
+      <div class="bism">﷽</div>
+      <h2>Ek lafz, roz thora thora</h2>
+      <p>Pehle dekho, phir sunein, phir yaad karo — phir agla lafz.</p>
+    </div>
+
+    <div class="progress-card">
+      <div class="progress-head">
+        <span class="label">Progress</span>
+        <span class="count" id="progressCount">0<small> / 25</small></span>
+      </div>
+      <div class="bar">
+        <div class="bar-fill" id="progressBar" style="width:0%"></div>
+      </div>
+      <div class="progress-foot">
+        <span id="progressPct">0% complete</span>
+        <span id="progressMastered">0 mastered</span>
+      </div>
+    </div>
+
+    <div class="next-preview" id="nextPreview">
+      <div class="hint">Agla lafz</div>
+      <div class="ar" id="nextAr">—</div>
+      <div class="translit" id="nextTranslit"></div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <button class="btn primary" id="startBtn">Shuru Karo →</button>
+    </div>
+
+    <div class="note">Progress tumhare phone mein save hoti hai.</div>
+  </section>
+
+  <!-- ===== SCREEN 2: LEARN ===== -->
+  <section class="screen" id="screen-learn">
+    <div class="learn-header">
+      <div class="step-num" id="learnStep">Lafz 1 / 25</div>
+      <div class="mini-bar">
+        <div class="mini-bar-fill" id="learnMiniBar" style="width:0%"></div>
+      </div>
+    </div>
+
+    <div class="word-card">
+      <div class="arabic" id="learnAr">—</div>
+      <div class="translit" id="learnTranslit">—</div>
+      <div class="meaning" id="learnMeaning">—</div>
+    </div>
+
+    <div class="learn-controls">
+      <button class="btn secondary" id="listenBtn">🔊 Listen</button>
+      <button class="btn success" id="learnedBtn">✅ Maine Seekh Liya</button>
+      <button class="btn secondary" id="backHomeBtn">← Wapas</button>
+    </div>
+  </section>
+
+  <!-- ===== SCREEN 3: DONE ===== -->
+  <section class="screen" id="screen-done">
+    <div class="done-wrap">
+      <div class="emoji">🎉</div>
+      <h2>Mubarak Ho!</h2>
+      <p>Tumne saare <span id="doneTotal">25</span> lafz mukammal kar liye.<br>
+      Ab dobara revise karne ke liye reset kar sakte ho.</p>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <button class="btn primary" id="doneStartOver">Phir Se Shuru Karo</button>
+    </div>
+  </section>
+
+</div>
+
+<script>
+/* =========================================================
+   Function 2: Sequential Progress
+   Ek lafz → master → agla lafz. Save in localStorage.
+   ========================================================= */
+
+/* ---------- Word list ---------- */
+const WORDS = [
+  { arabic:'كِتَاب',   translit:'kitāb',    meaning:'book'   },
+  { arabic:'قَلَم',    translit:'qalam',    meaning:'pen'    },
+  { arabic:'بَاب',     translit:'bāb',      meaning:'door'   },
+  { arabic:'مَاء',     translit:'mā’',      meaning:'water'  },
+  { arabic:'نَار',     translit:'nār',      meaning:'fire'   },
+  { arabic:'شَمْس',    translit:'shams',    meaning:'sun'    },
+  { arabic:'قَمَر',    translit:'qamar',    meaning:'moon'   },
+  { arabic:'سَمَاء',   translit:'samā’',    meaning:'sky'    },
+  { arabic:'أَرْض',    translit:'arḍ',      meaning:'earth'  },
+  { arabic:'يَوْم',    translit:'yawm',     meaning:'day'    },
+  { arabic:'لَيْل',    translit:'layl',     meaning:'night'  },
+  { arabic:'رَجُل',    translit:'rajul',    meaning:'man'    },
+  { arabic:'اِمْرَأَة', translit:'imra’ah',  meaning:'woman'  },
+  { arabic:'وَلَد',    translit:'walad',    meaning:'boy'    },
+  { arabic:'بِنْت',    translit:'bint',     meaning:'girl'   },
+  { arabic:'بَيْت',    translit:'bayt',     meaning:'house'  },
+  { arabic:'مَسْجِد',  translit:'masjid',   meaning:'mosque' },
+  { arabic:'مُعَلِّم', translit:'mu‘allim', meaning:'teacher'},
+  { arabic:'طَالِب',   translit:'ṭālib',    meaning:'student'},
+  { arabic:'مَدِينَة', translit:'madīnah',  meaning:'city'   },
+  { arabic:'يَكْتُب',  translit:'yaktub',   meaning:'he writes'},
+  { arabic:'يَقْرَأ',  translit:'yaqra’',   meaning:'he reads'},
+  { arabic:'يَأْكُل',  translit:'ya’kul',   meaning:'he eats' },
+  { arabic:'يَشْرَب',  translit:'yashrab',  meaning:'he drinks'},
+  { arabic:'يَعْلَم',  translit:'ya‘lam',   meaning:'he knows'}
+];
+
+/* ---------- Storage keys ---------- */
+const KEY_INDEX = 'arb_current_index';   // number
+const KEY_DONE  = 'arb_mastered_ids';    // array of indices
+
+/* ---------- State ---------- */
+let currentIndex = 0;   // index of the word currently being learned
+let mastered     = [];  // indices of words marked "I Learned This"
+
+/* ---------- Load from storage ---------- */
+function loadProgress(){
+  try{
+    const i = localStorage.getItem(KEY_INDEX);
+    const d = localStorage.getItem(KEY_DONE);
+    currentIndex = i !== null ? parseInt(i, 10) : 0;
+    mastered     = d !== null ? JSON.parse(d) : [];
+    if(!Array.isArray(mastered)) mastered = [];
+    if(isNaN(currentIndex) || currentIndex < 0) currentIndex = 0;
+  }catch(e){
+    currentIndex = 0;
+    mastered = [];
+  }
+}
+
+/* ---------- Save to storage ---------- */
+function saveProgress(){
+  try{
+    localStorage.setItem(KEY_INDEX, String(currentIndex));
+    localStorage.setItem(KEY_DONE, JSON.stringify(mastered));
+  }catch(e){ /* silent */ }
+}
+
+/* ---------- Screen switcher ---------- */
+function showScreen(name){
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('screen-' + name).classList.add('active');
+  window.scrollTo({ top:0, behavior:'smooth' });
+}
+
+/* ---------- Render Home ---------- */
+function renderHome(){
+  const total   = WORDS.length;
+  const done    = mastered.length;
+  const pct     = total ? Math.round((done / total) * 100) : 0;
+
+  document.getElementById('progressCount').innerHTML =
+    done + '<small> / ' + total + '</small>';
+  document.getElementById('progressBar').style.width = pct + '%';
+  document.getElementById('progressPct').textContent = pct + '% complete';
+  document.getElementById('progressMastered').textContent = done + ' mastered';
+
+  // All done?
+  if(currentIndex >= total){
+    showScreen('done');
+    document.getElementById('doneTotal').textContent = total;
+    return;
+  }
+
+  // Next word preview
+  const next = WORDS[currentIndex];
+  document.getElementById('nextAr').textContent       = next.arabic;
+  document.getElementById('nextTranslit').textContent = next.translit;
+
+  showScreen('home');
+}
+
+/* ---------- Render Learn ---------- */
+function renderLearn(){
+  const total = WORDS.length;
+  if(currentIndex >= total){
+    renderHome();
+    return;
+  }
+
+  const w = WORDS[currentIndex];
+
+  document.getElementById('learnStep').textContent =
+    'Lafz ' + (currentIndex + 1) + ' / ' + total;
+
+  const pct = Math.round(((currentIndex) / total) * 100);
+  document.getElementById('learnMiniBar').style.width = pct + '%';
+
+  document.getElementById('learnAr').textContent       = w.arabic;
+  document.getElementById('learnTranslit').textContent = w.translit;
+  document.getElementById('learnMeaning').textContent  = w.meaning;
+
+  showScreen('learn');
+
+  // Auto-play pronunciation shortly after showing
+  setTimeout(() => playCurrentWord(), 350);
+}
+
+/* ---------- Play current word audio ---------- */
+function playCurrentWord(){
+  if(currentIndex >= WORDS.length) return;
+  const w = WORDS[currentIndex];
+
+  if(!('speechSynthesis' in window)){
+    return;
+  }
+  try{
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(w.arabic);
+    u.lang  = 'ar-SA';
+    u.rate  = 0.85;
+    const voices = speechSynthesis.getVoices();
+    const arVoice = voices.find(v => v.lang && v.lang.toLowerCase().startsWith('ar'));
+    if(arVoice) u.voice = arVoice;
+    speechSynthesis.speak(u);
+  }catch(e){ /* silent */ }
+}
+
+/* ---------- Mark current word as learned ---------- */
+function markLearned(){
+  if(currentIndex >= WORDS.length) return;
+
+  // Add to mastered (avoid duplicates)
+  if(!mastered.includes(currentIndex)){
+    mastered.push(currentIndex);
+  }
+
+  // Move to next
+  currentIndex++;
+
+  saveProgress();
+
+  // Next action
+  if(currentIndex >= WORDS.length){
+    renderHome();    // will show "done" screen
+  } else {
+    renderLearn();
+  }
+}
+
+/* ---------- Reset everything ---------- */
+function resetAll(){
+  const ok = confirm('Sab progress delete karni hai? Yeh wapas nahi aayegi.');
+  if(!ok) return;
+  try{
+    localStorage.removeItem(KEY_INDEX);
+    localStorage.removeItem(KEY_DONE);
+  }catch(e){}
+  currentIndex = 0;
+  mastered = [];
+  renderHome();
+}
+
+/* ---------- Events ---------- */
+document.getElementById('startBtn').addEventListener('click', renderLearn);
+document.getElementById('listenBtn').addEventListener('click', playCurrentWord);
+document.getElementById('learnedBtn').addEventListener('click', markLearned);
+document.getElementById('backHomeBtn').addEventListener('click', renderHome);
+document.getElementById('resetBtn').addEventListener('click', resetAll);
+document.getElementById('doneStartOver').addEventListener('click', resetAll);
+
+/* ---------- Boot ---------- */
+(function boot(){
+  // Preload voices
+  if('speechSynthesis' in window){
+    try{ speechSynthesis.getVoices(); }catch(e){}
+    speechSynthesis.onvoiceschanged = function(){
+      try{ speechSynthesis.getVoices(); }catch(e){}
+    };
+  }
+
+  loadProgress();
+  renderHome();
+})();
+</script>
+</body>
+</html>
