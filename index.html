@@ -545,59 +545,24 @@ const Speech = {
 };
 
 /* ---------- Highlight lemma inside ayah ---------- */
-function highlightLemma(ayahAr, lemmaAr){
-  if(!ayahAr || !lemmaAr) return ayahAr || '';
-  const strip = s => s.replace(/[\u064B-\u0652\u0670\u0640\u06D6-\u06ED]/g, '');
-  const norm = s => strip(s)
-    .replace(/[\u0623\u0625\u0622\u0671]/g, '\u0627')
-    .replace(/\u0649/g, '\u064A')
-    .replace(/\u0629/g, '\u0647')
-    .replace(/\u0624/g, '\u0648')
-    .replace(/\u0626/g, '\u064A');
-  const PREFIXES = ['\u0648\u0627\u0644','\u0641\u0627\u0644','\u0628\u0627\u0644','\u0643\u0627\u0644','\u0627\u0644','\u0648','\u0641','\u0628','\u0644','\u0643'];
-  const SUFFIXES = ['\u0647\u0645\u0627','\u0647\u0645','\u0647\u0646','\u0643\u0645','\u0643\u0646','\u0646\u0627','\u0648\u0627','\u0648\u0646','\u064A\u0646','\u0627\u062A','\u0647','\u0643','\u064A','\u0627','\u0648','\u0646','\u062A'];
-  function stripAffixes(w){
-    let r = w;
-    // Strip prefix
-    for(let i=0;i<PREFIXES.length;i++){
-      const p = PREFIXES[i];
-      if(r.length > p.length + 1 && r.startsWith(p)){ r = r.slice(p.length); break; }
-    }
-    // Strip suffix
-    for(let i=0;i<SUFFIXES.length;i++){
-      const s = SUFFIXES[i];
-      if(r.length > s.length + 1 && r.endsWith(s)){ r = r.slice(0, -s.length); break; }
-    }
-    return r;
-  }
-  const lemmaNorm = norm(lemmaAr);
-  if(!lemmaNorm) return ayahAr;
+function highlightLemma(ayahAr, wordNum){
+  // wordNum is 1-based position of the word in the ayah
+  if(!ayahAr) return '';
+  if(!wordNum || wordNum < 1) return ayahAr;
+
+  // Split ayah into words (not preserving whitespace for counting)
   const tokens = ayahAr.split(/(\s+)/);
-  let matched = false;
+  let wordIndex = 0;
+
   const result = tokens.map(function(tok){
-    if(!tok.trim() || matched) return tok;
-    const clean = tok.replace(/[\u0610-\u061A\u06D6-\u06ED\u08D3-\u08FF]/g, '');
-    const tokNorm = norm(clean);
-    let isMatch = false;
-    // 1. Exact
-    if(tokNorm === lemmaNorm) isMatch = true;
-    // 2. Prefix/suffix stripped
-    else if(stripAffixes(tokNorm) === lemmaNorm) isMatch = true;
-    // 3. Contains (length >= 3 for safety)
-    else if(lemmaNorm.length >= 3 && tokNorm.indexOf(lemmaNorm) !== -1) isMatch = true;
-    // 4. First-3-consonants match (loose)
-    else if(lemmaNorm.length >= 3 && tokNorm.length >= 3){
-      const cons = s => s.replace(/[\u0627\u0648\u064A\u0649]/g, '');
-      const lc = cons(lemmaNorm);
-      const tc = cons(tokNorm);
-      if(lc.length >= 2 && tc.indexOf(lc.substring(0, 2)) === 0) isMatch = true;
-    }
-    if(isMatch){
-      matched = true;
+    if(!tok.trim()) return tok;  // whitespace
+    wordIndex++;
+    if(wordIndex === wordNum){
       return '<span class="hl">' + tok + '</span>';
     }
     return tok;
   });
+
   return result.join('');
 }
 
@@ -655,7 +620,7 @@ function renderLearn(){
   $('chipPos').textContent = w.pos_ar || w.pos_en || '';
 
   $('ayahLabel').textContent = `Qur'an · ${w.ayah.ref}`;
-  $('ayahAr').innerHTML = highlightLemma(w.ayah.ar, w.lemma_ar);
+  $('ayahAr').innerHTML = highlightLemma(w.ayah.ar, w.ayah.word_num);
   $('ayahUr').textContent = w.ayah.ur;
   $('ayahEn').textContent = w.ayah.en;
 
