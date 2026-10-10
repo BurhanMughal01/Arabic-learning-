@@ -22,7 +22,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:3"
     },
-    "pos_ar": "حرف جر"
+    "pos_ar": "حرف جر",
+    "meaning": {
+      "en": "from, of",
+      "ur": "سے، میں سے"
+    }
   },
   {
     "id": 2,
@@ -47,7 +51,11 @@
       "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
       "ref": "Al-Faatiha 1:1"
     },
-    "pos_ar": "اسم علم"
+    "pos_ar": "اسم علم",
+    "meaning": {
+      "en": "Allah",
+      "ur": "اللہ"
+    }
   },
   {
     "id": 3,
@@ -72,7 +80,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:3"
     },
-    "pos_ar": "اسم موصول"
+    "pos_ar": "اسم موصول",
+    "meaning": {
+      "en": "what / not",
+      "ur": "کیا / نہیں"
+    }
   },
   {
     "id": 4,
@@ -97,7 +109,11 @@
       "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
       "ref": "Al-Faatiha 1:7"
     },
-    "pos_ar": "حرف نفي"
+    "pos_ar": "حرف نفي",
+    "meaning": {
+      "en": "no, not",
+      "ur": "نہیں"
+    }
   },
   {
     "id": 5,
@@ -122,7 +138,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:2"
     },
-    "pos_ar": "حرف جر"
+    "pos_ar": "حرف جر",
+    "meaning": {
+      "en": "in",
+      "ur": "میں"
+    }
   },
   {
     "id": 6,
@@ -147,7 +167,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:6"
     },
-    "pos_ar": "حرف نصب"
+    "pos_ar": "حرف نصب",
+    "meaning": {
+      "en": "indeed, verily",
+      "ur": "بے شک"
+    }
   },
   {
     "id": 7,
@@ -172,7 +196,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:8"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "he said",
+      "ur": "اس نے کہا"
+    }
   },
   {
     "id": 8,
@@ -197,7 +225,11 @@
       "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
       "ref": "Al-Faatiha 1:7"
     },
-    "pos_ar": "اسم موصول"
+    "pos_ar": "اسم موصول",
+    "meaning": {
+      "en": "who, which (m.)",
+      "ur": "جو"
+    }
   },
   {
     "id": 9,
@@ -222,7 +254,11 @@
       "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
       "ref": "Al-Faatiha 1:7"
     },
-    "pos_ar": "حرف جر"
+    "pos_ar": "حرف جر",
+    "meaning": {
+      "en": "upon, on",
+      "ur": "پر"
+    }
   },
   {
     "id": 10,
@@ -247,7 +283,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:10"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "he was",
+      "ur": "وہ تھا"
+    }
   },
   {
     "id": 11,
@@ -272,7 +312,11 @@
       "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
       "ref": "Al-Faatiha 1:2"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "Lord, Sustainer",
+      "ur": "رب، پالنے والا"
+    }
   },
   {
     "id": 12,
@@ -297,7 +341,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:8"
     },
-    "pos_ar": "اسم موصول"
+    "pos_ar": "اسم موصول",
+    "meaning": {
+      "en": "who, whoever",
+      "ur": "کون، جو"
+    }
   },
   {
     "id": 13,
@@ -322,7 +370,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:4"
     },
-    "pos_ar": "حرف جر"
+    "pos_ar": "حرف جر",
+    "meaning": {
+      "en": "to, towards",
+      "ur": "کی طرف"
+    }
   },
   {
     "id": 14,
@@ -347,7 +399,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:23"
     },
-    "pos_ar": "حرف شرط"
+    "pos_ar": "حرف شرط",
+    "meaning": {
+      "en": "if",
+      "ur": "اگر"
+    }
   },
   {
     "id": 15,
@@ -372,7 +428,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:9"
     },
-    "pos_ar": "حرف جواب"
+    "pos_ar": "حرف جواب",
+    "meaning": {
+      "en": "except, but",
+      "ur": "سوائے، مگر"
+    }
   },
   {
     "id": 16,
@@ -397,7 +457,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:26"
     },
-    "pos_ar": "حرف مصدري"
+    "pos_ar": "حرف مصدري",
+    "meaning": {
+      "en": "that, to",
+      "ur": "کہ"
+    }
   },
   {
     "id": 17,
@@ -422,7 +486,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:4"
     },
-    "pos_ar": "ضمير"
+    "pos_ar": "ضمير",
+    "meaning": {
+      "en": "they",
+      "ur": "وہ (جمع)"
+    }
   },
   {
     "id": 18,
@@ -447,7 +515,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:3"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "he believed",
+      "ur": "ایمان لایا"
+    }
   },
   {
     "id": 19,
@@ -472,7 +544,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:2"
     },
-    "pos_ar": "اسم إشارة"
+    "pos_ar": "اسم إشارة",
+    "meaning": {
+      "en": "that",
+      "ur": "وہ"
+    }
   },
   {
     "id": 20,
@@ -497,7 +573,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:29"
     },
-    "pos_ar": "ضمير"
+    "pos_ar": "ضمير",
+    "meaning": {
+      "en": "he",
+      "ur": "وہ"
+    }
   },
   {
     "id": 21,
@@ -522,7 +602,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:36"
     },
-    "pos_ar": "حرف جر"
+    "pos_ar": "حرف جر",
+    "meaning": {
+      "en": "from, about",
+      "ur": "سے، بارے میں"
+    }
   },
   {
     "id": 22,
@@ -547,7 +631,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:11"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "earth, land",
+      "ur": "زمین"
+    }
   },
   {
     "id": 23,
@@ -572,7 +660,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:11"
     },
-    "pos_ar": "ظرف زمان"
+    "pos_ar": "ظرف زمان",
+    "meaning": {
+      "en": "when",
+      "ur": "جب"
+    }
   },
   {
     "id": 24,
@@ -597,7 +689,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:60"
     },
-    "pos_ar": "CERT"
+    "pos_ar": "CERT",
+    "meaning": {
+      "en": "indeed, already",
+      "ur": "بے شک"
+    }
   },
   {
     "id": 25,
@@ -622,7 +718,11 @@
       "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
       "ref": "Al-Faatiha 1:4"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "day",
+      "ur": "دن"
+    }
   },
   {
     "id": 26,
@@ -647,7 +747,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:54"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "people, nation",
+      "ur": "قوم، لوگ"
+    }
   },
   {
     "id": 27,
@@ -672,7 +776,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:13"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "he knew",
+      "ur": "اس نے جانا"
+    }
   },
   {
     "id": 28,
@@ -697,7 +805,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:39"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "sign, verse",
+      "ur": "نشانی، آیت"
+    }
   },
   {
     "id": 29,
@@ -722,7 +834,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:25"
     },
-    "pos_ar": "حرف نصب"
+    "pos_ar": "حرف نصب",
+    "meaning": {
+      "en": "that (emph.)",
+      "ur": "کہ (بے شک)"
+    }
   },
   {
     "id": 30,
@@ -747,7 +863,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:20"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "all, every",
+      "ur": "ہر، تمام"
+    }
   },
   {
     "id": 31,
@@ -772,7 +892,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:6"
     },
-    "pos_ar": "حرف نفي"
+    "pos_ar": "حرف نفي",
+    "meaning": {
+      "en": "not (past)",
+      "ur": "نہیں (ماضی)"
+    }
   },
   {
     "id": 32,
@@ -797,7 +921,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:19"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "he made",
+      "ur": "اس نے بنایا"
+    }
   },
   {
     "id": 33,
@@ -822,7 +950,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:28"
     },
-    "pos_ar": "حرف عطف"
+    "pos_ar": "حرف عطف",
+    "meaning": {
+      "en": "then",
+      "ur": "پھر"
+    }
   },
   {
     "id": 34,
@@ -847,7 +979,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:87"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "messenger",
+      "ur": "رسول"
+    }
   },
   {
     "id": 35,
@@ -872,7 +1008,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:7"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "punishment",
+      "ur": "عذاب"
+    }
   },
   {
     "id": 36,
@@ -897,11 +1037,15 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:25"
     },
-    "pos_ar": "اسم إشارة"
+    "pos_ar": "اسم إشارة",
+    "meaning": {
+      "en": "this",
+      "ur": "یہ"
+    }
   },
   {
     "id": 37,
-    "lemma_ar": "سَمَا^ء",
+    "lemma_ar": "سَمَاء",
     "lemma_lat": "samā^ʾ",
     "root_ar": "سمو",
     "root_lat": "smw",
@@ -922,7 +1066,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:19"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "sky, heaven",
+      "ur": "آسمان"
+    }
   },
   {
     "id": 38,
@@ -947,7 +1095,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:9"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "book, scripture",
+      "ur": "کتاب"
+    }
   },
   {
     "id": 39,
@@ -972,7 +1124,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:6"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "heart",
+      "ur": "دل"
+    }
   },
   {
     "id": 40,
@@ -997,7 +1153,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:20"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "thing",
+      "ur": "چیز"
+    }
   },
   {
     "id": 41,
@@ -1022,11 +1182,15 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:19"
     },
-    "pos_ar": "حرف عطف"
+    "pos_ar": "حرف عطف",
+    "meaning": {
+      "en": "or",
+      "ur": "یا"
+    }
   },
   {
     "id": 42,
-    "lemma_ar": "جَا^ءَ",
+    "lemma_ar": "جَاءَ",
     "lemma_lat": "jā^ʾa",
     "root_ar": "جيا",
     "root_lat": "jya",
@@ -1047,7 +1211,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:71"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "he came",
+      "ur": "وہ آیا"
+    }
   },
   {
     "id": 43,
@@ -1072,11 +1240,15 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:25"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "knowledge",
+      "ur": "علم"
+    }
   },
   {
     "id": 44,
-    "lemma_ar": "ا^تَى",
+    "lemma_ar": "اتَى",
     "lemma_lat": "ā^tā",
     "root_ar": "اتي",
     "root_lat": "aty",
@@ -1097,7 +1269,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:43"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "he gave",
+      "ur": "اس نے دیا"
+    }
   },
   {
     "id": 45,
@@ -1122,7 +1298,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:55"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "he saw",
+      "ur": "اس نے دیکھا"
+    }
   },
   {
     "id": 46,
@@ -1147,7 +1327,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:66"
     },
-    "pos_ar": "LOC"
+    "pos_ar": "LOC",
+    "meaning": {
+      "en": "between",
+      "ur": "درمیان"
+    }
   },
   {
     "id": 47,
@@ -1172,7 +1356,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:23"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "he came",
+      "ur": "وہ آیا"
+    }
   },
   {
     "id": 48,
@@ -1197,7 +1385,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:22"
     },
-    "pos_ar": "ضمير"
+    "pos_ar": "ضمير",
+    "meaning": {
+      "en": "you (plural)",
+      "ur": "تم (جمع)"
+    }
   },
   {
     "id": 49,
@@ -1222,7 +1414,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:22"
     },
-    "pos_ar": "ضمير"
+    "pos_ar": "ضمير",
+    "meaning": {
+      "en": "him, his",
+      "ur": "اس کا"
+    }
   },
   {
     "id": 50,
@@ -1247,7 +1443,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:2"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "book, scripture",
+      "ur": "کتاب"
+    }
   },
   {
     "id": 51,
@@ -1272,7 +1472,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:26"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "soul, self",
+      "ur": "جان، نفس"
+    }
   },
   {
     "id": 52,
@@ -1297,7 +1501,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:4"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "before",
+      "ur": "پہلے"
+    }
   },
   {
     "id": 53,
@@ -1322,7 +1530,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:8"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "people, mankind",
+      "ur": "لوگ، انسان"
+    }
   },
   {
     "id": 54,
@@ -1347,11 +1559,15 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:30"
     },
-    "pos_ar": "ظرف زمان"
+    "pos_ar": "ظرف زمان",
+    "meaning": {
+      "en": "when",
+      "ur": "جب"
+    }
   },
   {
     "id": 55,
-    "lemma_ar": "شَا^ءَ",
+    "lemma_ar": "شَاءَ",
     "lemma_lat": "shā^ʾa",
     "root_ar": "شيا",
     "root_lat": "shya",
@@ -1372,7 +1588,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:20"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "he willed",
+      "ur": "اس نے چاہا"
+    }
   },
   {
     "id": 56,
@@ -1397,11 +1617,15 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:102"
     },
-    "pos_ar": "ضمير"
+    "pos_ar": "ضمير",
+    "meaning": {
+      "en": "him",
+      "ur": "اسے"
+    }
   },
   {
     "id": 57,
-    "lemma_ar": "أُولَٰ^ئِك",
+    "lemma_ar": "أُولَٰئِك",
     "lemma_lat": "aūlaā^iik",
     "root_ar": null,
     "root_lat": null,
@@ -1422,7 +1646,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:5"
     },
-    "pos_ar": "اسم إشارة"
+    "pos_ar": "اسم إشارة",
+    "meaning": {
+      "en": "those",
+      "ur": "وہ لوگ"
+    }
   },
   {
     "id": 58,
@@ -1447,7 +1675,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:8"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "believer",
+      "ur": "مومن"
+    }
   },
   {
     "id": 59,
@@ -1472,7 +1704,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:20"
     },
-    "pos_ar": "حرف شرط"
+    "pos_ar": "حرف شرط",
+    "meaning": {
+      "en": "if (hypothetical)",
+      "ur": "اگر"
+    }
   },
   {
     "id": 60,
@@ -1497,7 +1733,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:27"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "after",
+      "ur": "بعد"
+    }
   },
   {
     "id": 61,
@@ -1522,7 +1762,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:54"
     },
-    "pos_ar": "LOC"
+    "pos_ar": "LOC",
+    "meaning": {
+      "en": "with, near",
+      "ur": "پاس، نزد"
+    }
   },
   {
     "id": 62,
@@ -1547,7 +1791,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:21"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "he willed",
+      "ur": "اس نے چاہا"
+    }
   },
   {
     "id": 63,
@@ -1572,7 +1820,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:4"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "he gave",
+      "ur": "اس نے دیا"
+    }
   },
   {
     "id": 64,
@@ -1597,7 +1849,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:54"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "face",
+      "ur": "چہرہ"
+    }
   },
   {
     "id": 65,
@@ -1622,7 +1878,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:39"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "good, better",
+      "ur": "بھلائی، بہتر"
+    }
   },
   {
     "id": 66,
@@ -1647,7 +1907,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:108"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "way, path",
+      "ur": "راستہ"
+    }
   },
   {
     "id": 67,
@@ -1672,7 +1936,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:23"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "he called, invoked",
+      "ur": "اس نے پکارا"
+    }
   },
   {
     "id": 68,
@@ -1697,7 +1965,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:21"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "he feared (Allah)",
+      "ur": "اس نے تقویٰ کیا"
+    }
   },
   {
     "id": 69,
@@ -1722,7 +1994,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:109"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "truth, right",
+      "ur": "سچ، حق"
+    }
   },
   {
     "id": 70,
@@ -1747,7 +2023,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:29"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "life",
+      "ur": "زندگی"
+    }
   },
   {
     "id": 71,
@@ -1772,7 +2052,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:14"
     },
-    "pos_ar": "LOC"
+    "pos_ar": "LOC",
+    "meaning": {
+      "en": "with",
+      "ur": "کے ساتھ"
+    }
   },
   {
     "id": 72,
@@ -1797,7 +2081,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:36"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "some, part",
+      "ur": "کچھ، بعض"
+    }
   },
   {
     "id": 73,
@@ -1822,11 +2110,15 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:17"
     },
-    "pos_ar": "ظرف زمان"
+    "pos_ar": "ظرف زمان",
+    "meaning": {
+      "en": "when, not yet",
+      "ur": "جب، ابھی نہیں"
+    }
   },
   {
     "id": 74,
-    "lemma_ar": "ا^خِر",
+    "lemma_ar": "اخِر",
     "lemma_lat": "ā^khir",
     "root_ar": "اخر",
     "root_lat": "akhr",
@@ -1847,7 +2139,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:4"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "last, other",
+      "ur": "آخر، دوسرا"
+    }
   },
   {
     "id": 75,
@@ -1872,7 +2168,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:21"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "O (vocative)",
+      "ur": "اے"
+    }
   },
   {
     "id": 76,
@@ -1897,7 +2197,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:8"
     },
-    "pos_ar": "ضمير"
+    "pos_ar": "ضمير",
+    "meaning": {
+      "en": "death",
+      "ur": "موت"
+    }
   },
   {
     "id": 77,
@@ -1922,7 +2226,11 @@
       "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
       "ref": "Al-Faatiha 1:7"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "other than",
+      "ur": "سوائے"
+    }
   },
   {
     "id": 78,
@@ -1947,7 +2255,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:25"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "angel",
+      "ur": "فرشتہ"
+    }
   },
   {
     "id": 79,
@@ -1972,7 +2284,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:133"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "god, deity",
+      "ur": "معبود"
+    }
   },
   {
     "id": 80,
@@ -1997,7 +2313,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:17"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "power, strength",
+      "ur": "طاقت"
+    }
   },
   {
     "id": 81,
@@ -2022,7 +2342,11 @@
       "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
       "ref": "Al-Faatiha 1:6"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "light",
+      "ur": "روشنی"
+    }
   },
   {
     "id": 82,
@@ -2047,7 +2371,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:23"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "besides, below",
+      "ur": "سوائے، نیچے"
+    }
   },
   {
     "id": 83,
@@ -2072,7 +2400,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:55"
     },
-    "pos_ar": "حرف جر"
+    "pos_ar": "حرف جر",
+    "meaning": {
+      "en": "until",
+      "ur": "تک"
+    }
   },
   {
     "id": 84,
@@ -2097,7 +2429,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:26"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "he intended, willed",
+      "ur": "اس نے ارادہ کیا"
+    }
   },
   {
     "id": 85,
@@ -2122,7 +2458,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:6"
     },
-    "pos_ar": "حرف عطف"
+    "pos_ar": "حرف عطف",
+    "meaning": {
+      "en": "wrongdoing",
+      "ur": "ظلم"
+    }
   },
   {
     "id": 86,
@@ -2147,7 +2487,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:51"
     },
-    "pos_ar": "اسم علم"
+    "pos_ar": "اسم علم",
+    "meaning": {
+      "en": "Moses",
+      "ur": "موسیٰ"
+    }
   },
   {
     "id": 87,
@@ -2172,7 +2516,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:102"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "he followed",
+      "ur": "اس نے پیروی کی"
+    }
   },
   {
     "id": 88,
@@ -2197,7 +2545,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:5"
     },
-    "pos_ar": "ضمير"
+    "pos_ar": "ضمير",
+    "meaning": {
+      "en": "command, matter",
+      "ur": "حکم، معاملہ"
+    }
   },
   {
     "id": 89,
@@ -2222,7 +2574,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:7"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "he created",
+      "ur": "اس نے پیدا کیا"
+    }
   },
   {
     "id": 90,
@@ -2247,7 +2603,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:23"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "servant",
+      "ur": "بندہ"
+    }
   },
   {
     "id": 91,
@@ -2272,7 +2632,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:119"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "he disbelieved",
+      "ur": "اس نے کفر کیا"
+    }
   },
   {
     "id": 92,
@@ -2297,7 +2661,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:19"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "disbelievers",
+      "ur": "کافر"
+    }
   },
   {
     "id": 93,
@@ -2322,7 +2690,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:35"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "wrongdoer, unjust",
+      "ur": "ظالم"
+    }
   },
   {
     "id": 94,
@@ -2347,7 +2719,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:48"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "he took",
+      "ur": "اس نے لیا"
+    }
   },
   {
     "id": 95,
@@ -2372,7 +2748,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:88"
     },
-    "pos_ar": "RET"
+    "pos_ar": "RET",
+    "meaning": {
+      "en": "nay, rather",
+      "ur": "بلکہ"
+    }
   },
   {
     "id": 96,
@@ -2397,7 +2777,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:105"
     },
-    "pos_ar": "اسم"
+    "pos_ar": "اسم",
+    "meaning": {
+      "en": "he thanked",
+      "ur": "اس نے شکر کیا"
+    }
   },
   {
     "id": 97,
@@ -2422,7 +2806,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:51"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "he took",
+      "ur": "اس نے لیا"
+    }
   },
   {
     "id": 98,
@@ -2447,7 +2835,11 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:21"
     },
-    "pos_ar": "حرف نصب"
+    "pos_ar": "حرف نصب",
+    "meaning": {
+      "en": "perhaps",
+      "ur": "شاید"
+    }
   },
   {
     "id": 99,
@@ -2472,7 +2864,11 @@
       "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
       "ref": "Al-Faatiha 1:5"
     },
-    "pos_ar": "فعل"
+    "pos_ar": "فعل",
+    "meaning": {
+      "en": "he worshipped",
+      "ur": "اس نے عبادت کی"
+    }
   },
   {
     "id": 100,
@@ -2497,6 +2893,10 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:7"
     },
-    "pos_ar": "صفة"
+    "pos_ar": "صفة",
+    "meaning": {
+      "en": "great, mighty",
+      "ur": "عظیم"
+    }
   }
 ]
