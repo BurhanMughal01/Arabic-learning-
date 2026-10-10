@@ -1,16 +1,19 @@
 [
   {
     "id": 1,
+    "lemma_bw": "min",
     "lemma_ar": "مِن",
-    "lemma_lat": "min",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "P",
-    "pos_en": "preposition",
+    "meaning": {
+      "en": "from, of",
+      "ur": "سے، میں سے"
+    },
     "freq": {
       "count": 3226,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -22,24 +25,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:3"
     },
+    "lemma_lat": "min",
     "pos_ar": "حرف جر",
-    "meaning": {
-      "en": "from, of",
-      "ur": "سے، میں سے"
-    }
+    "pos_en": "preposition"
   },
   {
     "id": 2,
+    "lemma_bw": "{ll~ah",
     "lemma_ar": "ٱللَّه",
-    "lemma_lat": "Allāh",
+    "root_bw": "Alh",
     "root_ar": "اله",
-    "root_lat": "alh",
     "pos": "PN",
-    "pos_en": "proper noun",
+    "meaning": {
+      "en": "Allah",
+      "ur": "اللہ"
+    },
     "freq": {
       "count": 2699,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 1,
@@ -51,24 +55,25 @@
       "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
       "ref": "Al-Faatiha 1:1"
     },
+    "lemma_lat": "Allāh",
     "pos_ar": "اسم علم",
-    "meaning": {
-      "en": "Allah",
-      "ur": "اللہ"
-    }
+    "pos_en": "proper noun"
   },
   {
     "id": 3,
+    "lemma_bw": "maA",
     "lemma_ar": "مَا",
-    "lemma_lat": "mā",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "REL",
-    "pos_en": "relative pron",
+    "meaning": {
+      "en": "what / not",
+      "ur": "کیا / نہیں"
+    },
     "freq": {
       "count": 2565,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -80,24 +85,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:3"
     },
+    "lemma_lat": "mā",
     "pos_ar": "اسم موصول",
-    "meaning": {
-      "en": "what / not",
-      "ur": "کیا / نہیں"
-    }
+    "pos_en": "relative pronoun"
   },
   {
     "id": 4,
+    "lemma_bw": "laA",
     "lemma_ar": "لَا",
-    "lemma_lat": "lā",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "NEG",
-    "pos_en": "negation",
+    "meaning": {
+      "en": "no, not",
+      "ur": "نہیں"
+    },
     "freq": {
       "count": 1738,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 1,
@@ -109,24 +115,25 @@
       "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
       "ref": "Al-Faatiha 1:7"
     },
+    "lemma_lat": "lā",
     "pos_ar": "حرف نفي",
-    "meaning": {
-      "en": "no, not",
-      "ur": "نہیں"
-    }
+    "pos_en": "negation"
   },
   {
     "id": 5,
+    "lemma_bw": "fiY",
     "lemma_ar": "فِى",
-    "lemma_lat": "fī",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "P",
-    "pos_en": "preposition",
+    "meaning": {
+      "en": "in",
+      "ur": "میں"
+    },
     "freq": {
       "count": 1701,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -138,24 +145,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:2"
     },
+    "lemma_lat": "fī",
     "pos_ar": "حرف جر",
-    "meaning": {
-      "en": "in",
-      "ur": "میں"
-    }
+    "pos_en": "preposition"
   },
   {
     "id": 6,
+    "lemma_bw": "<in~",
     "lemma_ar": "إِنّ",
-    "lemma_lat": "inna",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "ACC",
-    "pos_en": "accusative prt",
+    "meaning": {
+      "en": "indeed, verily",
+      "ur": "بے شک"
+    },
     "freq": {
       "count": 1682,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -167,24 +175,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:6"
     },
+    "lemma_lat": "inna",
     "pos_ar": "حرف نصب",
-    "meaning": {
-      "en": "indeed, verily",
-      "ur": "بے شک"
-    }
+    "pos_en": "accusative particle"
   },
   {
     "id": 7,
+    "lemma_bw": "qaAla",
     "lemma_ar": "قَالَ",
-    "lemma_lat": "qāla",
+    "root_bw": "qwl",
     "root_ar": "قول",
-    "root_lat": "qwl",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he said",
+      "ur": "اس نے کہا"
+    },
     "freq": {
       "count": 1618,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -196,24 +205,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:8"
     },
+    "lemma_lat": "qāla",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "he said",
-      "ur": "اس نے کہا"
-    }
+    "pos_en": "verb"
   },
   {
     "id": 8,
+    "lemma_bw": "{l~a*iY",
     "lemma_ar": "ٱلَّذِى",
-    "lemma_lat": "alladhī",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "REL",
-    "pos_en": "relative pron",
+    "meaning": {
+      "en": "who, which",
+      "ur": "جو"
+    },
     "freq": {
       "count": 1464,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 1,
@@ -225,24 +235,25 @@
       "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
       "ref": "Al-Faatiha 1:7"
     },
+    "lemma_lat": "alladhī",
     "pos_ar": "اسم موصول",
-    "meaning": {
-      "en": "who, which (m.)",
-      "ur": "جو"
-    }
+    "pos_en": "relative pronoun"
   },
   {
     "id": 9,
+    "lemma_bw": "EalaY`",
     "lemma_ar": "عَلَىٰ",
-    "lemma_lat": "ʿalā",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "P",
-    "pos_en": "preposition",
+    "meaning": {
+      "en": "upon, on",
+      "ur": "پر"
+    },
     "freq": {
       "count": 1445,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 1,
@@ -254,24 +265,25 @@
       "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
       "ref": "Al-Faatiha 1:7"
     },
+    "lemma_lat": "ʿalā",
     "pos_ar": "حرف جر",
-    "meaning": {
-      "en": "upon, on",
-      "ur": "پر"
-    }
+    "pos_en": "preposition"
   },
   {
     "id": 10,
+    "lemma_bw": "kaAna",
     "lemma_ar": "كَانَ",
-    "lemma_lat": "kāna",
+    "root_bw": "kwn",
     "root_ar": "كون",
-    "root_lat": "kwn",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he was",
+      "ur": "وہ تھا"
+    },
     "freq": {
       "count": 1358,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -283,24 +295,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:10"
     },
+    "lemma_lat": "kāna",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "he was",
-      "ur": "وہ تھا"
-    }
+    "pos_en": "verb"
   },
   {
     "id": 11,
+    "lemma_bw": "rab~",
     "lemma_ar": "رَبّ",
-    "lemma_lat": "rabb",
+    "root_bw": "rbb",
     "root_ar": "ربب",
-    "root_lat": "rbb",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "Lord, Sustainer",
+      "ur": "رب"
+    },
     "freq": {
       "count": 975,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 1,
@@ -312,24 +325,25 @@
       "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
       "ref": "Al-Faatiha 1:2"
     },
+    "lemma_lat": "rabb",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "Lord, Sustainer",
-      "ur": "رب، پالنے والا"
-    }
+    "pos_en": "noun"
   },
   {
     "id": 12,
+    "lemma_bw": "man",
     "lemma_ar": "مَن",
-    "lemma_lat": "man",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "REL",
-    "pos_en": "relative pron",
+    "meaning": {
+      "en": "who, whoever",
+      "ur": "کون، جو"
+    },
     "freq": {
       "count": 871,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -341,24 +355,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:8"
     },
+    "lemma_lat": "man",
     "pos_ar": "اسم موصول",
-    "meaning": {
-      "en": "who, whoever",
-      "ur": "کون، جو"
-    }
+    "pos_en": "relative pronoun"
   },
   {
     "id": 13,
+    "lemma_bw": "<ilaY`",
     "lemma_ar": "إِلَىٰ",
-    "lemma_lat": "ilā",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "P",
-    "pos_en": "preposition",
+    "meaning": {
+      "en": "to, towards",
+      "ur": "کی طرف"
+    },
     "freq": {
       "count": 742,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -370,24 +385,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:4"
     },
+    "lemma_lat": "ilā",
     "pos_ar": "حرف جر",
-    "meaning": {
-      "en": "to, towards",
-      "ur": "کی طرف"
-    }
+    "pos_en": "preposition"
   },
   {
     "id": 14,
+    "lemma_bw": "<in",
     "lemma_ar": "إِن",
-    "lemma_lat": "in",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "COND",
-    "pos_en": "conditional prt",
+    "meaning": {
+      "en": "if",
+      "ur": "اگر"
+    },
     "freq": {
       "count": 697,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -399,24 +415,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:23"
     },
+    "lemma_lat": "in",
     "pos_ar": "حرف شرط",
-    "meaning": {
-      "en": "if",
-      "ur": "اگر"
-    }
+    "pos_en": "conditional"
   },
   {
     "id": 15,
+    "lemma_bw": "<il~aA",
     "lemma_ar": "إِلَّا",
-    "lemma_lat": "illā",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "RES",
-    "pos_en": "response prt",
+    "meaning": {
+      "en": "except, but",
+      "ur": "سوائے"
+    },
     "freq": {
       "count": 663,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -428,24 +445,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:9"
     },
+    "lemma_lat": "illā",
     "pos_ar": "حرف جواب",
-    "meaning": {
-      "en": "except, but",
-      "ur": "سوائے، مگر"
-    }
+    "pos_en": "response particle"
   },
   {
     "id": 16,
+    "lemma_bw": ">an",
     "lemma_ar": "أَن",
-    "lemma_lat": "an",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "SUB",
-    "pos_en": "subjunctive prt",
+    "meaning": {
+      "en": "that, to",
+      "ur": "کہ"
+    },
     "freq": {
       "count": 625,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -457,53 +475,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:26"
     },
+    "lemma_lat": "an",
     "pos_ar": "حرف مصدري",
-    "meaning": {
-      "en": "that, to",
-      "ur": "کہ"
-    }
+    "pos_en": "subjunctive"
   },
   {
     "id": 17,
-    "lemma_ar": "هُمْ",
-    "lemma_lat": "hum",
-    "root_ar": null,
-    "root_lat": null,
-    "pos": "PRON",
-    "pos_en": "pronoun",
-    "freq": {
-      "count": 585,
-      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
-    },
-    "ayah": {
-      "surah": 2,
-      "ayah": 4,
-      "ar": "وَٱلَّذِينَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ وَبِٱلْـَٔاخِرَةِ هُمْ يُوقِنُونَ",
-      "ur": "اور جو کتاب (اے محمدﷺ) تم پر نازل ہوئی اور جو کتابیں تم سے پہلے (پیغمبروں پر) نازل ہوئیں سب پر ایمان لاتے اور آخرت کا یقین رکھتے ہیں",
-      "en": "And who believe in what has been revealed to you, [O Muhammad], and what was revealed before you, and of the Hereafter they are certain [in faith].",
-      "surah_name_en": "Al-Baqara",
-      "surah_name_ar": "سُورَةُ البَقَرَةِ",
-      "ref": "Al-Baqara 2:4"
-    },
-    "pos_ar": "ضمير",
-    "meaning": {
-      "en": "they",
-      "ur": "وہ (جمع)"
-    }
-  },
-  {
-    "id": 18,
+    "lemma_bw": "'aAmana",
     "lemma_ar": "ءَامَنَ",
-    "lemma_lat": "ʾāmana",
+    "root_bw": "Amn",
     "root_ar": "امن",
-    "root_lat": "amn",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he believed",
+      "ur": "ایمان لایا"
+    },
     "freq": {
       "count": 537,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -515,24 +505,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:3"
     },
+    "lemma_lat": "āmana",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "he believed",
-      "ur": "ایمان لایا"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 19,
+    "id": 18,
+    "lemma_bw": "*a`lik",
     "lemma_ar": "ذَٰلِك",
-    "lemma_lat": "dhālika",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "DEM",
-    "pos_en": "demonstrative",
+    "meaning": {
+      "en": "that",
+      "ur": "وہ"
+    },
     "freq": {
       "count": 520,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -544,53 +535,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:2"
     },
+    "lemma_lat": "dhālika",
     "pos_ar": "اسم إشارة",
-    "meaning": {
-      "en": "that",
-      "ur": "وہ"
-    }
+    "pos_en": "demonstrative"
   },
   {
-    "id": 20,
-    "lemma_ar": "هُوَ",
-    "lemma_lat": "huwa",
-    "root_ar": null,
-    "root_lat": null,
-    "pos": "PRON",
-    "pos_en": "pronoun",
-    "freq": {
-      "count": 481,
-      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
-    },
-    "ayah": {
-      "surah": 2,
-      "ayah": 29,
-      "ar": "هُوَ ٱلَّذِى خَلَقَ لَكُم مَّا فِى ٱلْأَرْضِ جَمِيعًا ثُمَّ ٱسْتَوَىٰٓ إِلَى ٱلسَّمَآءِ فَسَوَّىٰهُنَّ سَبْعَ سَمَٰوَٰتٍ وَهُوَ بِكُلِّ شَىْءٍ عَلِيمٌ",
-      "ur": "وہی تو ہے جس نے سب چیزیں جو زمین میں ہیں تمہارے لیے پیدا کیں پھر آسمان کی طرف متوجہ ہوا تو ان کو ٹھیک سات آسمان بنا دیا اور وہ ہر چیز سے خبردار ہے",
-      "en": "It is He who created for you all of that which is on the earth. Then He directed Himself to the heaven, [His being above all creation], and made them seven heavens, and He is Knowing of all things.",
-      "surah_name_en": "Al-Baqara",
-      "surah_name_ar": "سُورَةُ البَقَرَةِ",
-      "ref": "Al-Baqara 2:29"
-    },
-    "pos_ar": "ضمير",
-    "meaning": {
-      "en": "he",
-      "ur": "وہ"
-    }
-  },
-  {
-    "id": 21,
+    "id": 19,
+    "lemma_bw": "Ean",
     "lemma_ar": "عَن",
-    "lemma_lat": "ʿan",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "P",
-    "pos_en": "preposition",
+    "meaning": {
+      "en": "from, about",
+      "ur": "سے"
+    },
     "freq": {
       "count": 465,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -602,53 +565,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:36"
     },
+    "lemma_lat": "ʿan",
     "pos_ar": "حرف جر",
-    "meaning": {
-      "en": "from, about",
-      "ur": "سے، بارے میں"
-    }
+    "pos_en": "preposition"
   },
   {
-    "id": 22,
+    "id": 20,
+    "lemma_bw": ">aroD",
     "lemma_ar": "أَرْض",
-    "lemma_lat": "arḍ",
+    "root_bw": "ArD",
     "root_ar": "ارض",
-    "root_lat": "arḍ",
     "pos": "N",
-    "pos_en": "noun",
-    "freq": {
-      "count": 461,
-      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
-    },
-    "ayah": {
-      "surah": 2,
-      "ayah": 11,
-      "ar": "وَإِذَا قِيلَ لَهُمْ لَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ قَالُوٓا۟ إِنَّمَا نَحْنُ مُصْلِحُونَ",
-      "ur": "اور جب ان سے کہا جاتا ہے کہ زمین میں فساد نہ ڈالو تو کہتے ہیں، ہم تو اصلاح کرنے والے ہیں",
-      "en": "And when it is said to them, \"Do not cause corruption on the earth,\" they say, \"We are but reformers.\"",
-      "surah_name_en": "Al-Baqara",
-      "surah_name_ar": "سُورَةُ البَقَرَةِ",
-      "ref": "Al-Baqara 2:11"
-    },
-    "pos_ar": "اسم",
     "meaning": {
       "en": "earth, land",
       "ur": "زمین"
-    }
-  },
-  {
-    "id": 23,
-    "lemma_ar": "إِذَا",
-    "lemma_lat": "idhā",
-    "root_ar": null,
-    "root_lat": null,
-    "pos": "T",
-    "pos_en": "time adverb",
+    },
     "freq": {
-      "count": 409,
+      "count": 461,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -660,24 +595,55 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:11"
     },
-    "pos_ar": "ظرف زمان",
+    "lemma_lat": "arḍ",
+    "pos_ar": "اسم",
+    "pos_en": "noun"
+  },
+  {
+    "id": 21,
+    "lemma_bw": "<i*aA",
+    "lemma_ar": "إِذَا",
+    "root_bw": null,
+    "root_ar": null,
+    "pos": "T",
     "meaning": {
       "en": "when",
       "ur": "جب"
-    }
+    },
+    "freq": {
+      "count": 409,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "pure lemma count (STEM only)"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 11,
+      "ar": "وَإِذَا قِيلَ لَهُمْ لَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ قَالُوٓا۟ إِنَّمَا نَحْنُ مُصْلِحُونَ",
+      "ur": "اور جب ان سے کہا جاتا ہے کہ زمین میں فساد نہ ڈالو تو کہتے ہیں، ہم تو اصلاح کرنے والے ہیں",
+      "en": "And when it is said to them, \"Do not cause corruption on the earth,\" they say, \"We are but reformers.\"",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:11"
+    },
+    "lemma_lat": "idhā",
+    "pos_ar": "ظرف زمان",
+    "pos_en": "time adverb"
   },
   {
-    "id": 24,
+    "id": 22,
+    "lemma_bw": "qad",
     "lemma_ar": "قَد",
-    "lemma_lat": "qad",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "CERT",
-    "pos_en": "CERT",
+    "meaning": {
+      "en": "indeed",
+      "ur": "بے شک"
+    },
     "freq": {
       "count": 406,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -689,24 +655,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:60"
     },
+    "lemma_lat": "qad",
     "pos_ar": "CERT",
-    "meaning": {
-      "en": "indeed, already",
-      "ur": "بے شک"
-    }
+    "pos_en": "CERT"
   },
   {
-    "id": 25,
+    "id": 23,
+    "lemma_bw": "yawom",
     "lemma_ar": "يَوْم",
-    "lemma_lat": "yawm",
+    "root_bw": "ywm",
     "root_ar": "يوم",
-    "root_lat": "ywm",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "day",
+      "ur": "دن"
+    },
     "freq": {
       "count": 405,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 1,
@@ -718,24 +685,25 @@
       "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
       "ref": "Al-Faatiha 1:4"
     },
+    "lemma_lat": "yawm",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "day",
-      "ur": "دن"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 26,
+    "id": 24,
+    "lemma_bw": "qawom",
     "lemma_ar": "قَوْم",
-    "lemma_lat": "qawm",
+    "root_bw": "qwm",
     "root_ar": "قوم",
-    "root_lat": "qwm",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "people, nation",
+      "ur": "قوم"
+    },
     "freq": {
       "count": 383,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -747,24 +715,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:54"
     },
+    "lemma_lat": "qawm",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "people, nation",
-      "ur": "قوم، لوگ"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 27,
+    "id": 25,
+    "lemma_bw": "Ealima",
     "lemma_ar": "عَلِمَ",
-    "lemma_lat": "ʿalima",
+    "root_bw": "Elm",
     "root_ar": "علم",
-    "root_lat": "ʿlm",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he knew / knowledge",
+      "ur": "جانا / علم"
+    },
     "freq": {
       "count": 382,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -776,24 +745,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:13"
     },
+    "lemma_lat": "ʿalima",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "he knew",
-      "ur": "اس نے جانا"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 28,
+    "id": 26,
+    "lemma_bw": "'aAyap",
     "lemma_ar": "ءَايَة",
-    "lemma_lat": "ʾāyah",
+    "root_bw": "Ayy",
     "root_ar": "ايي",
-    "root_lat": "ayy",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "sign, verse",
+      "ur": "نشانی، آیت"
+    },
     "freq": {
       "count": 382,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -805,24 +775,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:39"
     },
+    "lemma_lat": "āyah",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "sign, verse",
-      "ur": "نشانی، آیت"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 29,
+    "id": 27,
+    "lemma_bw": ">an~",
     "lemma_ar": "أَنّ",
-    "lemma_lat": "anna",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "ACC",
-    "pos_en": "accusative prt",
+    "meaning": {
+      "en": "that (indeed)",
+      "ur": "کہ بے شک"
+    },
     "freq": {
       "count": 362,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -834,24 +805,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:25"
     },
+    "lemma_lat": "anna",
     "pos_ar": "حرف نصب",
-    "meaning": {
-      "en": "that (emph.)",
-      "ur": "کہ (بے شک)"
-    }
+    "pos_en": "accusative particle"
   },
   {
-    "id": 30,
+    "id": 28,
+    "lemma_bw": "kul~",
     "lemma_ar": "كُلّ",
-    "lemma_lat": "kull",
+    "root_bw": "kll",
     "root_ar": "كلل",
-    "root_lat": "kll",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "all, every",
+      "ur": "ہر"
+    },
     "freq": {
       "count": 359,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -863,24 +835,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:20"
     },
+    "lemma_lat": "kull",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "all, every",
-      "ur": "ہر، تمام"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 31,
+    "id": 29,
+    "lemma_bw": "lam",
     "lemma_ar": "لَم",
-    "lemma_lat": "lam",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "NEG",
-    "pos_en": "negation",
+    "meaning": {
+      "en": "not (past)",
+      "ur": "نہیں"
+    },
     "freq": {
       "count": 353,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -892,24 +865,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:6"
     },
+    "lemma_lat": "lam",
     "pos_ar": "حرف نفي",
-    "meaning": {
-      "en": "not (past)",
-      "ur": "نہیں (ماضی)"
-    }
+    "pos_en": "negation"
   },
   {
-    "id": 32,
+    "id": 30,
+    "lemma_bw": "jaEala",
     "lemma_ar": "جَعَلَ",
-    "lemma_lat": "jaʿala",
+    "root_bw": "jEl",
     "root_ar": "جعل",
-    "root_lat": "jʿl",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he made",
+      "ur": "بنایا"
+    },
     "freq": {
       "count": 340,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -921,24 +895,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:19"
     },
+    "lemma_lat": "jaʿala",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "he made",
-      "ur": "اس نے بنایا"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 33,
+    "id": 31,
+    "lemma_bw": "vum~",
     "lemma_ar": "ثُمّ",
-    "lemma_lat": "thumma",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "CONJ",
-    "pos_en": "conjunction",
+    "meaning": {
+      "en": "then",
+      "ur": "پھر"
+    },
     "freq": {
       "count": 338,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -950,24 +925,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:28"
     },
+    "lemma_lat": "thumma",
     "pos_ar": "حرف عطف",
-    "meaning": {
-      "en": "then",
-      "ur": "پھر"
-    }
+    "pos_en": "conjunction"
   },
   {
-    "id": 34,
+    "id": 32,
+    "lemma_bw": "rasuwl",
     "lemma_ar": "رَسُول",
-    "lemma_lat": "rasūl",
+    "root_bw": "rsl",
     "root_ar": "رسل",
-    "root_lat": "rsl",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "messenger",
+      "ur": "رسول"
+    },
     "freq": {
       "count": 332,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -979,24 +955,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:87"
     },
+    "lemma_lat": "rasūl",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "messenger",
-      "ur": "رسول"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 35,
+    "id": 33,
+    "lemma_bw": "Ea*aAb",
     "lemma_ar": "عَذَاب",
-    "lemma_lat": "ʿadhāb",
+    "root_bw": "E*b",
     "root_ar": "عذب",
-    "root_lat": "ʿdhb",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "punishment",
+      "ur": "عذاب"
+    },
     "freq": {
       "count": 322,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1008,24 +985,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:7"
     },
+    "lemma_lat": "ʿadhāb",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "punishment",
-      "ur": "عذاب"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 36,
+    "id": 34,
+    "lemma_bw": "ha`*aA",
     "lemma_ar": "هَٰذَا",
-    "lemma_lat": "haādhā",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "DEM",
-    "pos_en": "demonstrative",
+    "meaning": {
+      "en": "this",
+      "ur": "یہ"
+    },
     "freq": {
       "count": 318,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1037,24 +1015,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:25"
     },
+    "lemma_lat": "hādhā",
     "pos_ar": "اسم إشارة",
-    "meaning": {
-      "en": "this",
-      "ur": "یہ"
-    }
+    "pos_en": "demonstrative"
   },
   {
-    "id": 37,
+    "id": 35,
+    "lemma_bw": "samaA^'",
     "lemma_ar": "سَمَاء",
-    "lemma_lat": "samā^ʾ",
+    "root_bw": "smw",
     "root_ar": "سمو",
-    "root_lat": "smw",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "sky, heaven",
+      "ur": "آسمان"
+    },
     "freq": {
       "count": 310,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1066,24 +1045,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:19"
     },
+    "lemma_lat": "samāʾ",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "sky, heaven",
-      "ur": "آسمان"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 38,
+    "id": 36,
+    "lemma_bw": "nafos",
     "lemma_ar": "نَفْس",
-    "lemma_lat": "nafs",
+    "root_bw": "nfs",
     "root_ar": "نفس",
-    "root_lat": "nfs",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "soul, self",
+      "ur": "جان"
+    },
     "freq": {
       "count": 295,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1095,24 +1075,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:9"
     },
+    "lemma_lat": "nafs",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "book, scripture",
-      "ur": "کتاب"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 39,
+    "id": 37,
+    "lemma_bw": "kafara",
     "lemma_ar": "كَفَرَ",
-    "lemma_lat": "kafara",
+    "root_bw": "kfr",
     "root_ar": "كفر",
-    "root_lat": "kfr",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he disbelieved",
+      "ur": "کفر کیا"
+    },
     "freq": {
       "count": 289,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1124,24 +1105,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:6"
     },
+    "lemma_lat": "kafara",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "heart",
-      "ur": "دل"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 40,
+    "id": 38,
+    "lemma_bw": "$aYo'",
     "lemma_ar": "شَىْء",
-    "lemma_lat": "shāʾ",
+    "root_bw": "$yA",
     "root_ar": "شيا",
-    "root_lat": "shya",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "thing",
+      "ur": "چیز"
+    },
     "freq": {
       "count": 283,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1153,24 +1135,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:20"
     },
+    "lemma_lat": "shā'",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "thing",
-      "ur": "چیز"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 41,
+    "id": 39,
+    "lemma_bw": ">aw",
     "lemma_ar": "أَو",
-    "lemma_lat": "aw",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "CONJ",
-    "pos_en": "conjunction",
+    "meaning": {
+      "en": "or",
+      "ur": "یا"
+    },
     "freq": {
       "count": 280,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1182,24 +1165,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:19"
     },
+    "lemma_lat": "aw",
     "pos_ar": "حرف عطف",
-    "meaning": {
-      "en": "or",
-      "ur": "یا"
-    }
+    "pos_en": "conjunction"
   },
   {
-    "id": 42,
+    "id": 40,
+    "lemma_bw": "jaA^'a",
     "lemma_ar": "جَاءَ",
-    "lemma_lat": "jā^ʾa",
+    "root_bw": "jyA",
     "root_ar": "جيا",
-    "root_lat": "jya",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he came",
+      "ur": "وہ آیا"
+    },
     "freq": {
       "count": 278,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1211,24 +1195,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:71"
     },
+    "lemma_lat": "jāʾa",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "he came",
-      "ur": "وہ آیا"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 43,
+    "id": 41,
+    "lemma_bw": "Eamila",
     "lemma_ar": "عَمِلَ",
-    "lemma_lat": "ʿamila",
+    "root_bw": "Eml",
     "root_ar": "عمل",
-    "root_lat": "ʿml",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he did",
+      "ur": "عمل کیا"
+    },
     "freq": {
       "count": 276,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1240,24 +1225,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:25"
     },
+    "lemma_lat": "ʿamila",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "knowledge",
-      "ur": "علم"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 44,
+    "id": 42,
+    "lemma_bw": "A^taY",
     "lemma_ar": "اتَى",
-    "lemma_lat": "ā^tā",
+    "root_bw": "Aty",
     "root_ar": "اتي",
-    "root_lat": "aty",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he gave",
+      "ur": "اس نے دیا"
+    },
     "freq": {
       "count": 271,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1269,24 +1255,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:43"
     },
+    "lemma_lat": "ātā",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "he gave",
-      "ur": "اس نے دیا"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 45,
+    "id": 43,
+    "lemma_bw": "ra'aA",
     "lemma_ar": "رَءَا",
-    "lemma_lat": "raʾā",
+    "root_bw": "rAy",
     "root_ar": "راي",
-    "root_lat": "ray",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he saw",
+      "ur": "اس نے دیکھا"
+    },
     "freq": {
       "count": 271,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1298,24 +1285,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:55"
     },
+    "lemma_lat": "ra'ā",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "he saw",
-      "ur": "اس نے دیکھا"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 46,
+    "id": 44,
+    "lemma_bw": "bayon",
     "lemma_ar": "بَيْن",
-    "lemma_lat": "bayn",
+    "root_bw": "byn",
     "root_ar": "بين",
-    "root_lat": "byn",
     "pos": "LOC",
-    "pos_en": "LOC",
+    "meaning": {
+      "en": "between",
+      "ur": "درمیان"
+    },
     "freq": {
       "count": 266,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1327,24 +1315,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:66"
     },
+    "lemma_lat": "bayn",
     "pos_ar": "LOC",
-    "meaning": {
-      "en": "between",
-      "ur": "درمیان"
-    }
+    "pos_en": "LOC"
   },
   {
-    "id": 47,
+    "id": 45,
+    "lemma_bw": ">ataY",
     "lemma_ar": "أَتَى",
-    "lemma_lat": "atā",
+    "root_bw": "Aty",
     "root_ar": "اتي",
-    "root_lat": "aty",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he gave",
+      "ur": "اس نے دیا"
+    },
     "freq": {
       "count": 264,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1356,82 +1345,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:23"
     },
+    "lemma_lat": "ātā",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "he came",
-      "ur": "وہ آیا"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 48,
-    "lemma_ar": "كُمْ",
-    "lemma_lat": "kum",
-    "root_ar": null,
-    "root_lat": null,
-    "pos": "PRON",
-    "pos_en": "pronoun",
-    "freq": {
-      "count": 262,
-      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
-    },
-    "ayah": {
-      "surah": 2,
-      "ayah": 22,
-      "ar": "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ فِرَٰشًا وَٱلسَّمَآءَ بِنَآءً وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجَ بِهِۦ مِنَ ٱلثَّمَرَٰتِ رِزْقًا لَّكُمْ فَلَا تَجْعَلُوا۟ لِلَّهِ أَندَادًا وَأَنتُمْ تَعْلَمُونَ",
-      "ur": "جس نے تمھارے لیے زمین کو بچھونا اور آسمان کو چھت بنایا اور آسمان سے مینہ برسا کر تمہارے کھانے کے لیے انواع و اقسام کے میوے پیدا کئے۔ پس کسی کو خدا کا ہمسر نہ بناؤ۔ اور تم جانتے تو ہو",
-      "en": "[He] who made for you the earth a bed [spread out] and the sky a ceiling and sent down from the sky, rain and brought forth thereby fruits as provision for you. So do not attribute to Allah equals while you know [that there is nothing similar to Him].",
-      "surah_name_en": "Al-Baqara",
-      "surah_name_ar": "سُورَةُ البَقَرَةِ",
-      "ref": "Al-Baqara 2:22"
-    },
-    "pos_ar": "ضمير",
-    "meaning": {
-      "en": "you (plural)",
-      "ur": "تم (جمع)"
-    }
-  },
-  {
-    "id": 49,
-    "lemma_ar": "هِ.",
-    "lemma_lat": "hi.",
-    "root_ar": null,
-    "root_lat": null,
-    "pos": "PRON",
-    "pos_en": "pronoun",
-    "freq": {
-      "count": 261,
-      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
-    },
-    "ayah": {
-      "surah": 2,
-      "ayah": 22,
-      "ar": "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ فِرَٰشًا وَٱلسَّمَآءَ بِنَآءً وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجَ بِهِۦ مِنَ ٱلثَّمَرَٰتِ رِزْقًا لَّكُمْ فَلَا تَجْعَلُوا۟ لِلَّهِ أَندَادًا وَأَنتُمْ تَعْلَمُونَ",
-      "ur": "جس نے تمھارے لیے زمین کو بچھونا اور آسمان کو چھت بنایا اور آسمان سے مینہ برسا کر تمہارے کھانے کے لیے انواع و اقسام کے میوے پیدا کئے۔ پس کسی کو خدا کا ہمسر نہ بناؤ۔ اور تم جانتے تو ہو",
-      "en": "[He] who made for you the earth a bed [spread out] and the sky a ceiling and sent down from the sky, rain and brought forth thereby fruits as provision for you. So do not attribute to Allah equals while you know [that there is nothing similar to Him].",
-      "surah_name_en": "Al-Baqara",
-      "surah_name_ar": "سُورَةُ البَقَرَةِ",
-      "ref": "Al-Baqara 2:22"
-    },
-    "pos_ar": "ضمير",
-    "meaning": {
-      "en": "him, his",
-      "ur": "اس کا"
-    }
-  },
-  {
-    "id": 50,
+    "id": 46,
+    "lemma_bw": "kita`b",
     "lemma_ar": "كِتَٰب",
-    "lemma_lat": "kitaāb",
+    "root_bw": "ktb",
     "root_ar": "كتب",
-    "root_lat": "ktb",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "book, scripture",
+      "ur": "کتاب"
+    },
     "freq": {
       "count": 260,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1443,24 +1375,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:2"
     },
+    "lemma_lat": "kitaāb",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "book, scripture",
-      "ur": "کتاب"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 51,
+    "id": 47,
+    "lemma_bw": "Haq~",
     "lemma_ar": "حَقّ",
-    "lemma_lat": "ḥaqq",
+    "root_bw": "Hqq",
     "root_ar": "حقق",
-    "root_lat": "ḥqq",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "truth, right",
+      "ur": "حق"
+    },
     "freq": {
       "count": 247,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1472,24 +1405,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:26"
     },
+    "lemma_lat": "ḥaqq",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "soul, self",
-      "ur": "جان، نفس"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 52,
+    "id": 48,
+    "lemma_bw": "qabol",
     "lemma_ar": "قَبْل",
-    "lemma_lat": "qabl",
+    "root_bw": "qbl",
     "root_ar": "قبل",
-    "root_lat": "qbl",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "before",
+      "ur": "پہلے"
+    },
     "freq": {
       "count": 242,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1501,24 +1435,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:4"
     },
+    "lemma_lat": "qabl",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "before",
-      "ur": "پہلے"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 53,
+    "id": 49,
+    "lemma_bw": "n~aAs",
     "lemma_ar": "نَّاس",
-    "lemma_lat": "nnās",
+    "root_bw": "nws",
     "root_ar": "نوس",
-    "root_lat": "nws",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "people, mankind",
+      "ur": "لوگ"
+    },
     "freq": {
       "count": 241,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1530,24 +1465,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:8"
     },
+    "lemma_lat": "nās",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "people, mankind",
-      "ur": "لوگ، انسان"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 54,
+    "id": 50,
+    "lemma_bw": "<i*",
     "lemma_ar": "إِذ",
-    "lemma_lat": "idh",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "T",
-    "pos_en": "time adverb",
+    "meaning": {
+      "en": "when",
+      "ur": "جب"
+    },
     "freq": {
       "count": 239,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1559,24 +1495,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:30"
     },
+    "lemma_lat": "idh",
     "pos_ar": "ظرف زمان",
-    "meaning": {
-      "en": "when",
-      "ur": "جب"
-    }
+    "pos_en": "time adverb"
   },
   {
-    "id": 55,
+    "id": 51,
+    "lemma_bw": "$aA^'a",
     "lemma_ar": "شَاءَ",
-    "lemma_lat": "shā^ʾa",
+    "root_bw": "$yA",
     "root_ar": "شيا",
-    "root_lat": "shya",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he willed",
+      "ur": "اس نے چاہا"
+    },
     "freq": {
       "count": 236,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1588,53 +1525,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:20"
     },
+    "lemma_lat": "shāʾa",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "he willed",
-      "ur": "اس نے چاہا"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 56,
-    "lemma_ar": "هُ,",
-    "lemma_lat": "hu,",
-    "root_ar": null,
-    "root_lat": null,
-    "pos": "PRON",
-    "pos_en": "pronoun",
-    "freq": {
-      "count": 232,
-      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
-    },
-    "ayah": {
-      "surah": 2,
-      "ayah": 102,
-      "ar": "وَٱتَّبَعُوا۟ مَا تَتْلُوا۟ ٱلشَّيَٰطِينُ عَلَىٰ مُلْكِ سُلَيْمَٰنَ وَمَا كَفَرَ سُلَيْمَٰنُ وَلَٰكِنَّ ٱلشَّيَٰطِينَ كَفَرُوا۟ يُعَلِّمُونَ ٱلنَّاسَ ٱلسِّحْرَ وَمَآ أُنزِلَ عَلَى ٱلْمَلَكَيْنِ بِبَابِلَ هَٰرُوتَ وَمَٰرُوتَ وَمَا يُعَلِّمَانِ مِنْ أَحَدٍ حَتَّىٰ يَقُولَآ إِنَّمَا نَحْنُ فِتْنَةٌ فَلَا تَكْفُرْ فَيَتَعَلَّمُونَ مِنْهُمَا مَا يُفَرِّقُونَ بِهِۦ بَيْنَ ٱلْمَرْءِ وَزَوْجِهِۦ وَمَا هُم بِضَآرِّينَ بِهِۦ مِنْ أَحَدٍ إِلَّا بِإِذْنِ ٱللَّهِ وَيَتَعَلَّمُونَ مَا يَضُرُّهُمْ وَلَا يَنفَعُهُمْ وَلَقَدْ عَلِمُوا۟ لَمَنِ ٱشْتَرَىٰهُ مَا لَهُۥ فِى ٱلْـَٔاخِرَةِ مِنْ خَلَٰقٍ وَلَبِئْسَ مَا شَرَوْا۟ بِهِۦٓ أَنفُسَهُمْ لَوْ كَانُوا۟ يَعْلَمُونَ",
-      "ur": "اور ان (ہزلیات) کے پیچھے لگ گئے جو سلیمان کے عہدِ سلطنت میں شیاطین پڑھا کرتے تھے اور سلیمان نے مطلق کفر کی بات نہیں کی، بلکہ شیطان ہی کفر کرتے تھے کہ لوگوں کو جادو سکھاتے تھے۔ اور ان باتوں کے بھی (پیچھے لگ گئے) جو شہر بابل میں دو فرشتوں (یعنی) ہاروت اور ماروت پر اتری تھیں۔ اور وہ دونوں کسی کو کچھ نہیں سکھاتے تھے، جب تک یہ نہ کہہ دیتے کہ ہم تو (ذریعہٴ) آزمائش ہیں۔ تم کفر میں نہ پڑو۔ غرض لوگ ان سے (ایسا) جادو سیکھتے، جس سے میاں بیوی میں جدائی ڈال دیں۔ اور خدا کے حکم کے سوا وہ اس (جادو) سے کسی کا کچھ بھی نہیں بگاڑ سکتے تھے۔ اور کچھ ایسے (منتر) سیکھتے جو ان کو نقصان ہی پہنچاتے اور فائدہ کچھ نہ دیتے۔ اور وہ جانتے تھے کہ جو شخص ایسی چیزوں (یعنی سحر اور منتر وغیرہ) کا خریدار ہوگا، اس کا آخرت میں کچھ حصہ نہیں۔ اور جس چیز کے عوض انہوں نے اپنی جانوں کو بیچ ڈالا، وہ بری تھی۔ کاش وہ (اس بات کو) جانتے",
-      "en": "And they followed [instead] what the devils had recited during the reign of Solomon. It was not Solomon who disbelieved, but the devils disbelieved, teaching people magic and that which was revealed to the two angels at Babylon, Harut and Marut. But the two angels do not teach anyone unless they say, \"We are a trial, so do not disbelieve [by practicing magic].\" And [yet] they learn from them that by which they cause separation between a man and his wife. But they do not harm anyone through it except by permission of Allah. And the people learn what harms them and does not benefit them. But the Children of Israel certainly knew that whoever purchased the magic would not have in the Hereafter any share. And wretched is that for which they sold themselves, if they only knew.",
-      "surah_name_en": "Al-Baqara",
-      "surah_name_ar": "سُورَةُ البَقَرَةِ",
-      "ref": "Al-Baqara 2:102"
-    },
-    "pos_ar": "ضمير",
-    "meaning": {
-      "en": "him",
-      "ur": "اسے"
-    }
-  },
-  {
-    "id": 57,
+    "id": 52,
+    "lemma_bw": ">uwla`^}ik",
     "lemma_ar": "أُولَٰئِك",
-    "lemma_lat": "aūlaā^iik",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "DEM",
-    "pos_en": "demonstrative",
+    "meaning": {
+      "en": "those",
+      "ur": "وہ لوگ"
+    },
     "freq": {
       "count": 204,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1646,24 +1555,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:5"
     },
+    "lemma_lat": "aūlaā^iik",
     "pos_ar": "اسم إشارة",
-    "meaning": {
-      "en": "those",
-      "ur": "وہ لوگ"
-    }
+    "pos_en": "demonstrative"
   },
   {
-    "id": 58,
+    "id": 53,
+    "lemma_bw": "mu&omin",
     "lemma_ar": "مُؤْمِن",
-    "lemma_lat": "muumin",
+    "root_bw": "Amn",
     "root_ar": "امن",
-    "root_lat": "amn",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "believer",
+      "ur": "مومن"
+    },
     "freq": {
       "count": 202,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1675,24 +1585,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:8"
     },
+    "lemma_lat": "muʾmin",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "believer",
-      "ur": "مومن"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 59,
+    "id": 54,
+    "lemma_bw": "law",
     "lemma_ar": "لَو",
-    "lemma_lat": "law",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "COND",
-    "pos_en": "conditional prt",
+    "meaning": {
+      "en": "if (hyp.)",
+      "ur": "اگر"
+    },
     "freq": {
       "count": 201,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1704,24 +1615,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:20"
     },
+    "lemma_lat": "law",
     "pos_ar": "حرف شرط",
-    "meaning": {
-      "en": "if (hypothetical)",
-      "ur": "اگر"
-    }
+    "pos_en": "conditional"
   },
   {
-    "id": 60,
+    "id": 55,
+    "lemma_bw": "baEod",
     "lemma_ar": "بَعْد",
-    "lemma_lat": "baʿd",
+    "root_bw": "bEd",
     "root_ar": "بعد",
-    "root_lat": "bʿd",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "after",
+      "ur": "بعد"
+    },
     "freq": {
       "count": 199,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1733,24 +1645,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:27"
     },
+    "lemma_lat": "baʿd",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "after",
-      "ur": "بعد"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 61,
+    "id": 56,
+    "lemma_bw": "Eind",
     "lemma_ar": "عِند",
-    "lemma_lat": "ʿind",
+    "root_bw": "End",
     "root_ar": "عند",
-    "root_lat": "ʿnd",
     "pos": "LOC",
-    "pos_en": "LOC",
+    "meaning": {
+      "en": "with, near",
+      "ur": "پاس"
+    },
     "freq": {
       "count": 197,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1762,24 +1675,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:54"
     },
+    "lemma_lat": "ʿinda",
     "pos_ar": "LOC",
-    "meaning": {
-      "en": "with, near",
-      "ur": "پاس، نزد"
-    }
+    "pos_en": "LOC"
   },
   {
-    "id": 62,
+    "id": 57,
+    "lemma_bw": "xalaqa",
     "lemma_ar": "خَلَقَ",
-    "lemma_lat": "khalaqa",
+    "root_bw": "xlq",
     "root_ar": "خلق",
-    "root_lat": "khlq",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he created",
+      "ur": "پیدا کیا"
+    },
     "freq": {
       "count": 184,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1791,24 +1705,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:21"
     },
+    "lemma_lat": "khalaqa",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "he willed",
-      "ur": "اس نے چاہا"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 63,
+    "id": 58,
+    "lemma_bw": ">anzala",
     "lemma_ar": "أَنزَلَ",
-    "lemma_lat": "anzala",
+    "root_bw": "nzl",
     "root_ar": "نزل",
-    "root_lat": "nzl",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he sent down",
+      "ur": "نازل کیا"
+    },
     "freq": {
       "count": 183,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1820,24 +1735,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:4"
     },
+    "lemma_lat": "anzala",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "he gave",
-      "ur": "اس نے دیا"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 64,
+    "id": 59,
+    "lemma_bw": "xayor",
     "lemma_ar": "خَيْر",
-    "lemma_lat": "khayr",
+    "root_bw": "xyr",
     "root_ar": "خير",
-    "root_lat": "khyr",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "good, better",
+      "ur": "بھلائی"
+    },
     "freq": {
       "count": 178,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1849,24 +1765,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:54"
     },
+    "lemma_lat": "khayr",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "face",
-      "ur": "چہرہ"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 65,
+    "id": 60,
+    "lemma_bw": "ka*~aba",
     "lemma_ar": "كَذَّبَ",
-    "lemma_lat": "kadhdhaba",
+    "root_bw": "k*b",
     "root_ar": "كذب",
-    "root_lat": "kdhb",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he denied",
+      "ur": "جھٹلایا"
+    },
     "freq": {
       "count": 176,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1878,24 +1795,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:39"
     },
+    "lemma_lat": "kadhdhaba",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "good, better",
-      "ur": "بھلائی، بہتر"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 66,
+    "id": 61,
+    "lemma_bw": "sabiyl",
     "lemma_ar": "سَبِيل",
-    "lemma_lat": "sabīl",
+    "root_bw": "sbl",
     "root_ar": "سبل",
-    "root_lat": "sbl",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "way, path",
+      "ur": "راستہ"
+    },
     "freq": {
       "count": 176,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1907,24 +1825,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:108"
     },
+    "lemma_lat": "sabīl",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "way, path",
-      "ur": "راستہ"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 67,
+    "id": 62,
+    "lemma_bw": "daEaA",
     "lemma_ar": "دَعَا",
-    "lemma_lat": "daʿā",
+    "root_bw": "dEw",
     "root_ar": "دعو",
-    "root_lat": "dʿw",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he called",
+      "ur": "پکارا"
+    },
     "freq": {
       "count": 170,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1936,24 +1855,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:23"
     },
+    "lemma_lat": "daʿā",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "he called, invoked",
-      "ur": "اس نے پکارا"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 68,
+    "id": 63,
+    "lemma_bw": "{t~aqaY`",
     "lemma_ar": "ٱتَّقَىٰ",
-    "lemma_lat": "attaqā",
+    "root_bw": "wqy",
     "root_ar": "وقي",
-    "root_lat": "wqy",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he feared (Allah)",
+      "ur": "تقویٰ کیا"
+    },
     "freq": {
       "count": 166,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1965,24 +1885,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:21"
     },
+    "lemma_lat": "ittaqā",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "he feared (Allah)",
-      "ur": "اس نے تقویٰ کیا"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 69,
+    "id": 64,
+    "lemma_bw": ">amor",
     "lemma_ar": "أَمْر",
-    "lemma_lat": "amr",
+    "root_bw": "Amr",
     "root_ar": "امر",
-    "root_lat": "amr",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "command, matter",
+      "ur": "حکم"
+    },
     "freq": {
       "count": 166,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -1994,24 +1915,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:109"
     },
+    "lemma_lat": "amr",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "truth, right",
-      "ur": "سچ، حق"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 70,
+    "id": 65,
+    "lemma_bw": "Ealiym",
     "lemma_ar": "عَلِيم",
-    "lemma_lat": "ʿalīm",
+    "root_bw": "Elm",
     "root_ar": "علم",
-    "root_lat": "ʿlm",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "All-Knowing",
+      "ur": "علیم"
+    },
     "freq": {
       "count": 163,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2023,24 +1945,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:29"
     },
+    "lemma_lat": "ʿalīm",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "life",
-      "ur": "زندگی"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 71,
+    "id": 66,
+    "lemma_bw": "maE",
     "lemma_ar": "مَع",
-    "lemma_lat": "maʿ",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "LOC",
-    "pos_en": "LOC",
+    "meaning": {
+      "en": "with",
+      "ur": "ساتھ"
+    },
     "freq": {
       "count": 159,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2052,24 +1975,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:14"
     },
+    "lemma_lat": "maʿa",
     "pos_ar": "LOC",
-    "meaning": {
-      "en": "with",
-      "ur": "کے ساتھ"
-    }
+    "pos_en": "LOC"
   },
   {
-    "id": 72,
+    "id": 67,
+    "lemma_bw": "baEoD",
     "lemma_ar": "بَعْض",
-    "lemma_lat": "baʿḍ",
+    "root_bw": "bED",
     "root_ar": "بعض",
-    "root_lat": "bʿḍ",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "some",
+      "ur": "بہض"
+    },
     "freq": {
       "count": 157,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2081,24 +2005,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:36"
     },
+    "lemma_lat": "baʿḍ",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "some, part",
-      "ur": "کچھ، بعض"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 73,
+    "id": 68,
+    "lemma_bw": "lam~aA",
     "lemma_ar": "لَمَّا",
-    "lemma_lat": "lammā",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "T",
-    "pos_en": "time adverb",
+    "meaning": {
+      "en": "when",
+      "ur": "جب"
+    },
     "freq": {
       "count": 156,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2110,24 +2035,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:17"
     },
+    "lemma_lat": "lammā",
     "pos_ar": "ظرف زمان",
-    "meaning": {
-      "en": "when, not yet",
-      "ur": "جب، ابھی نہیں"
-    }
+    "pos_en": "time adverb"
   },
   {
-    "id": 74,
+    "id": 69,
+    "lemma_bw": "A^xir",
     "lemma_ar": "اخِر",
-    "lemma_lat": "ā^khir",
+    "root_bw": "Axr",
     "root_ar": "اخر",
-    "root_lat": "akhr",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "last, other",
+      "ur": "آخر"
+    },
     "freq": {
       "count": 155,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2139,24 +2065,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:4"
     },
+    "lemma_lat": "ākhir",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "last, other",
-      "ur": "آخر، دوسرا"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 75,
+    "id": 70,
+    "lemma_bw": ">ay~uhaA",
     "lemma_ar": "أَيُّهَا",
-    "lemma_lat": "ayayuhā",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "O (vocative)",
+      "ur": "اے"
+    },
     "freq": {
       "count": 153,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2168,53 +2095,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:21"
     },
+    "lemma_lat": "ayyuhā",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "O (vocative)",
-      "ur": "اے"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 76,
-    "lemma_ar": "هُم",
-    "lemma_lat": "hum",
-    "root_ar": null,
-    "root_lat": null,
-    "pos": "PRON",
-    "pos_en": "pronoun",
-    "freq": {
-      "count": 148,
-      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
-    },
-    "ayah": {
-      "surah": 2,
-      "ayah": 8,
-      "ar": "وَمِنَ ٱلنَّاسِ مَن يَقُولُ ءَامَنَّا بِٱللَّهِ وَبِٱلْيَوْمِ ٱلْـَٔاخِرِ وَمَا هُم بِمُؤْمِنِينَ",
-      "ur": "اور بعض لوگ ایسے ہیں جو کہتے ہیں کہ ہم خدا پر اور روزِ آخرت پر ایمان رکھتے ہیں حالانکہ وہ ایمان نہیں رکھتے",
-      "en": "And of the people are some who say, \"We believe in Allah and the Last Day,\" but they are not believers.",
-      "surah_name_en": "Al-Baqara",
-      "surah_name_ar": "سُورَةُ البَقَرَةِ",
-      "ref": "Al-Baqara 2:8"
-    },
-    "pos_ar": "ضمير",
-    "meaning": {
-      "en": "death",
-      "ur": "موت"
-    }
-  },
-  {
-    "id": 77,
+    "id": 71,
+    "lemma_bw": "gayor",
     "lemma_ar": "غَيْر",
-    "lemma_lat": "ghayr",
+    "root_bw": "gyr",
     "root_ar": "غير",
-    "root_lat": "ghyr",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "other than",
+      "ur": "سوائے"
+    },
     "freq": {
       "count": 147,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 1,
@@ -2226,24 +2125,25 @@
       "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
       "ref": "Al-Faatiha 1:7"
     },
+    "lemma_lat": "ghayr",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "other than",
-      "ur": "سوائے"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 78,
+    "id": 72,
+    "lemma_bw": "jan~ap",
     "lemma_ar": "جَنَّة",
-    "lemma_lat": "jannah",
+    "root_bw": "jnn",
     "root_ar": "جنن",
-    "root_lat": "jnn",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "paradise",
+      "ur": "جنت"
+    },
     "freq": {
       "count": 147,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2255,24 +2155,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:25"
     },
+    "lemma_lat": "jannah",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "angel",
-      "ur": "فرشتہ"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 79,
+    "id": 73,
+    "lemma_bw": "<ila`h",
     "lemma_ar": "إِلَٰه",
-    "lemma_lat": "ilaāh",
+    "root_bw": "Alh",
     "root_ar": "اله",
-    "root_lat": "alh",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "god",
+      "ur": "معبود"
+    },
     "freq": {
       "count": 147,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2284,24 +2185,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:133"
     },
+    "lemma_lat": "ilāh",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "god, deity",
-      "ur": "معبود"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 80,
+    "id": 74,
+    "lemma_bw": "naAr",
     "lemma_ar": "نَار",
-    "lemma_lat": "nār",
+    "root_bw": "nwr",
     "root_ar": "نور",
-    "root_lat": "nwr",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "fire",
+      "ur": "آگ"
+    },
     "freq": {
       "count": 145,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2313,24 +2215,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:17"
     },
+    "lemma_lat": "nār",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "power, strength",
-      "ur": "طاقت"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 81,
+    "id": 75,
+    "lemma_bw": "hadaY",
     "lemma_ar": "هَدَى",
-    "lemma_lat": "hadā",
+    "root_bw": "hdy",
     "root_ar": "هدي",
-    "root_lat": "hdy",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he guided",
+      "ur": "ہدایت دی"
+    },
     "freq": {
       "count": 144,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 1,
@@ -2342,24 +2245,25 @@
       "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
       "ref": "Al-Faatiha 1:6"
     },
+    "lemma_lat": "hadā",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "light",
-      "ur": "روشنی"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 82,
+    "id": 76,
+    "lemma_bw": "duwn",
     "lemma_ar": "دُون",
-    "lemma_lat": "dūn",
+    "root_bw": "dwn",
     "root_ar": "دون",
-    "root_lat": "dwn",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "besides",
+      "ur": "سوائے"
+    },
     "freq": {
       "count": 144,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2371,24 +2275,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:23"
     },
+    "lemma_lat": "dūn",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "besides, below",
-      "ur": "سوائے، نیچے"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 83,
+    "id": 77,
+    "lemma_bw": "Hat~aY`",
     "lemma_ar": "حَتَّىٰ",
-    "lemma_lat": "ḥattā",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "P",
-    "pos_en": "preposition",
+    "meaning": {
+      "en": "until",
+      "ur": "تک"
+    },
     "freq": {
       "count": 142,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2400,24 +2305,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:55"
     },
+    "lemma_lat": "ḥattā",
     "pos_ar": "حرف جر",
-    "meaning": {
-      "en": "until",
-      "ur": "تک"
-    }
+    "pos_en": "preposition"
   },
   {
-    "id": 84,
+    "id": 78,
+    "lemma_bw": ">araAda",
     "lemma_ar": "أَرَادَ",
-    "lemma_lat": "arāda",
+    "root_bw": "rwd",
     "root_ar": "رود",
-    "root_lat": "rwd",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he intended",
+      "ur": "ارادہ کیا"
+    },
     "freq": {
       "count": 139,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2429,24 +2335,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:26"
     },
+    "lemma_lat": "arāda",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "he intended, willed",
-      "ur": "اس نے ارادہ کیا"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 85,
+    "id": 79,
+    "lemma_bw": ">am",
     "lemma_ar": "أَم",
-    "lemma_lat": "am",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "CONJ",
-    "pos_en": "conjunction",
+    "meaning": {
+      "en": "or",
+      "ur": "یا"
+    },
     "freq": {
       "count": 137,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2458,24 +2365,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:6"
     },
+    "lemma_lat": "am",
     "pos_ar": "حرف عطف",
-    "meaning": {
-      "en": "wrongdoing",
-      "ur": "ظلم"
-    }
+    "pos_en": "conjunction"
   },
   {
-    "id": 86,
+    "id": 80,
+    "lemma_bw": "muwsaY`",
     "lemma_ar": "مُوسَىٰ",
-    "lemma_lat": "mūsā",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "PN",
-    "pos_en": "proper noun",
+    "meaning": {
+      "en": "Moses",
+      "ur": "موسیٰ"
+    },
     "freq": {
       "count": 136,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2487,24 +2395,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:51"
     },
+    "lemma_lat": "mūsā",
     "pos_ar": "اسم علم",
-    "meaning": {
-      "en": "Moses",
-      "ur": "موسیٰ"
-    }
+    "pos_en": "proper noun"
   },
   {
-    "id": 87,
+    "id": 81,
+    "lemma_bw": "{t~abaEa",
     "lemma_ar": "ٱتَّبَعَ",
-    "lemma_lat": "attabaʿa",
+    "root_bw": "tbE",
     "root_ar": "تبع",
-    "root_lat": "tbʿ",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he followed",
+      "ur": "پیروی کی"
+    },
     "freq": {
       "count": 136,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2516,53 +2425,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:102"
     },
+    "lemma_lat": "ittabaʿa",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "he followed",
-      "ur": "اس نے پیروی کی"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 88,
-    "lemma_ar": "هُمُ",
-    "lemma_lat": "humu",
-    "root_ar": null,
-    "root_lat": null,
-    "pos": "PRON",
-    "pos_en": "pronoun",
-    "freq": {
-      "count": 132,
-      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
-    },
-    "ayah": {
-      "surah": 2,
-      "ayah": 5,
-      "ar": "أُو۟لَٰٓئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
-      "ur": "یہی لوگ اپنے پروردگار (کی طرف) سے ہدایت پر ہیں اور یہی نجات پانے والے ہیں",
-      "en": "Those are upon [right] guidance from their Lord, and it is those who are the successful.",
-      "surah_name_en": "Al-Baqara",
-      "surah_name_ar": "سُورَةُ البَقَرَةِ",
-      "ref": "Al-Baqara 2:5"
-    },
-    "pos_ar": "ضمير",
-    "meaning": {
-      "en": "command, matter",
-      "ur": "حکم، معاملہ"
-    }
-  },
-  {
-    "id": 89,
+    "id": 82,
+    "lemma_bw": "qalob",
     "lemma_ar": "قَلْب",
-    "lemma_lat": "qalb",
+    "root_bw": "qlb",
     "root_ar": "قلب",
-    "root_lat": "qlb",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "heart",
+      "ur": "دل"
+    },
     "freq": {
       "count": 132,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2574,24 +2455,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:7"
     },
+    "lemma_lat": "qalb",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "he created",
-      "ur": "اس نے پیدا کیا"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 90,
+    "id": 83,
+    "lemma_bw": "Eabod",
     "lemma_ar": "عَبْد",
-    "lemma_lat": "ʿabd",
+    "root_bw": "Ebd",
     "root_ar": "عبد",
-    "root_lat": "ʿbd",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "servant / he worshipped",
+      "ur": "بندہ / عبادت کی"
+    },
     "freq": {
       "count": 131,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2603,24 +2485,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:23"
     },
+    "lemma_lat": "ʿabd",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "servant",
-      "ur": "بندہ"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 91,
+    "id": 84,
+    "lemma_bw": ">arosala",
     "lemma_ar": "أَرْسَلَ",
-    "lemma_lat": "arsala",
+    "root_bw": "rsl",
     "root_ar": "رسل",
-    "root_lat": "rsl",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he sent",
+      "ur": "بھیجا"
+    },
     "freq": {
       "count": 130,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2632,24 +2515,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:119"
     },
+    "lemma_lat": "arsala",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "he disbelieved",
-      "ur": "اس نے کفر کیا"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 92,
+    "id": 85,
+    "lemma_bw": "ka`firuwn",
     "lemma_ar": "كَٰفِرُون",
-    "lemma_lat": "kaāfirūn",
+    "root_bw": "kfr",
     "root_ar": "كفر",
-    "root_lat": "kfr",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "disbelievers",
+      "ur": "کافر"
+    },
     "freq": {
       "count": 129,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2661,24 +2545,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:19"
     },
+    "lemma_lat": "kāfirūn",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "disbelievers",
-      "ur": "کافر"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 93,
+    "id": 86,
+    "lemma_bw": "ZaAlim",
     "lemma_ar": "ظَالِم",
-    "lemma_lat": "ẓālim",
+    "root_bw": "Zlm",
     "root_ar": "ظلم",
-    "root_lat": "ẓlm",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "wrongdoer",
+      "ur": "ظالم"
+    },
     "freq": {
       "count": 129,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2690,24 +2575,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:35"
     },
+    "lemma_lat": "ẓālim",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "wrongdoer, unjust",
-      "ur": "ظالم"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 94,
+    "id": 87,
+    "lemma_bw": ">axa*a",
     "lemma_ar": "أَخَذَ",
-    "lemma_lat": "akhadha",
+    "root_bw": "Ax*",
     "root_ar": "اخذ",
-    "root_lat": "akhdh",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he took",
+      "ur": "لیا"
+    },
     "freq": {
       "count": 127,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2719,24 +2605,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:48"
     },
+    "lemma_lat": "akhadha",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "he took",
-      "ur": "اس نے لیا"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 95,
+    "id": 88,
+    "lemma_bw": "bal",
     "lemma_ar": "بَل",
-    "lemma_lat": "bal",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "RET",
-    "pos_en": "RET",
+    "meaning": {
+      "en": "nay, rather",
+      "ur": "بلکہ"
+    },
     "freq": {
       "count": 127,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2748,24 +2635,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:88"
     },
+    "lemma_lat": "bal",
     "pos_ar": "RET",
-    "meaning": {
-      "en": "nay, rather",
-      "ur": "بلکہ"
-    }
+    "pos_en": "RET"
   },
   {
-    "id": 96,
+    "id": 89,
+    "lemma_bw": ">ahol",
     "lemma_ar": "أَهْل",
-    "lemma_lat": "ahl",
+    "root_bw": "Ahl",
     "root_ar": "اهل",
-    "root_lat": "ahl",
     "pos": "N",
-    "pos_en": "noun",
+    "meaning": {
+      "en": "family, people of",
+      "ur": "اہل"
+    },
     "freq": {
       "count": 127,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2777,24 +2665,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:105"
     },
+    "lemma_lat": "ahl",
     "pos_ar": "اسم",
-    "meaning": {
-      "en": "he thanked",
-      "ur": "اس نے شکر کیا"
-    }
+    "pos_en": "noun"
   },
   {
-    "id": 97,
+    "id": 90,
+    "lemma_bw": "{t~axa*a",
     "lemma_ar": "ٱتَّخَذَ",
-    "lemma_lat": "attakhadha",
+    "root_bw": "Ax*",
     "root_ar": "اخذ",
-    "root_lat": "akhdh",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "he took",
+      "ur": "لیا"
+    },
     "freq": {
       "count": 124,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2806,24 +2695,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:51"
     },
+    "lemma_lat": "ittakhadha",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "he took",
-      "ur": "اس نے لیا"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 98,
+    "id": 91,
+    "lemma_bw": "laEal~",
     "lemma_ar": "لَعَلّ",
-    "lemma_lat": "laʿall",
+    "root_bw": null,
     "root_ar": null,
-    "root_lat": null,
     "pos": "ACC",
-    "pos_en": "accusative prt",
+    "meaning": {
+      "en": "perhaps",
+      "ur": "شاید"
+    },
     "freq": {
       "count": 123,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2835,24 +2725,25 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:21"
     },
+    "lemma_lat": "laʿall",
     "pos_ar": "حرف نصب",
-    "meaning": {
-      "en": "perhaps",
-      "ur": "شاید"
-    }
+    "pos_en": "accusative particle"
   },
   {
-    "id": 99,
+    "id": 92,
+    "lemma_bw": "Eabada",
     "lemma_ar": "عَبَدَ",
-    "lemma_lat": "ʿabada",
+    "root_bw": "Ebd",
     "root_ar": "عبد",
-    "root_lat": "ʿbd",
     "pos": "V",
-    "pos_en": "verb",
+    "meaning": {
+      "en": "servant / he worshipped",
+      "ur": "بندہ / عبادت کی"
+    },
     "freq": {
       "count": 122,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 1,
@@ -2864,24 +2755,25 @@
       "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
       "ref": "Al-Faatiha 1:5"
     },
+    "lemma_lat": "ʿabd",
     "pos_ar": "فعل",
-    "meaning": {
-      "en": "he worshipped",
-      "ur": "اس نے عبادت کی"
-    }
+    "pos_en": "verb"
   },
   {
-    "id": 100,
+    "id": 93,
+    "lemma_bw": "EaZiym",
     "lemma_ar": "عَظِيم",
-    "lemma_lat": "ʿaẓīm",
+    "root_bw": "EZm",
     "root_ar": "عظم",
-    "root_lat": "ʿẓm",
     "pos": "ADJ",
-    "pos_en": "adjective",
+    "meaning": {
+      "en": "great, mighty",
+      "ur": "عظیم"
+    },
     "freq": {
       "count": 120,
       "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
-      "method": "lemma-based"
+      "method": "pure lemma count (STEM only)"
     },
     "ayah": {
       "surah": 2,
@@ -2893,10 +2785,218 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:7"
     },
+    "lemma_lat": "ʿaẓīm",
     "pos_ar": "صفة",
+    "pos_en": "adjective"
+  },
+  {
+    "id": 94,
+    "lemma_bw": "yad",
+    "lemma_ar": "يَد",
+    "root_bw": "ydy",
+    "root_ar": "يدي",
+    "pos": "N",
     "meaning": {
-      "en": "great, mighty",
-      "ur": "عظیم"
-    }
+      "en": "hand",
+      "ur": "ہاتھ"
+    },
+    "freq": {
+      "count": 120,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "pure lemma count (STEM only)"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 66,
+      "ar": "فَجَعَلْنَٰهَا نَكَٰلًا لِّمَا بَيْنَ يَدَيْهَا وَمَا خَلْفَهَا وَمَوْعِظَةً لِّلْمُتَّقِينَ",
+      "ur": "اور اس قصے کو اس وقت کے لوگوں کے لیے اور جو ان کے بعد آنے والے تھے عبرت اور پرہیز گاروں کے لیے نصیحت بنا دیا",
+      "en": "And We made it a deterrent punishment for those who were present and those who succeeded [them] and a lesson for those who fear Allah.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:66"
+    },
+    "lemma_lat": "yad",
+    "pos_ar": "اسم",
+    "pos_en": "noun"
+  },
+  {
+    "id": 95,
+    "lemma_bw": "m~ubiyn",
+    "lemma_ar": "مُّبِين",
+    "root_bw": "byn",
+    "root_ar": "بين",
+    "pos": "ADJ",
+    "meaning": {
+      "en": "clear, manifest",
+      "ur": "واضح"
+    },
+    "freq": {
+      "count": 119,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "pure lemma count (STEM only)"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 168,
+      "ar": "يَٰٓأَيُّهَا ٱلنَّاسُ كُلُوا۟ مِمَّا فِى ٱلْأَرْضِ حَلَٰلًا طَيِّبًا وَلَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَٰنِ إِنَّهُۥ لَكُمْ عَدُوٌّ مُّبِينٌ",
+      "ur": "لوگو جو چیزیں زمین میں حلال طیب ہیں وہ کھاؤ۔ اور شیطان کے قدموں پر نہ چلو۔ وہ تمہارا کھلا دشمن ہے",
+      "en": "O mankind, eat from whatever is on earth [that is] lawful and good and do not follow the footsteps of Satan. Indeed, he is to you a clear enemy.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:168"
+    },
+    "lemma_lat": "mubīn",
+    "pos_ar": "صفة",
+    "pos_en": "adjective"
+  },
+  {
+    "id": 96,
+    "lemma_bw": "r~aHiym",
+    "lemma_ar": "رَّحِيم",
+    "root_bw": "rHm",
+    "root_ar": "رحم",
+    "pos": "ADJ",
+    "meaning": {
+      "en": "Most Merciful",
+      "ur": "نہایت رحم والا"
+    },
+    "freq": {
+      "count": 116,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "pure lemma count (STEM only)"
+    },
+    "ayah": {
+      "surah": 1,
+      "ayah": 1,
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+      "ur": "شروع الله کا نام لے کر جو بڑا مہربان نہایت رحم والا ہے",
+      "en": "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
+      "surah_name_en": "Al-Faatiha",
+      "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
+      "ref": "Al-Faatiha 1:1"
+    },
+    "lemma_lat": "raḥīm",
+    "pos_ar": "صفة",
+    "pos_en": "adjective"
+  },
+  {
+    "id": 97,
+    "lemma_bw": "d~unoyaA",
+    "lemma_ar": "دُّنْيَا",
+    "root_bw": "dnw",
+    "root_ar": "دنو",
+    "pos": "ADJ",
+    "meaning": {
+      "en": "world, worldly life",
+      "ur": "دنیا"
+    },
+    "freq": {
+      "count": 115,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "pure lemma count (STEM only)"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 85,
+      "ar": "ثُمَّ أَنتُمْ هَٰٓؤُلَآءِ تَقْتُلُونَ أَنفُسَكُمْ وَتُخْرِجُونَ فَرِيقًا مِّنكُم مِّن دِيَٰرِهِمْ تَظَٰهَرُونَ عَلَيْهِم بِٱلْإِثْمِ وَٱلْعُدْوَٰنِ وَإِن يَأْتُوكُمْ أُسَٰرَىٰ تُفَٰدُوهُمْ وَهُوَ مُحَرَّمٌ عَلَيْكُمْ إِخْرَاجُهُمْ أَفَتُؤْمِنُونَ بِبَعْضِ ٱلْكِتَٰبِ وَتَكْفُرُونَ بِبَعْضٍ فَمَا جَزَآءُ مَن يَفْعَلُ ذَٰلِكَ مِنكُمْ إِلَّا خِزْىٌ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَيَوْمَ ٱلْقِيَٰمَةِ يُرَدُّونَ إِلَىٰٓ أَشَدِّ ٱلْعَذَابِ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ",
+      "ur": "پھر تم وہی ہو کہ اپنوں کو قتل بھی کر دیتے ہو اور اپنے میں سے بعض لوگوں پر گناہ اور ظلم سے چڑھائی کرکے انہیں وطن سے نکال بھی دیتے ہو، اور اگر وہ تمہارے پاس قید ہو کر آئیں تو بدلہ دے کر ان کو چھڑا بھی لیتے ہو، حالانکہ ان کا نکال دینا ہی تم کو حرام تھا۔ (یہ) کیا (بات ہے کہ) تم کتابِ (خدا) کے بعض احکام کو تو مانتے ہو اور بعض سے انکار کئے دیتے ہو، تو جو تم میں سے ایسی حرکت کریں، ان کی سزا اس کے سوا اور کیا ہو سکتی ہے کہ دنیا کی زندگی میں تو رسوائی ہو اور قیامت کے دن سخت سے سخت عذاب میں ڈال دیئے جائیں اور جو کام تم کرتے ہو، خدا ان سے غافل نہیں",
+      "en": "Then, you are those [same ones who are] killing one another and evicting a party of your people from their homes, cooperating against them in sin and aggression. And if they come to you as captives, you ransom them, although their eviction was forbidden to you. So do you believe in part of the Scripture and disbelieve in part? Then what is the recompense for those who do that among you except disgrace in worldly life; and on the Day of Resurrection they will be sent back to the severest of punishment. And Allah is not unaware of what you do.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:85"
+    },
+    "lemma_lat": "dunyā",
+    "pos_ar": "صفة",
+    "pos_en": "adjective"
+  },
+  {
+    "id": 98,
+    "lemma_bw": "raHomap",
+    "lemma_ar": "رَحْمَة",
+    "root_bw": "rHm",
+    "root_ar": "رحم",
+    "pos": "N",
+    "meaning": {
+      "en": "mercy",
+      "ur": "رحمت"
+    },
+    "freq": {
+      "count": 114,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "pure lemma count (STEM only)"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 64,
+      "ar": "ثُمَّ تَوَلَّيْتُم مِّنۢ بَعْدِ ذَٰلِكَ فَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَكُنتُم مِّنَ ٱلْخَٰسِرِينَ",
+      "ur": "تو تم اس کے بعد (عہد سے) پھر گئے اور اگر تم پر خدا کا فضل اور اس کی مہربانی نہ ہوتی تو تم خسارے میں پڑے گئے ہوتے",
+      "en": "Then you turned away after that. And if not for the favor of Allah upon you and His mercy, you would have been among the losers.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:64"
+    },
+    "lemma_lat": "raḥmah",
+    "pos_ar": "اسم",
+    "pos_en": "noun"
+  },
+  {
+    "id": 99,
+    "lemma_bw": "Zalama",
+    "lemma_ar": "ظَلَمَ",
+    "root_bw": "Zlm",
+    "root_ar": "ظلم",
+    "pos": "V",
+    "meaning": {
+      "en": "he wronged",
+      "ur": "ظلم کیا"
+    },
+    "freq": {
+      "count": 110,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "pure lemma count (STEM only)"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 54,
+      "ar": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦ يَٰقَوْمِ إِنَّكُمْ ظَلَمْتُمْ أَنفُسَكُم بِٱتِّخَاذِكُمُ ٱلْعِجْلَ فَتُوبُوٓا۟ إِلَىٰ بَارِئِكُمْ فَٱقْتُلُوٓا۟ أَنفُسَكُمْ ذَٰلِكُمْ خَيْرٌ لَّكُمْ عِندَ بَارِئِكُمْ فَتَابَ عَلَيْكُمْ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+      "ur": "اور جب موسیٰ نے اپنی قوم کے لوگوں سے کہا کہ بھائیو، تم نے بچھڑے کو (معبود) ٹھہرانے میں (بڑا) ظلم کیا ہے، تو اپنے پیدا کرنے والے کے آگے توبہ کرو اور اپنے تئیں ہلاک کر ڈالو۔ تمہارے خالق کے نزدیک تمہارے حق میں یہی بہتر ہے۔ پھر اس نے تمہارا قصور معاف کر دیا۔ وہ بے شک معاف کرنے والا (اور) صاحبِ رحم ہے",
+      "en": "And [recall] when Moses said to his people, \"O my people, indeed you have wronged yourselves by your taking of the calf [for worship]. So repent to your Creator and kill yourselves. That is best for [all of] you in the sight of your Creator.\" Then He accepted your repentance; indeed, He is the Accepting of repentance, the Merciful.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:54"
+    },
+    "lemma_lat": "ẓalama",
+    "pos_ar": "فعل",
+    "pos_en": "verb"
+  },
+  {
+    "id": 100,
+    "lemma_bw": "lan",
+    "lemma_ar": "لَن",
+    "root_bw": null,
+    "root_ar": null,
+    "pos": "NEG",
+    "meaning": {
+      "en": "never",
+      "ur": "ہرگز نہیں"
+    },
+    "freq": {
+      "count": 106,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "pure lemma count (STEM only)"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 24,
+      "ar": "فَإِن لَّمْ تَفْعَلُوا۟ وَلَن تَفْعَلُوا۟ فَٱتَّقُوا۟ ٱلنَّارَ ٱلَّتِى وَقُودُهَا ٱلنَّاسُ وَٱلْحِجَارَةُ أُعِدَّتْ لِلْكَٰفِرِينَ",
+      "ur": "لیکن اگر (ایسا) نہ کر سکو اور ہرگز نہیں کر سکو گے تو اس آگ سے ڈرو جس کا ایندھن آدمی اور پتھر ہوں گے (اور جو) کافروں کے لیے تیار کی گئی ہے",
+      "en": "But if you do not - and you will never be able to - then fear the Fire, whose fuel is men and stones, prepared for the disbelievers.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:24"
+    },
+    "lemma_lat": "lan",
+    "pos_ar": "حرف نفي",
+    "pos_en": "negation"
   }
 ]
