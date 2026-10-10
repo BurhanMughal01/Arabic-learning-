@@ -487,7 +487,7 @@ const Speech = {
     try{ speechSynthesis.cancel(); }catch{}
 
     const pad = n => String(n).padStart(3, '0');
-    const url = `https://everyayah.com/data/Mishary_Alafasy_128kbps/${pad(surah)}${pad(ayah)}.mp3`;
+    const url = `https://everyayah.com/data/Alafasy_128kbps/${pad(surah)}${pad(ayah)}.mp3`;
     const audio = new Audio();
     audio.crossOrigin = 'anonymous';
     audio.preload = 'auto';
