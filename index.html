@@ -454,7 +454,7 @@ function applyTheme(){
 
 async function loadData(){
   try{
-    const r = await fetch('data/top100.json');
+    const r = await fetch('data/top100.json?v=' + Date.now());
     if(!r.ok) throw new Error('HTTP ' + r.status);
     state.words = await r.json();
     return true;
