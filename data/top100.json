@@ -727,8 +727,8 @@
     "root_ar": "علم",
     "pos": "V",
     "meaning": {
-      "en": "he knew / knowledge",
-      "ur": "جانا / علم"
+      "en": "he knew",
+      "ur": "اس نے جانا"
     },
     "freq": {
       "count": 382,
@@ -1135,7 +1135,7 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:20"
     },
-    "lemma_lat": "shā'",
+    "lemma_lat": "shayʾ",
     "pos_ar": "اسم",
     "pos_en": "noun"
   },
@@ -1375,7 +1375,7 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:2"
     },
-    "lemma_lat": "kitaāb",
+    "lemma_lat": "kitāb",
     "pos_ar": "اسم",
     "pos_en": "noun"
   },
@@ -1555,7 +1555,7 @@
       "surah_name_ar": "سُورَةُ البَقَرَةِ",
       "ref": "Al-Baqara 2:5"
     },
-    "lemma_lat": "aūlaā^iik",
+    "lemma_lat": "ulāʾika",
     "pos_ar": "اسم إشارة",
     "pos_en": "demonstrative"
   },
@@ -1987,8 +1987,8 @@
     "root_ar": "بعض",
     "pos": "N",
     "meaning": {
-      "en": "some",
-      "ur": "بہض"
+      "en": "some, part",
+      "ur": "کچھ، بعض"
     },
     "freq": {
       "count": 157,
@@ -2467,8 +2467,8 @@
     "root_ar": "عبد",
     "pos": "N",
     "meaning": {
-      "en": "servant / he worshipped",
-      "ur": "بندہ / عبادت کی"
+      "en": "servant",
+      "ur": "بندہ"
     },
     "freq": {
       "count": 131,
@@ -2737,8 +2737,8 @@
     "root_ar": "عبد",
     "pos": "V",
     "meaning": {
-      "en": "servant / he worshipped",
-      "ur": "بندہ / عبادت کی"
+      "en": "he worshipped",
+      "ur": "عبادت کی"
     },
     "freq": {
       "count": 122,
@@ -2755,7 +2755,7 @@
       "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
       "ref": "Al-Faatiha 1:5"
     },
-    "lemma_lat": "ʿabd",
+    "lemma_lat": "ʿabada",
     "pos_ar": "فعل",
     "pos_en": "verb"
   },
