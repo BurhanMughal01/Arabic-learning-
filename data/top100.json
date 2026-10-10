@@ -1,0 +1,2502 @@
+[
+  {
+    "id": 1,
+    "lemma_ar": "مِن",
+    "lemma_lat": "min",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "P",
+    "pos_en": "preposition",
+    "freq": {
+      "count": 3226,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 3,
+      "ar": "ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ",
+      "ur": "جو غیب پر ایمان لاتے اور آداب کے ساتھ نماز پڑھتے اور جو کچھ ہم نے ان کو عطا فرمایا ہے اس میں سے خرچ کرتے ہیں",
+      "en": "Who believe in the unseen, establish prayer, and spend out of what We have provided for them,",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:3"
+    },
+    "pos_ar": "حرف جر"
+  },
+  {
+    "id": 2,
+    "lemma_ar": "ٱللَّه",
+    "lemma_lat": "Allāh",
+    "root_ar": "اله",
+    "root_lat": "alh",
+    "pos": "PN",
+    "pos_en": "proper noun",
+    "freq": {
+      "count": 2699,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 1,
+      "ayah": 1,
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+      "ur": "شروع الله کا نام لے کر جو بڑا مہربان نہایت رحم والا ہے",
+      "en": "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
+      "surah_name_en": "Al-Faatiha",
+      "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
+      "ref": "Al-Faatiha 1:1"
+    },
+    "pos_ar": "اسم علم"
+  },
+  {
+    "id": 3,
+    "lemma_ar": "مَا",
+    "lemma_lat": "mā",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "REL",
+    "pos_en": "relative pron",
+    "freq": {
+      "count": 2565,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 3,
+      "ar": "ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ",
+      "ur": "جو غیب پر ایمان لاتے اور آداب کے ساتھ نماز پڑھتے اور جو کچھ ہم نے ان کو عطا فرمایا ہے اس میں سے خرچ کرتے ہیں",
+      "en": "Who believe in the unseen, establish prayer, and spend out of what We have provided for them,",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:3"
+    },
+    "pos_ar": "اسم موصول"
+  },
+  {
+    "id": 4,
+    "lemma_ar": "لَا",
+    "lemma_lat": "lā",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "NEG",
+    "pos_en": "negation",
+    "freq": {
+      "count": 1738,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 1,
+      "ayah": 7,
+      "ar": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+      "ur": "ان لوگوں کے رستے جن پر تو اپنا فضل وکرم کرتا رہا نہ ان کے جن پر غصے ہوتا رہا اور نہ گمراہوں کے",
+      "en": "The path of those upon whom You have bestowed favor, not of those who have evoked [Your] anger or of those who are astray.",
+      "surah_name_en": "Al-Faatiha",
+      "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
+      "ref": "Al-Faatiha 1:7"
+    },
+    "pos_ar": "حرف نفي"
+  },
+  {
+    "id": 5,
+    "lemma_ar": "فِى",
+    "lemma_lat": "fī",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "P",
+    "pos_en": "preposition",
+    "freq": {
+      "count": 1701,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 2,
+      "ar": "ذَٰلِكَ ٱلْكِتَٰبُ لَا رَيْبَ فِيهِ هُدًى لِّلْمُتَّقِينَ",
+      "ur": "یہ کتاب (قرآن مجید) اس میں کچھ شک نہیں (کہ کلامِ خدا ہے۔ خدا سے) ڈرنے والوں کی رہنما ہے",
+      "en": "This is the Book about which there is no doubt, a guidance for those conscious of Allah -",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:2"
+    },
+    "pos_ar": "حرف جر"
+  },
+  {
+    "id": 6,
+    "lemma_ar": "إِنّ",
+    "lemma_lat": "inna",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "ACC",
+    "pos_en": "accusative prt",
+    "freq": {
+      "count": 1682,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 6,
+      "ar": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ سَوَآءٌ عَلَيْهِمْ ءَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ",
+      "ur": "جو لوگ کافر ہیں انہیں تم نصیحت کرو یا نہ کرو ان کے لیے برابر ہے۔ وہ ایمان نہیں لانے کے",
+      "en": "Indeed, those who disbelieve - it is all the same for them whether you warn them or do not warn them - they will not believe.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:6"
+    },
+    "pos_ar": "حرف نصب"
+  },
+  {
+    "id": 7,
+    "lemma_ar": "قَالَ",
+    "lemma_lat": "qāla",
+    "root_ar": "قول",
+    "root_lat": "qwl",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 1618,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 8,
+      "ar": "وَمِنَ ٱلنَّاسِ مَن يَقُولُ ءَامَنَّا بِٱللَّهِ وَبِٱلْيَوْمِ ٱلْـَٔاخِرِ وَمَا هُم بِمُؤْمِنِينَ",
+      "ur": "اور بعض لوگ ایسے ہیں جو کہتے ہیں کہ ہم خدا پر اور روزِ آخرت پر ایمان رکھتے ہیں حالانکہ وہ ایمان نہیں رکھتے",
+      "en": "And of the people are some who say, \"We believe in Allah and the Last Day,\" but they are not believers.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:8"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 8,
+    "lemma_ar": "ٱلَّذِى",
+    "lemma_lat": "alladhī",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "REL",
+    "pos_en": "relative pron",
+    "freq": {
+      "count": 1464,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 1,
+      "ayah": 7,
+      "ar": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+      "ur": "ان لوگوں کے رستے جن پر تو اپنا فضل وکرم کرتا رہا نہ ان کے جن پر غصے ہوتا رہا اور نہ گمراہوں کے",
+      "en": "The path of those upon whom You have bestowed favor, not of those who have evoked [Your] anger or of those who are astray.",
+      "surah_name_en": "Al-Faatiha",
+      "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
+      "ref": "Al-Faatiha 1:7"
+    },
+    "pos_ar": "اسم موصول"
+  },
+  {
+    "id": 9,
+    "lemma_ar": "عَلَىٰ",
+    "lemma_lat": "ʿalā",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "P",
+    "pos_en": "preposition",
+    "freq": {
+      "count": 1445,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 1,
+      "ayah": 7,
+      "ar": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+      "ur": "ان لوگوں کے رستے جن پر تو اپنا فضل وکرم کرتا رہا نہ ان کے جن پر غصے ہوتا رہا اور نہ گمراہوں کے",
+      "en": "The path of those upon whom You have bestowed favor, not of those who have evoked [Your] anger or of those who are astray.",
+      "surah_name_en": "Al-Faatiha",
+      "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
+      "ref": "Al-Faatiha 1:7"
+    },
+    "pos_ar": "حرف جر"
+  },
+  {
+    "id": 10,
+    "lemma_ar": "كَانَ",
+    "lemma_lat": "kāna",
+    "root_ar": "كون",
+    "root_lat": "kwn",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 1358,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 10,
+      "ar": "فِى قُلُوبِهِم مَّرَضٌ فَزَادَهُمُ ٱللَّهُ مَرَضًا وَلَهُمْ عَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْذِبُونَ",
+      "ur": "ان کے دلوں میں (کفر کا) مرض تھا۔ خدا نے ان کا مرض اور زیادہ کر دیا اور ان کے جھوٹ بولنے کے سبب ان کو دکھ دینے والا عذاب ہوگا",
+      "en": "In their hearts is disease, so Allah has increased their disease; and for them is a painful punishment because they [habitually] used to lie.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:10"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 11,
+    "lemma_ar": "رَبّ",
+    "lemma_lat": "rabb",
+    "root_ar": "ربب",
+    "root_lat": "rbb",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 975,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 1,
+      "ayah": 2,
+      "ar": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "ur": "سب طرح کی تعریف خدا ہی کو (سزاوار) ہے جو تمام مخلوقات کا پروردگار ہے",
+      "en": "[All] praise is [due] to Allah, Lord of the worlds -",
+      "surah_name_en": "Al-Faatiha",
+      "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
+      "ref": "Al-Faatiha 1:2"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 12,
+    "lemma_ar": "مَن",
+    "lemma_lat": "man",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "REL",
+    "pos_en": "relative pron",
+    "freq": {
+      "count": 871,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 8,
+      "ar": "وَمِنَ ٱلنَّاسِ مَن يَقُولُ ءَامَنَّا بِٱللَّهِ وَبِٱلْيَوْمِ ٱلْـَٔاخِرِ وَمَا هُم بِمُؤْمِنِينَ",
+      "ur": "اور بعض لوگ ایسے ہیں جو کہتے ہیں کہ ہم خدا پر اور روزِ آخرت پر ایمان رکھتے ہیں حالانکہ وہ ایمان نہیں رکھتے",
+      "en": "And of the people are some who say, \"We believe in Allah and the Last Day,\" but they are not believers.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:8"
+    },
+    "pos_ar": "اسم موصول"
+  },
+  {
+    "id": 13,
+    "lemma_ar": "إِلَىٰ",
+    "lemma_lat": "ilā",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "P",
+    "pos_en": "preposition",
+    "freq": {
+      "count": 742,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 4,
+      "ar": "وَٱلَّذِينَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ وَبِٱلْـَٔاخِرَةِ هُمْ يُوقِنُونَ",
+      "ur": "اور جو کتاب (اے محمدﷺ) تم پر نازل ہوئی اور جو کتابیں تم سے پہلے (پیغمبروں پر) نازل ہوئیں سب پر ایمان لاتے اور آخرت کا یقین رکھتے ہیں",
+      "en": "And who believe in what has been revealed to you, [O Muhammad], and what was revealed before you, and of the Hereafter they are certain [in faith].",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:4"
+    },
+    "pos_ar": "حرف جر"
+  },
+  {
+    "id": 14,
+    "lemma_ar": "إِن",
+    "lemma_lat": "in",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "COND",
+    "pos_en": "conditional prt",
+    "freq": {
+      "count": 697,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 23,
+      "ar": "وَإِن كُنتُمْ فِى رَيْبٍ مِّمَّا نَزَّلْنَا عَلَىٰ عَبْدِنَا فَأْتُوا۟ بِسُورَةٍ مِّن مِّثْلِهِۦ وَٱدْعُوا۟ شُهَدَآءَكُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ",
+      "ur": "اور اگر تم کو اس (کتاب) میں، جو ہم نے اپنے بندے (محمدﷺ عربی) پر نازل فرمائی ہے کچھ شک ہو تو اسی طرح کی ایک سورت تم بھی بنا لاؤ اور خدا کے سوا جو تمہارے مددگار ہوں ان کو بھی بلالو اگر تم سچے ہو",
+      "en": "And if you are in doubt about what We have sent down upon Our Servant [Muhammad], then produce a surah the like thereof and call upon your witnesses other than Allah, if you should be truthful.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:23"
+    },
+    "pos_ar": "حرف شرط"
+  },
+  {
+    "id": 15,
+    "lemma_ar": "إِلَّا",
+    "lemma_lat": "illā",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "RES",
+    "pos_en": "response prt",
+    "freq": {
+      "count": 663,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 9,
+      "ar": "يُخَٰدِعُونَ ٱللَّهَ وَٱلَّذِينَ ءَامَنُوا۟ وَمَا يَخْدَعُونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ",
+      "ur": "یہ (اپنے پندار میں) خدا کو اور مومنوں کو چکما دیتے ہیں مگر (حقیقت میں) اپنے سوا کسی کو چکما نہیں دیتے اور اس سے بے خبر ہیں",
+      "en": "They [think to] deceive Allah and those who believe, but they deceive not except themselves and perceive [it] not.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:9"
+    },
+    "pos_ar": "حرف جواب"
+  },
+  {
+    "id": 16,
+    "lemma_ar": "أَن",
+    "lemma_lat": "an",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "SUB",
+    "pos_en": "subjunctive prt",
+    "freq": {
+      "count": 625,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 26,
+      "ar": "إِنَّ ٱللَّهَ لَا يَسْتَحْىِۦٓ أَن يَضْرِبَ مَثَلًا مَّا بَعُوضَةً فَمَا فَوْقَهَا فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ فَيَعْلَمُونَ أَنَّهُ ٱلْحَقُّ مِن رَّبِّهِمْ وَأَمَّا ٱلَّذِينَ كَفَرُوا۟ فَيَقُولُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَٰذَا مَثَلًا يُضِلُّ بِهِۦ كَثِيرًا وَيَهْدِى بِهِۦ كَثِيرًا وَمَا يُضِلُّ بِهِۦٓ إِلَّا ٱلْفَٰسِقِينَ",
+      "ur": "الله اس بات سے عار نہیں کرتا کہ مچھر یا اس سے بڑھ کر کسی چیز (مثلاً مکھی مکڑی وغیرہ) کی مثال بیان فرمائے۔ جو مومن ہیں، وہ یقین کرتے ہیں وہ ان کے پروردگار کی طرف سے سچ ہے اور جو کافر ہیں وہ کہتے ہیں کہ اس مثال سے خدا کی مراد ہی کیا ہے۔ اس سے (خدا) بہتوں کو گمراہ کرتا ہے اور بہتوں کو ہدایت بخشتا ہے اور گمراہ بھی کرتا تو نافرمانوں ہی کو",
+      "en": "Indeed, Allah is not timid to present an example - that of a mosquito or what is smaller than it. And those who have believed know that it is the truth from their Lord. But as for those who disbelieve, they say, \"What did Allah intend by this as an example?\" He misleads many thereby and guides many thereby. And He misleads not except the defiantly disobedient,",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:26"
+    },
+    "pos_ar": "حرف مصدري"
+  },
+  {
+    "id": 17,
+    "lemma_ar": "هُمْ",
+    "lemma_lat": "hum",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "PRON",
+    "pos_en": "pronoun",
+    "freq": {
+      "count": 585,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 4,
+      "ar": "وَٱلَّذِينَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ وَبِٱلْـَٔاخِرَةِ هُمْ يُوقِنُونَ",
+      "ur": "اور جو کتاب (اے محمدﷺ) تم پر نازل ہوئی اور جو کتابیں تم سے پہلے (پیغمبروں پر) نازل ہوئیں سب پر ایمان لاتے اور آخرت کا یقین رکھتے ہیں",
+      "en": "And who believe in what has been revealed to you, [O Muhammad], and what was revealed before you, and of the Hereafter they are certain [in faith].",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:4"
+    },
+    "pos_ar": "ضمير"
+  },
+  {
+    "id": 18,
+    "lemma_ar": "ءَامَنَ",
+    "lemma_lat": "ʾāmana",
+    "root_ar": "امن",
+    "root_lat": "amn",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 537,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 3,
+      "ar": "ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ",
+      "ur": "جو غیب پر ایمان لاتے اور آداب کے ساتھ نماز پڑھتے اور جو کچھ ہم نے ان کو عطا فرمایا ہے اس میں سے خرچ کرتے ہیں",
+      "en": "Who believe in the unseen, establish prayer, and spend out of what We have provided for them,",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:3"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 19,
+    "lemma_ar": "ذَٰلِك",
+    "lemma_lat": "dhālika",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "DEM",
+    "pos_en": "demonstrative",
+    "freq": {
+      "count": 520,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 2,
+      "ar": "ذَٰلِكَ ٱلْكِتَٰبُ لَا رَيْبَ فِيهِ هُدًى لِّلْمُتَّقِينَ",
+      "ur": "یہ کتاب (قرآن مجید) اس میں کچھ شک نہیں (کہ کلامِ خدا ہے۔ خدا سے) ڈرنے والوں کی رہنما ہے",
+      "en": "This is the Book about which there is no doubt, a guidance for those conscious of Allah -",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:2"
+    },
+    "pos_ar": "اسم إشارة"
+  },
+  {
+    "id": 20,
+    "lemma_ar": "هُوَ",
+    "lemma_lat": "huwa",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "PRON",
+    "pos_en": "pronoun",
+    "freq": {
+      "count": 481,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 29,
+      "ar": "هُوَ ٱلَّذِى خَلَقَ لَكُم مَّا فِى ٱلْأَرْضِ جَمِيعًا ثُمَّ ٱسْتَوَىٰٓ إِلَى ٱلسَّمَآءِ فَسَوَّىٰهُنَّ سَبْعَ سَمَٰوَٰتٍ وَهُوَ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "ur": "وہی تو ہے جس نے سب چیزیں جو زمین میں ہیں تمہارے لیے پیدا کیں پھر آسمان کی طرف متوجہ ہوا تو ان کو ٹھیک سات آسمان بنا دیا اور وہ ہر چیز سے خبردار ہے",
+      "en": "It is He who created for you all of that which is on the earth. Then He directed Himself to the heaven, [His being above all creation], and made them seven heavens, and He is Knowing of all things.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:29"
+    },
+    "pos_ar": "ضمير"
+  },
+  {
+    "id": 21,
+    "lemma_ar": "عَن",
+    "lemma_lat": "ʿan",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "P",
+    "pos_en": "preposition",
+    "freq": {
+      "count": 465,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 36,
+      "ar": "فَأَزَلَّهُمَا ٱلشَّيْطَٰنُ عَنْهَا فَأَخْرَجَهُمَا مِمَّا كَانَا فِيهِ وَقُلْنَا ٱهْبِطُوا۟ بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ وَلَكُمْ فِى ٱلْأَرْضِ مُسْتَقَرٌّ وَمَتَٰعٌ إِلَىٰ حِينٍ",
+      "ur": "پھر شیطان نے دونوں کو وہاں سے پھسلا دیا اور جس (عیش ونشاط) میں تھے، اس سے ان کو نکلوا دیا۔ تب ہم نے حکم دیا کہ (بہشت بریں سے) چلے جاؤ۔ تم ایک دوسرے کے دشمن ہو، اور تمہارے لیے زمین میں ایک وقت تک ٹھکانا اور معاش (مقرر کر دیا گیا) ہے",
+      "en": "But Satan caused them to slip out of it and removed them from that [condition] in which they had been. And We said, \"Go down, [all of you], as enemies to one another, and you will have upon the earth a place of settlement and provision for a time.\"",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:36"
+    },
+    "pos_ar": "حرف جر"
+  },
+  {
+    "id": 22,
+    "lemma_ar": "أَرْض",
+    "lemma_lat": "arḍ",
+    "root_ar": "ارض",
+    "root_lat": "arḍ",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 461,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 11,
+      "ar": "وَإِذَا قِيلَ لَهُمْ لَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ قَالُوٓا۟ إِنَّمَا نَحْنُ مُصْلِحُونَ",
+      "ur": "اور جب ان سے کہا جاتا ہے کہ زمین میں فساد نہ ڈالو تو کہتے ہیں، ہم تو اصلاح کرنے والے ہیں",
+      "en": "And when it is said to them, \"Do not cause corruption on the earth,\" they say, \"We are but reformers.\"",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:11"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 23,
+    "lemma_ar": "إِذَا",
+    "lemma_lat": "idhā",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "T",
+    "pos_en": "time adverb",
+    "freq": {
+      "count": 409,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 11,
+      "ar": "وَإِذَا قِيلَ لَهُمْ لَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ قَالُوٓا۟ إِنَّمَا نَحْنُ مُصْلِحُونَ",
+      "ur": "اور جب ان سے کہا جاتا ہے کہ زمین میں فساد نہ ڈالو تو کہتے ہیں، ہم تو اصلاح کرنے والے ہیں",
+      "en": "And when it is said to them, \"Do not cause corruption on the earth,\" they say, \"We are but reformers.\"",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:11"
+    },
+    "pos_ar": "ظرف زمان"
+  },
+  {
+    "id": 24,
+    "lemma_ar": "قَد",
+    "lemma_lat": "qad",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "CERT",
+    "pos_en": "CERT",
+    "freq": {
+      "count": 406,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 60,
+      "ar": "وَإِذِ ٱسْتَسْقَىٰ مُوسَىٰ لِقَوْمِهِۦ فَقُلْنَا ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ فَٱنفَجَرَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ كُلُوا۟ وَٱشْرَبُوا۟ مِن رِّزْقِ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+      "ur": "اور جب موسیٰ نے اپنی قوم کے لیے (خدا سے) پانی مانگا تو ہم نے کہا کہ اپنی لاٹھی پتھر پر مارو۔ (انہوں نے لاٹھی ماری) تو پھر اس میں سے بارہ چشمے پھوٹ نکلے، اور تمام لوگوں نے اپنا اپنا گھاٹ معلوم کر (کے پانی پی) لیا۔ (ہم نے حکم دیا کہ) خدا کی (عطا فرمائی ہوئی) روزی کھاؤ اور پیو، مگر زمین میں فساد نہ کرتے پھرنا",
+      "en": "And [recall] when Moses prayed for water for his people, so We said, \"Strike with your staff the stone.\" And there gushed forth from it twelve springs, and every people knew its watering place. \"Eat and drink from the provision of Allah, and do not commit abuse on the earth, spreading corruption.\"",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:60"
+    },
+    "pos_ar": "CERT"
+  },
+  {
+    "id": 25,
+    "lemma_ar": "يَوْم",
+    "lemma_lat": "yawm",
+    "root_ar": "يوم",
+    "root_lat": "ywm",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 405,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 1,
+      "ayah": 4,
+      "ar": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+      "ur": "انصاف کے دن کا حاکم",
+      "en": "Sovereign of the Day of Recompense.",
+      "surah_name_en": "Al-Faatiha",
+      "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
+      "ref": "Al-Faatiha 1:4"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 26,
+    "lemma_ar": "قَوْم",
+    "lemma_lat": "qawm",
+    "root_ar": "قوم",
+    "root_lat": "qwm",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 383,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 54,
+      "ar": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦ يَٰقَوْمِ إِنَّكُمْ ظَلَمْتُمْ أَنفُسَكُم بِٱتِّخَاذِكُمُ ٱلْعِجْلَ فَتُوبُوٓا۟ إِلَىٰ بَارِئِكُمْ فَٱقْتُلُوٓا۟ أَنفُسَكُمْ ذَٰلِكُمْ خَيْرٌ لَّكُمْ عِندَ بَارِئِكُمْ فَتَابَ عَلَيْكُمْ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+      "ur": "اور جب موسیٰ نے اپنی قوم کے لوگوں سے کہا کہ بھائیو، تم نے بچھڑے کو (معبود) ٹھہرانے میں (بڑا) ظلم کیا ہے، تو اپنے پیدا کرنے والے کے آگے توبہ کرو اور اپنے تئیں ہلاک کر ڈالو۔ تمہارے خالق کے نزدیک تمہارے حق میں یہی بہتر ہے۔ پھر اس نے تمہارا قصور معاف کر دیا۔ وہ بے شک معاف کرنے والا (اور) صاحبِ رحم ہے",
+      "en": "And [recall] when Moses said to his people, \"O my people, indeed you have wronged yourselves by your taking of the calf [for worship]. So repent to your Creator and kill yourselves. That is best for [all of] you in the sight of your Creator.\" Then He accepted your repentance; indeed, He is the Accepting of repentance, the Merciful.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:54"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 27,
+    "lemma_ar": "عَلِمَ",
+    "lemma_lat": "ʿalima",
+    "root_ar": "علم",
+    "root_lat": "ʿlm",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 382,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 13,
+      "ar": "وَإِذَا قِيلَ لَهُمْ ءَامِنُوا۟ كَمَآ ءَامَنَ ٱلنَّاسُ قَالُوٓا۟ أَنُؤْمِنُ كَمَآ ءَامَنَ ٱلسُّفَهَآءُ أَلَآ إِنَّهُمْ هُمُ ٱلسُّفَهَآءُ وَلَٰكِن لَّا يَعْلَمُونَ",
+      "ur": "اور جب ان سے کہا جاتا ہے کہ جس طرح اور لوگ ایمان لے آئے، تم بھی ایمان لے آؤ تو کہتے ہیں، بھلا جس طرح بےوقوف ایمان لے آئے ہیں اسی طرح ہم بھی ایمان لے آئیں؟ سن لو کہ یہی بےوقوف ہیں لیکن نہیں جانتے",
+      "en": "And when it is said to them, \"Believe as the people have believed,\" they say, \"Should we believe as the foolish have believed?\" Unquestionably, it is they who are the foolish, but they know [it] not.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:13"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 28,
+    "lemma_ar": "ءَايَة",
+    "lemma_lat": "ʾāyah",
+    "root_ar": "ايي",
+    "root_lat": "ayy",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 382,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 39,
+      "ar": "وَٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِـَٔايَٰتِنَآ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ هُمْ فِيهَا خَٰلِدُونَ",
+      "ur": "اور جنہوں نے (اس کو) قبول نہ کیا اور ہماری آیتوں کو جھٹلایا، وہ دوزخ میں جانے والے ہیں (اور) وہ ہمیشہ اس میں رہیں گے",
+      "en": "And those who disbelieve and deny Our signs - those will be companions of the Fire; they will abide therein eternally.\"",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:39"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 29,
+    "lemma_ar": "أَنّ",
+    "lemma_lat": "anna",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "ACC",
+    "pos_en": "accusative prt",
+    "freq": {
+      "count": 362,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 25,
+      "ar": "وَبَشِّرِ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أَنَّ لَهُمْ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ كُلَّمَا رُزِقُوا۟ مِنْهَا مِن ثَمَرَةٍ رِّزْقًا قَالُوا۟ هَٰذَا ٱلَّذِى رُزِقْنَا مِن قَبْلُ وَأُتُوا۟ بِهِۦ مُتَشَٰبِهًا وَلَهُمْ فِيهَآ أَزْوَٰجٌ مُّطَهَّرَةٌ وَهُمْ فِيهَا خَٰلِدُونَ",
+      "ur": "اور جو لوگ ایمان لائے اور نیک عمل کرتے رہے، ان کو خوشخبری سنا دو کہ ان کے لیے (نعمت کے) باغ ہیں، جن کے نیچے نہریں بہہ رہی ہیں۔ جب انہیں ان میں سے کسی قسم کا میوہ کھانے کو دیا جائے گا تو کہیں گے، یہ تو وہی ہے جو ہم کو پہلے دیا گیا تھا۔ اور ان کو ایک دوسرے کے ہم شکل میوے دیئے جائیں گے اور وہاں ان کے لیے پاک بیویاں ہوں گی اور وہ بہشتوں میں ہمیشہ رہیں گے",
+      "en": "And give good tidings to those who believe and do righteous deeds that they will have gardens [in Paradise] beneath which rivers flow. Whenever they are provided with a provision of fruit therefrom, they will say, \"This is what we were provided with before.\" And it is given to them in likeness. And they will have therein purified spouses, and they will abide therein eternally.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:25"
+    },
+    "pos_ar": "حرف نصب"
+  },
+  {
+    "id": 30,
+    "lemma_ar": "كُلّ",
+    "lemma_lat": "kull",
+    "root_ar": "كلل",
+    "root_lat": "kll",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 359,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 20,
+      "ar": "يَكَادُ ٱلْبَرْقُ يَخْطَفُ أَبْصَٰرَهُمْ كُلَّمَآ أَضَآءَ لَهُم مَّشَوْا۟ فِيهِ وَإِذَآ أَظْلَمَ عَلَيْهِمْ قَامُوا۟ وَلَوْ شَآءَ ٱللَّهُ لَذَهَبَ بِسَمْعِهِمْ وَأَبْصَٰرِهِمْ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "ur": "قریب ہے کہ بجلی (کی چمک) ان کی آنکھوں (کی بصارت) کو اچک لے جائے۔ جب بجلی (چمکتی اور) ان پر روشنی ڈالی ہے تو اس میں چل پڑتے ہیں اور جب اندھیرا ہو جاتا ہے تو کھڑے کے کھڑے رہ جاتے ہیں اور اگر الله چاہتا تو ان کے کانوں (کی شنوائی) اور آنکھوں (کی بینائی دونوں) کو زائل کر دیتا ہے۔ بے شک الله ہر چیز پر قادر ہے",
+      "en": "The lightning almost snatches away their sight. Every time it lights [the way] for them, they walk therein; but when darkness comes over them, they stand [still]. And if Allah had willed, He could have taken away their hearing and their sight. Indeed, Allah is over all things competent.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:20"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 31,
+    "lemma_ar": "لَم",
+    "lemma_lat": "lam",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "NEG",
+    "pos_en": "negation",
+    "freq": {
+      "count": 353,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 6,
+      "ar": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ سَوَآءٌ عَلَيْهِمْ ءَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ",
+      "ur": "جو لوگ کافر ہیں انہیں تم نصیحت کرو یا نہ کرو ان کے لیے برابر ہے۔ وہ ایمان نہیں لانے کے",
+      "en": "Indeed, those who disbelieve - it is all the same for them whether you warn them or do not warn them - they will not believe.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:6"
+    },
+    "pos_ar": "حرف نفي"
+  },
+  {
+    "id": 32,
+    "lemma_ar": "جَعَلَ",
+    "lemma_lat": "jaʿala",
+    "root_ar": "جعل",
+    "root_lat": "jʿl",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 340,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 19,
+      "ar": "أَوْ كَصَيِّبٍ مِّنَ ٱلسَّمَآءِ فِيهِ ظُلُمَٰتٌ وَرَعْدٌ وَبَرْقٌ يَجْعَلُونَ أَصَٰبِعَهُمْ فِىٓ ءَاذَانِهِم مِّنَ ٱلصَّوَٰعِقِ حَذَرَ ٱلْمَوْتِ وَٱللَّهُ مُحِيطٌۢ بِٱلْكَٰفِرِينَ",
+      "ur": "یا ان کی مثال مینہ کی سی ہے کہ آسمان سے (برس رہا ہو اور) اس میں اندھیرے پر اندھیرا (چھا رہا) ہو اور (بادل) گرج (رہا) ہو اور بجلی (کوند رہی) ہو تو یہ کڑک سے (ڈر کر) موت کے خوف سے کانوں میں انگلیاں دے لیں اور الله کافروں کو (ہر طرف سے) گھیرے ہوئے ہے",
+      "en": "Or [it is] like a rainstorm from the sky within which is darkness, thunder and lightning. They put their fingers in their ears against the thunderclaps in dread of death. But Allah is encompassing of the disbelievers.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:19"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 33,
+    "lemma_ar": "ثُمّ",
+    "lemma_lat": "thumma",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "CONJ",
+    "pos_en": "conjunction",
+    "freq": {
+      "count": 338,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 28,
+      "ar": "كَيْفَ تَكْفُرُونَ بِٱللَّهِ وَكُنتُمْ أَمْوَٰتًا فَأَحْيَٰكُمْ ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ ثُمَّ إِلَيْهِ تُرْجَعُونَ",
+      "ur": "(کافرو!) تم خدا سے کیوں کر منکر ہو سکتے ہو جس حال میں کہ تم بےجان تھے تو اس نے تم کو جان بخشی پھر وہی تم کو مارتا ہے پھر وہی تم کو زندہ کرے گا پھر تم اسی کی طرف لوٹ کر جاؤ گے",
+      "en": "How can you disbelieve in Allah when you were lifeless and He brought you to life; then He will cause you to die, then He will bring you [back] to life, and then to Him you will be returned.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:28"
+    },
+    "pos_ar": "حرف عطف"
+  },
+  {
+    "id": 34,
+    "lemma_ar": "رَسُول",
+    "lemma_lat": "rasūl",
+    "root_ar": "رسل",
+    "root_lat": "rsl",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 332,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 87,
+      "ar": "وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْكِتَٰبَ وَقَفَّيْنَا مِنۢ بَعْدِهِۦ بِٱلرُّسُلِ وَءَاتَيْنَا عِيسَى ٱبْنَ مَرْيَمَ ٱلْبَيِّنَٰتِ وَأَيَّدْنَٰهُ بِرُوحِ ٱلْقُدُسِ أَفَكُلَّمَا جَآءَكُمْ رَسُولٌۢ بِمَا لَا تَهْوَىٰٓ أَنفُسُكُمُ ٱسْتَكْبَرْتُمْ فَفَرِيقًا كَذَّبْتُمْ وَفَرِيقًا تَقْتُلُونَ",
+      "ur": "اور ہم نے موسیٰ کو کتاب عنایت کی اور ان کے پیچھے یکے بعد دیگرے پیغمبر بھیجتے رہے اور عیسیٰ بن مریم کو کھلے نشانات بخشے اور روح القدس (یعنی جبرئیل) سے ان کو مدد دی۔تو جب کوئی پیغمبر تمہارے پاس ایسی باتیں لے کر آئے، جن کو تمہارا جی نہیں چاہتا تھا، تو تم سرکش ہو جاتے رہے، اور ایک گروہ (انبیاء) کو تو جھٹلاتے رہے اور ایک گروہ کو قتل کرتے رہے",
+      "en": "And We did certainly give Moses the Torah and followed up after him with messengers. And We gave Jesus, the son of Mary, clear proofs and supported him with the Pure Spirit. But is it [not] that every time a messenger came to you, [O Children of Israel], with what your souls did not desire, you were arrogant? And a party [of messengers] you denied and another party you killed.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:87"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 35,
+    "lemma_ar": "عَذَاب",
+    "lemma_lat": "ʿadhāb",
+    "root_ar": "عذب",
+    "root_lat": "ʿdhb",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 322,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 7,
+      "ar": "خَتَمَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰٓ أَبْصَٰرِهِمْ غِشَٰوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+      "ur": "خدا نے ان کے دلوں اور کانوں پر مہر لگا رکھی ہے اور ان کی آنکھوں پر پردہ (پڑا ہوا) ہے اور ان کے لیے بڑا عذاب (تیار) ہے",
+      "en": "Allah has set a seal upon their hearts and upon their hearing, and over their vision is a veil. And for them is a great punishment.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:7"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 36,
+    "lemma_ar": "هَٰذَا",
+    "lemma_lat": "haādhā",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "DEM",
+    "pos_en": "demonstrative",
+    "freq": {
+      "count": 318,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 25,
+      "ar": "وَبَشِّرِ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أَنَّ لَهُمْ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ كُلَّمَا رُزِقُوا۟ مِنْهَا مِن ثَمَرَةٍ رِّزْقًا قَالُوا۟ هَٰذَا ٱلَّذِى رُزِقْنَا مِن قَبْلُ وَأُتُوا۟ بِهِۦ مُتَشَٰبِهًا وَلَهُمْ فِيهَآ أَزْوَٰجٌ مُّطَهَّرَةٌ وَهُمْ فِيهَا خَٰلِدُونَ",
+      "ur": "اور جو لوگ ایمان لائے اور نیک عمل کرتے رہے، ان کو خوشخبری سنا دو کہ ان کے لیے (نعمت کے) باغ ہیں، جن کے نیچے نہریں بہہ رہی ہیں۔ جب انہیں ان میں سے کسی قسم کا میوہ کھانے کو دیا جائے گا تو کہیں گے، یہ تو وہی ہے جو ہم کو پہلے دیا گیا تھا۔ اور ان کو ایک دوسرے کے ہم شکل میوے دیئے جائیں گے اور وہاں ان کے لیے پاک بیویاں ہوں گی اور وہ بہشتوں میں ہمیشہ رہیں گے",
+      "en": "And give good tidings to those who believe and do righteous deeds that they will have gardens [in Paradise] beneath which rivers flow. Whenever they are provided with a provision of fruit therefrom, they will say, \"This is what we were provided with before.\" And it is given to them in likeness. And they will have therein purified spouses, and they will abide therein eternally.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:25"
+    },
+    "pos_ar": "اسم إشارة"
+  },
+  {
+    "id": 37,
+    "lemma_ar": "سَمَا^ء",
+    "lemma_lat": "samā^ʾ",
+    "root_ar": "سمو",
+    "root_lat": "smw",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 310,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 19,
+      "ar": "أَوْ كَصَيِّبٍ مِّنَ ٱلسَّمَآءِ فِيهِ ظُلُمَٰتٌ وَرَعْدٌ وَبَرْقٌ يَجْعَلُونَ أَصَٰبِعَهُمْ فِىٓ ءَاذَانِهِم مِّنَ ٱلصَّوَٰعِقِ حَذَرَ ٱلْمَوْتِ وَٱللَّهُ مُحِيطٌۢ بِٱلْكَٰفِرِينَ",
+      "ur": "یا ان کی مثال مینہ کی سی ہے کہ آسمان سے (برس رہا ہو اور) اس میں اندھیرے پر اندھیرا (چھا رہا) ہو اور (بادل) گرج (رہا) ہو اور بجلی (کوند رہی) ہو تو یہ کڑک سے (ڈر کر) موت کے خوف سے کانوں میں انگلیاں دے لیں اور الله کافروں کو (ہر طرف سے) گھیرے ہوئے ہے",
+      "en": "Or [it is] like a rainstorm from the sky within which is darkness, thunder and lightning. They put their fingers in their ears against the thunderclaps in dread of death. But Allah is encompassing of the disbelievers.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:19"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 38,
+    "lemma_ar": "نَفْس",
+    "lemma_lat": "nafs",
+    "root_ar": "نفس",
+    "root_lat": "nfs",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 295,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 9,
+      "ar": "يُخَٰدِعُونَ ٱللَّهَ وَٱلَّذِينَ ءَامَنُوا۟ وَمَا يَخْدَعُونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ",
+      "ur": "یہ (اپنے پندار میں) خدا کو اور مومنوں کو چکما دیتے ہیں مگر (حقیقت میں) اپنے سوا کسی کو چکما نہیں دیتے اور اس سے بے خبر ہیں",
+      "en": "They [think to] deceive Allah and those who believe, but they deceive not except themselves and perceive [it] not.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:9"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 39,
+    "lemma_ar": "كَفَرَ",
+    "lemma_lat": "kafara",
+    "root_ar": "كفر",
+    "root_lat": "kfr",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 289,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 6,
+      "ar": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ سَوَآءٌ عَلَيْهِمْ ءَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ",
+      "ur": "جو لوگ کافر ہیں انہیں تم نصیحت کرو یا نہ کرو ان کے لیے برابر ہے۔ وہ ایمان نہیں لانے کے",
+      "en": "Indeed, those who disbelieve - it is all the same for them whether you warn them or do not warn them - they will not believe.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:6"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 40,
+    "lemma_ar": "شَىْء",
+    "lemma_lat": "shāʾ",
+    "root_ar": "شيا",
+    "root_lat": "shya",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 283,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 20,
+      "ar": "يَكَادُ ٱلْبَرْقُ يَخْطَفُ أَبْصَٰرَهُمْ كُلَّمَآ أَضَآءَ لَهُم مَّشَوْا۟ فِيهِ وَإِذَآ أَظْلَمَ عَلَيْهِمْ قَامُوا۟ وَلَوْ شَآءَ ٱللَّهُ لَذَهَبَ بِسَمْعِهِمْ وَأَبْصَٰرِهِمْ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "ur": "قریب ہے کہ بجلی (کی چمک) ان کی آنکھوں (کی بصارت) کو اچک لے جائے۔ جب بجلی (چمکتی اور) ان پر روشنی ڈالی ہے تو اس میں چل پڑتے ہیں اور جب اندھیرا ہو جاتا ہے تو کھڑے کے کھڑے رہ جاتے ہیں اور اگر الله چاہتا تو ان کے کانوں (کی شنوائی) اور آنکھوں (کی بینائی دونوں) کو زائل کر دیتا ہے۔ بے شک الله ہر چیز پر قادر ہے",
+      "en": "The lightning almost snatches away their sight. Every time it lights [the way] for them, they walk therein; but when darkness comes over them, they stand [still]. And if Allah had willed, He could have taken away their hearing and their sight. Indeed, Allah is over all things competent.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:20"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 41,
+    "lemma_ar": "أَو",
+    "lemma_lat": "aw",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "CONJ",
+    "pos_en": "conjunction",
+    "freq": {
+      "count": 280,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 19,
+      "ar": "أَوْ كَصَيِّبٍ مِّنَ ٱلسَّمَآءِ فِيهِ ظُلُمَٰتٌ وَرَعْدٌ وَبَرْقٌ يَجْعَلُونَ أَصَٰبِعَهُمْ فِىٓ ءَاذَانِهِم مِّنَ ٱلصَّوَٰعِقِ حَذَرَ ٱلْمَوْتِ وَٱللَّهُ مُحِيطٌۢ بِٱلْكَٰفِرِينَ",
+      "ur": "یا ان کی مثال مینہ کی سی ہے کہ آسمان سے (برس رہا ہو اور) اس میں اندھیرے پر اندھیرا (چھا رہا) ہو اور (بادل) گرج (رہا) ہو اور بجلی (کوند رہی) ہو تو یہ کڑک سے (ڈر کر) موت کے خوف سے کانوں میں انگلیاں دے لیں اور الله کافروں کو (ہر طرف سے) گھیرے ہوئے ہے",
+      "en": "Or [it is] like a rainstorm from the sky within which is darkness, thunder and lightning. They put their fingers in their ears against the thunderclaps in dread of death. But Allah is encompassing of the disbelievers.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:19"
+    },
+    "pos_ar": "حرف عطف"
+  },
+  {
+    "id": 42,
+    "lemma_ar": "جَا^ءَ",
+    "lemma_lat": "jā^ʾa",
+    "root_ar": "جيا",
+    "root_lat": "jya",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 278,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 71,
+      "ar": "قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا ذَلُولٌ تُثِيرُ ٱلْأَرْضَ وَلَا تَسْقِى ٱلْحَرْثَ مُسَلَّمَةٌ لَّا شِيَةَ فِيهَا قَالُوا۟ ٱلْـَٰٔنَ جِئْتَ بِٱلْحَقِّ فَذَبَحُوهَا وَمَا كَادُوا۟ يَفْعَلُونَ",
+      "ur": "موسیٰ نے کہا کہ خدا فرماتا ہے کہ وہ بیل کام میں لگا ہوا نہ ہو، نہ تو زمین جوتتا ہو اور نہ کھیتی کو پانی دیتا ہو۔ اس میں کسی طرح کا داغ نہ ہو۔ کہنے لگے، اب تم نے سب باتیں درست بتا دیں۔ غرض (بڑی مشکل سے) انہوں نے اس بیل کو ذبح کیا، اور وہ ایسا کرنے والے تھے نہیں",
+      "en": "He said, \"He says, 'It is a cow neither trained to plow the earth nor to irrigate the field, one free from fault with no spot upon her.' \" They said, \"Now you have come with the truth.\" So they slaughtered her, but they could hardly do it.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:71"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 43,
+    "lemma_ar": "عَمِلَ",
+    "lemma_lat": "ʿamila",
+    "root_ar": "عمل",
+    "root_lat": "ʿml",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 276,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 25,
+      "ar": "وَبَشِّرِ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أَنَّ لَهُمْ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ كُلَّمَا رُزِقُوا۟ مِنْهَا مِن ثَمَرَةٍ رِّزْقًا قَالُوا۟ هَٰذَا ٱلَّذِى رُزِقْنَا مِن قَبْلُ وَأُتُوا۟ بِهِۦ مُتَشَٰبِهًا وَلَهُمْ فِيهَآ أَزْوَٰجٌ مُّطَهَّرَةٌ وَهُمْ فِيهَا خَٰلِدُونَ",
+      "ur": "اور جو لوگ ایمان لائے اور نیک عمل کرتے رہے، ان کو خوشخبری سنا دو کہ ان کے لیے (نعمت کے) باغ ہیں، جن کے نیچے نہریں بہہ رہی ہیں۔ جب انہیں ان میں سے کسی قسم کا میوہ کھانے کو دیا جائے گا تو کہیں گے، یہ تو وہی ہے جو ہم کو پہلے دیا گیا تھا۔ اور ان کو ایک دوسرے کے ہم شکل میوے دیئے جائیں گے اور وہاں ان کے لیے پاک بیویاں ہوں گی اور وہ بہشتوں میں ہمیشہ رہیں گے",
+      "en": "And give good tidings to those who believe and do righteous deeds that they will have gardens [in Paradise] beneath which rivers flow. Whenever they are provided with a provision of fruit therefrom, they will say, \"This is what we were provided with before.\" And it is given to them in likeness. And they will have therein purified spouses, and they will abide therein eternally.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:25"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 44,
+    "lemma_ar": "ا^تَى",
+    "lemma_lat": "ā^tā",
+    "root_ar": "اتي",
+    "root_lat": "aty",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 271,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 43,
+      "ar": "وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَٱرْكَعُوا۟ مَعَ ٱلرَّٰكِعِينَ",
+      "ur": "اور نماز پڑھا کرو اور زکوٰة دیا کرو اور (خدا کے آگے) جھکنے والوں کے ساتھ جھکا کرو",
+      "en": "And establish prayer and give zakah and bow with those who bow [in worship and obedience].",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:43"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 45,
+    "lemma_ar": "رَءَا",
+    "lemma_lat": "raʾā",
+    "root_ar": "راي",
+    "root_lat": "ray",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 271,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 55,
+      "ar": "وَإِذْ قُلْتُمْ يَٰمُوسَىٰ لَن نُّؤْمِنَ لَكَ حَتَّىٰ نَرَى ٱللَّهَ جَهْرَةً فَأَخَذَتْكُمُ ٱلصَّٰعِقَةُ وَأَنتُمْ تَنظُرُونَ",
+      "ur": "اور جب تم نے (موسیٰ) سے کہا کہ موسیٰ، جب تک ہم خدا کو سامنے نہ دیکھ لیں گے، تم پر ایمان نہیں لائیں گے، تو تم کو بجلی نے آ گھیرا اور تم دیکھ رہے تھے",
+      "en": "And [recall] when you said, \"O Moses, we will never believe you until we see Allah outright\"; so the thunderbolt took you while you were looking on.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:55"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 46,
+    "lemma_ar": "بَيْن",
+    "lemma_lat": "bayn",
+    "root_ar": "بين",
+    "root_lat": "byn",
+    "pos": "LOC",
+    "pos_en": "LOC",
+    "freq": {
+      "count": 266,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 66,
+      "ar": "فَجَعَلْنَٰهَا نَكَٰلًا لِّمَا بَيْنَ يَدَيْهَا وَمَا خَلْفَهَا وَمَوْعِظَةً لِّلْمُتَّقِينَ",
+      "ur": "اور اس قصے کو اس وقت کے لوگوں کے لیے اور جو ان کے بعد آنے والے تھے عبرت اور پرہیز گاروں کے لیے نصیحت بنا دیا",
+      "en": "And We made it a deterrent punishment for those who were present and those who succeeded [them] and a lesson for those who fear Allah.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:66"
+    },
+    "pos_ar": "LOC"
+  },
+  {
+    "id": 47,
+    "lemma_ar": "أَتَى",
+    "lemma_lat": "atā",
+    "root_ar": "اتي",
+    "root_lat": "aty",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 264,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 23,
+      "ar": "وَإِن كُنتُمْ فِى رَيْبٍ مِّمَّا نَزَّلْنَا عَلَىٰ عَبْدِنَا فَأْتُوا۟ بِسُورَةٍ مِّن مِّثْلِهِۦ وَٱدْعُوا۟ شُهَدَآءَكُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ",
+      "ur": "اور اگر تم کو اس (کتاب) میں، جو ہم نے اپنے بندے (محمدﷺ عربی) پر نازل فرمائی ہے کچھ شک ہو تو اسی طرح کی ایک سورت تم بھی بنا لاؤ اور خدا کے سوا جو تمہارے مددگار ہوں ان کو بھی بلالو اگر تم سچے ہو",
+      "en": "And if you are in doubt about what We have sent down upon Our Servant [Muhammad], then produce a surah the like thereof and call upon your witnesses other than Allah, if you should be truthful.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:23"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 48,
+    "lemma_ar": "كُمْ",
+    "lemma_lat": "kum",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "PRON",
+    "pos_en": "pronoun",
+    "freq": {
+      "count": 262,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 22,
+      "ar": "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ فِرَٰشًا وَٱلسَّمَآءَ بِنَآءً وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجَ بِهِۦ مِنَ ٱلثَّمَرَٰتِ رِزْقًا لَّكُمْ فَلَا تَجْعَلُوا۟ لِلَّهِ أَندَادًا وَأَنتُمْ تَعْلَمُونَ",
+      "ur": "جس نے تمھارے لیے زمین کو بچھونا اور آسمان کو چھت بنایا اور آسمان سے مینہ برسا کر تمہارے کھانے کے لیے انواع و اقسام کے میوے پیدا کئے۔ پس کسی کو خدا کا ہمسر نہ بناؤ۔ اور تم جانتے تو ہو",
+      "en": "[He] who made for you the earth a bed [spread out] and the sky a ceiling and sent down from the sky, rain and brought forth thereby fruits as provision for you. So do not attribute to Allah equals while you know [that there is nothing similar to Him].",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:22"
+    },
+    "pos_ar": "ضمير"
+  },
+  {
+    "id": 49,
+    "lemma_ar": "هِ.",
+    "lemma_lat": "hi.",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "PRON",
+    "pos_en": "pronoun",
+    "freq": {
+      "count": 261,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 22,
+      "ar": "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ فِرَٰشًا وَٱلسَّمَآءَ بِنَآءً وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجَ بِهِۦ مِنَ ٱلثَّمَرَٰتِ رِزْقًا لَّكُمْ فَلَا تَجْعَلُوا۟ لِلَّهِ أَندَادًا وَأَنتُمْ تَعْلَمُونَ",
+      "ur": "جس نے تمھارے لیے زمین کو بچھونا اور آسمان کو چھت بنایا اور آسمان سے مینہ برسا کر تمہارے کھانے کے لیے انواع و اقسام کے میوے پیدا کئے۔ پس کسی کو خدا کا ہمسر نہ بناؤ۔ اور تم جانتے تو ہو",
+      "en": "[He] who made for you the earth a bed [spread out] and the sky a ceiling and sent down from the sky, rain and brought forth thereby fruits as provision for you. So do not attribute to Allah equals while you know [that there is nothing similar to Him].",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:22"
+    },
+    "pos_ar": "ضمير"
+  },
+  {
+    "id": 50,
+    "lemma_ar": "كِتَٰب",
+    "lemma_lat": "kitaāb",
+    "root_ar": "كتب",
+    "root_lat": "ktb",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 260,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 2,
+      "ar": "ذَٰلِكَ ٱلْكِتَٰبُ لَا رَيْبَ فِيهِ هُدًى لِّلْمُتَّقِينَ",
+      "ur": "یہ کتاب (قرآن مجید) اس میں کچھ شک نہیں (کہ کلامِ خدا ہے۔ خدا سے) ڈرنے والوں کی رہنما ہے",
+      "en": "This is the Book about which there is no doubt, a guidance for those conscious of Allah -",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:2"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 51,
+    "lemma_ar": "حَقّ",
+    "lemma_lat": "ḥaqq",
+    "root_ar": "حقق",
+    "root_lat": "ḥqq",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 247,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 26,
+      "ar": "إِنَّ ٱللَّهَ لَا يَسْتَحْىِۦٓ أَن يَضْرِبَ مَثَلًا مَّا بَعُوضَةً فَمَا فَوْقَهَا فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ فَيَعْلَمُونَ أَنَّهُ ٱلْحَقُّ مِن رَّبِّهِمْ وَأَمَّا ٱلَّذِينَ كَفَرُوا۟ فَيَقُولُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَٰذَا مَثَلًا يُضِلُّ بِهِۦ كَثِيرًا وَيَهْدِى بِهِۦ كَثِيرًا وَمَا يُضِلُّ بِهِۦٓ إِلَّا ٱلْفَٰسِقِينَ",
+      "ur": "الله اس بات سے عار نہیں کرتا کہ مچھر یا اس سے بڑھ کر کسی چیز (مثلاً مکھی مکڑی وغیرہ) کی مثال بیان فرمائے۔ جو مومن ہیں، وہ یقین کرتے ہیں وہ ان کے پروردگار کی طرف سے سچ ہے اور جو کافر ہیں وہ کہتے ہیں کہ اس مثال سے خدا کی مراد ہی کیا ہے۔ اس سے (خدا) بہتوں کو گمراہ کرتا ہے اور بہتوں کو ہدایت بخشتا ہے اور گمراہ بھی کرتا تو نافرمانوں ہی کو",
+      "en": "Indeed, Allah is not timid to present an example - that of a mosquito or what is smaller than it. And those who have believed know that it is the truth from their Lord. But as for those who disbelieve, they say, \"What did Allah intend by this as an example?\" He misleads many thereby and guides many thereby. And He misleads not except the defiantly disobedient,",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:26"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 52,
+    "lemma_ar": "قَبْل",
+    "lemma_lat": "qabl",
+    "root_ar": "قبل",
+    "root_lat": "qbl",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 242,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 4,
+      "ar": "وَٱلَّذِينَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ وَبِٱلْـَٔاخِرَةِ هُمْ يُوقِنُونَ",
+      "ur": "اور جو کتاب (اے محمدﷺ) تم پر نازل ہوئی اور جو کتابیں تم سے پہلے (پیغمبروں پر) نازل ہوئیں سب پر ایمان لاتے اور آخرت کا یقین رکھتے ہیں",
+      "en": "And who believe in what has been revealed to you, [O Muhammad], and what was revealed before you, and of the Hereafter they are certain [in faith].",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:4"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 53,
+    "lemma_ar": "نَّاس",
+    "lemma_lat": "nnās",
+    "root_ar": "نوس",
+    "root_lat": "nws",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 241,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 8,
+      "ar": "وَمِنَ ٱلنَّاسِ مَن يَقُولُ ءَامَنَّا بِٱللَّهِ وَبِٱلْيَوْمِ ٱلْـَٔاخِرِ وَمَا هُم بِمُؤْمِنِينَ",
+      "ur": "اور بعض لوگ ایسے ہیں جو کہتے ہیں کہ ہم خدا پر اور روزِ آخرت پر ایمان رکھتے ہیں حالانکہ وہ ایمان نہیں رکھتے",
+      "en": "And of the people are some who say, \"We believe in Allah and the Last Day,\" but they are not believers.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:8"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 54,
+    "lemma_ar": "إِذ",
+    "lemma_lat": "idh",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "T",
+    "pos_en": "time adverb",
+    "freq": {
+      "count": 239,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 30,
+      "ar": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى جَاعِلٌ فِى ٱلْأَرْضِ خَلِيفَةً قَالُوٓا۟ أَتَجْعَلُ فِيهَا مَن يُفْسِدُ فِيهَا وَيَسْفِكُ ٱلدِّمَآءَ وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ وَنُقَدِّسُ لَكَ قَالَ إِنِّىٓ أَعْلَمُ مَا لَا تَعْلَمُونَ",
+      "ur": "اور (وہ وقت یاد کرنے کے قابل ہے) جب تمہارے پروردگار نے فرشتوں سے فرمایا کہ میں زمین میں (اپنا) نائب بنانے والا ہوں۔ انہوں نے کہا۔ کیا تُو اس میں ایسے شخص کو نائب بنانا چاہتا ہے جو خرابیاں کرے اور کشت وخون کرتا پھرے اور ہم تیری تعریف کے ساتھ تسبیح وتقدیس کرتے رہتے ہیں۔ (خدا نے) فرمایا میں وہ باتیں جانتا ہوں جو تم نہیں جانتے",
+      "en": "And [mention, O Muhammad], when your Lord said to the angels, \"Indeed, I will make upon the earth a successive authority.\" They said, \"Will You place upon it one who causes corruption therein and sheds blood, while we declare Your praise and sanctify You?\" Allah said, \"Indeed, I know that which you do not know.\"",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:30"
+    },
+    "pos_ar": "ظرف زمان"
+  },
+  {
+    "id": 55,
+    "lemma_ar": "شَا^ءَ",
+    "lemma_lat": "shā^ʾa",
+    "root_ar": "شيا",
+    "root_lat": "shya",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 236,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 20,
+      "ar": "يَكَادُ ٱلْبَرْقُ يَخْطَفُ أَبْصَٰرَهُمْ كُلَّمَآ أَضَآءَ لَهُم مَّشَوْا۟ فِيهِ وَإِذَآ أَظْلَمَ عَلَيْهِمْ قَامُوا۟ وَلَوْ شَآءَ ٱللَّهُ لَذَهَبَ بِسَمْعِهِمْ وَأَبْصَٰرِهِمْ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "ur": "قریب ہے کہ بجلی (کی چمک) ان کی آنکھوں (کی بصارت) کو اچک لے جائے۔ جب بجلی (چمکتی اور) ان پر روشنی ڈالی ہے تو اس میں چل پڑتے ہیں اور جب اندھیرا ہو جاتا ہے تو کھڑے کے کھڑے رہ جاتے ہیں اور اگر الله چاہتا تو ان کے کانوں (کی شنوائی) اور آنکھوں (کی بینائی دونوں) کو زائل کر دیتا ہے۔ بے شک الله ہر چیز پر قادر ہے",
+      "en": "The lightning almost snatches away their sight. Every time it lights [the way] for them, they walk therein; but when darkness comes over them, they stand [still]. And if Allah had willed, He could have taken away their hearing and their sight. Indeed, Allah is over all things competent.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:20"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 56,
+    "lemma_ar": "هُ,",
+    "lemma_lat": "hu,",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "PRON",
+    "pos_en": "pronoun",
+    "freq": {
+      "count": 232,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 102,
+      "ar": "وَٱتَّبَعُوا۟ مَا تَتْلُوا۟ ٱلشَّيَٰطِينُ عَلَىٰ مُلْكِ سُلَيْمَٰنَ وَمَا كَفَرَ سُلَيْمَٰنُ وَلَٰكِنَّ ٱلشَّيَٰطِينَ كَفَرُوا۟ يُعَلِّمُونَ ٱلنَّاسَ ٱلسِّحْرَ وَمَآ أُنزِلَ عَلَى ٱلْمَلَكَيْنِ بِبَابِلَ هَٰرُوتَ وَمَٰرُوتَ وَمَا يُعَلِّمَانِ مِنْ أَحَدٍ حَتَّىٰ يَقُولَآ إِنَّمَا نَحْنُ فِتْنَةٌ فَلَا تَكْفُرْ فَيَتَعَلَّمُونَ مِنْهُمَا مَا يُفَرِّقُونَ بِهِۦ بَيْنَ ٱلْمَرْءِ وَزَوْجِهِۦ وَمَا هُم بِضَآرِّينَ بِهِۦ مِنْ أَحَدٍ إِلَّا بِإِذْنِ ٱللَّهِ وَيَتَعَلَّمُونَ مَا يَضُرُّهُمْ وَلَا يَنفَعُهُمْ وَلَقَدْ عَلِمُوا۟ لَمَنِ ٱشْتَرَىٰهُ مَا لَهُۥ فِى ٱلْـَٔاخِرَةِ مِنْ خَلَٰقٍ وَلَبِئْسَ مَا شَرَوْا۟ بِهِۦٓ أَنفُسَهُمْ لَوْ كَانُوا۟ يَعْلَمُونَ",
+      "ur": "اور ان (ہزلیات) کے پیچھے لگ گئے جو سلیمان کے عہدِ سلطنت میں شیاطین پڑھا کرتے تھے اور سلیمان نے مطلق کفر کی بات نہیں کی، بلکہ شیطان ہی کفر کرتے تھے کہ لوگوں کو جادو سکھاتے تھے۔ اور ان باتوں کے بھی (پیچھے لگ گئے) جو شہر بابل میں دو فرشتوں (یعنی) ہاروت اور ماروت پر اتری تھیں۔ اور وہ دونوں کسی کو کچھ نہیں سکھاتے تھے، جب تک یہ نہ کہہ دیتے کہ ہم تو (ذریعہٴ) آزمائش ہیں۔ تم کفر میں نہ پڑو۔ غرض لوگ ان سے (ایسا) جادو سیکھتے، جس سے میاں بیوی میں جدائی ڈال دیں۔ اور خدا کے حکم کے سوا وہ اس (جادو) سے کسی کا کچھ بھی نہیں بگاڑ سکتے تھے۔ اور کچھ ایسے (منتر) سیکھتے جو ان کو نقصان ہی پہنچاتے اور فائدہ کچھ نہ دیتے۔ اور وہ جانتے تھے کہ جو شخص ایسی چیزوں (یعنی سحر اور منتر وغیرہ) کا خریدار ہوگا، اس کا آخرت میں کچھ حصہ نہیں۔ اور جس چیز کے عوض انہوں نے اپنی جانوں کو بیچ ڈالا، وہ بری تھی۔ کاش وہ (اس بات کو) جانتے",
+      "en": "And they followed [instead] what the devils had recited during the reign of Solomon. It was not Solomon who disbelieved, but the devils disbelieved, teaching people magic and that which was revealed to the two angels at Babylon, Harut and Marut. But the two angels do not teach anyone unless they say, \"We are a trial, so do not disbelieve [by practicing magic].\" And [yet] they learn from them that by which they cause separation between a man and his wife. But they do not harm anyone through it except by permission of Allah. And the people learn what harms them and does not benefit them. But the Children of Israel certainly knew that whoever purchased the magic would not have in the Hereafter any share. And wretched is that for which they sold themselves, if they only knew.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:102"
+    },
+    "pos_ar": "ضمير"
+  },
+  {
+    "id": 57,
+    "lemma_ar": "أُولَٰ^ئِك",
+    "lemma_lat": "aūlaā^iik",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "DEM",
+    "pos_en": "demonstrative",
+    "freq": {
+      "count": 204,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 5,
+      "ar": "أُو۟لَٰٓئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "ur": "یہی لوگ اپنے پروردگار (کی طرف) سے ہدایت پر ہیں اور یہی نجات پانے والے ہیں",
+      "en": "Those are upon [right] guidance from their Lord, and it is those who are the successful.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:5"
+    },
+    "pos_ar": "اسم إشارة"
+  },
+  {
+    "id": 58,
+    "lemma_ar": "مُؤْمِن",
+    "lemma_lat": "muumin",
+    "root_ar": "امن",
+    "root_lat": "amn",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 202,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 8,
+      "ar": "وَمِنَ ٱلنَّاسِ مَن يَقُولُ ءَامَنَّا بِٱللَّهِ وَبِٱلْيَوْمِ ٱلْـَٔاخِرِ وَمَا هُم بِمُؤْمِنِينَ",
+      "ur": "اور بعض لوگ ایسے ہیں جو کہتے ہیں کہ ہم خدا پر اور روزِ آخرت پر ایمان رکھتے ہیں حالانکہ وہ ایمان نہیں رکھتے",
+      "en": "And of the people are some who say, \"We believe in Allah and the Last Day,\" but they are not believers.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:8"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 59,
+    "lemma_ar": "لَو",
+    "lemma_lat": "law",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "COND",
+    "pos_en": "conditional prt",
+    "freq": {
+      "count": 201,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 20,
+      "ar": "يَكَادُ ٱلْبَرْقُ يَخْطَفُ أَبْصَٰرَهُمْ كُلَّمَآ أَضَآءَ لَهُم مَّشَوْا۟ فِيهِ وَإِذَآ أَظْلَمَ عَلَيْهِمْ قَامُوا۟ وَلَوْ شَآءَ ٱللَّهُ لَذَهَبَ بِسَمْعِهِمْ وَأَبْصَٰرِهِمْ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "ur": "قریب ہے کہ بجلی (کی چمک) ان کی آنکھوں (کی بصارت) کو اچک لے جائے۔ جب بجلی (چمکتی اور) ان پر روشنی ڈالی ہے تو اس میں چل پڑتے ہیں اور جب اندھیرا ہو جاتا ہے تو کھڑے کے کھڑے رہ جاتے ہیں اور اگر الله چاہتا تو ان کے کانوں (کی شنوائی) اور آنکھوں (کی بینائی دونوں) کو زائل کر دیتا ہے۔ بے شک الله ہر چیز پر قادر ہے",
+      "en": "The lightning almost snatches away their sight. Every time it lights [the way] for them, they walk therein; but when darkness comes over them, they stand [still]. And if Allah had willed, He could have taken away their hearing and their sight. Indeed, Allah is over all things competent.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:20"
+    },
+    "pos_ar": "حرف شرط"
+  },
+  {
+    "id": 60,
+    "lemma_ar": "بَعْد",
+    "lemma_lat": "baʿd",
+    "root_ar": "بعد",
+    "root_lat": "bʿd",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 199,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 27,
+      "ar": "ٱلَّذِينَ يَنقُضُونَ عَهْدَ ٱللَّهِ مِنۢ بَعْدِ مِيثَٰقِهِۦ وَيَقْطَعُونَ مَآ أَمَرَ ٱللَّهُ بِهِۦٓ أَن يُوصَلَ وَيُفْسِدُونَ فِى ٱلْأَرْضِ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ",
+      "ur": "جو خدا کے اقرار کو مضبوط کرنے کے بعد توڑ دیتے ہیں اور جس چیز (یعنی رشتہٴ قرابت) کے جوڑے رکھنے کا الله نے حکم دیا ہے اس کو قطع کئے ڈالتے ہیں اور زمین میں خرابی کرتے ہیں یہی لوگ نقصان اٹھانے والے ہیں",
+      "en": "Who break the covenant of Allah after contracting it and sever that which Allah has ordered to be joined and cause corruption on earth. It is those who are the losers.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:27"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 61,
+    "lemma_ar": "عِند",
+    "lemma_lat": "ʿind",
+    "root_ar": "عند",
+    "root_lat": "ʿnd",
+    "pos": "LOC",
+    "pos_en": "LOC",
+    "freq": {
+      "count": 197,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 54,
+      "ar": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦ يَٰقَوْمِ إِنَّكُمْ ظَلَمْتُمْ أَنفُسَكُم بِٱتِّخَاذِكُمُ ٱلْعِجْلَ فَتُوبُوٓا۟ إِلَىٰ بَارِئِكُمْ فَٱقْتُلُوٓا۟ أَنفُسَكُمْ ذَٰلِكُمْ خَيْرٌ لَّكُمْ عِندَ بَارِئِكُمْ فَتَابَ عَلَيْكُمْ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+      "ur": "اور جب موسیٰ نے اپنی قوم کے لوگوں سے کہا کہ بھائیو، تم نے بچھڑے کو (معبود) ٹھہرانے میں (بڑا) ظلم کیا ہے، تو اپنے پیدا کرنے والے کے آگے توبہ کرو اور اپنے تئیں ہلاک کر ڈالو۔ تمہارے خالق کے نزدیک تمہارے حق میں یہی بہتر ہے۔ پھر اس نے تمہارا قصور معاف کر دیا۔ وہ بے شک معاف کرنے والا (اور) صاحبِ رحم ہے",
+      "en": "And [recall] when Moses said to his people, \"O my people, indeed you have wronged yourselves by your taking of the calf [for worship]. So repent to your Creator and kill yourselves. That is best for [all of] you in the sight of your Creator.\" Then He accepted your repentance; indeed, He is the Accepting of repentance, the Merciful.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:54"
+    },
+    "pos_ar": "LOC"
+  },
+  {
+    "id": 62,
+    "lemma_ar": "خَلَقَ",
+    "lemma_lat": "khalaqa",
+    "root_ar": "خلق",
+    "root_lat": "khlq",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 184,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 21,
+      "ar": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱعْبُدُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُمْ وَٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+      "ur": "لوگو! اپنے پروردگار کی عبات کرو جس نے تم کو اور تم سے پہلے لوگوں کو پیدا کیا تاکہ تم (اس کے عذاب سے) بچو",
+      "en": "O mankind, worship your Lord, who created you and those before you, that you may become righteous -",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:21"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 63,
+    "lemma_ar": "أَنزَلَ",
+    "lemma_lat": "anzala",
+    "root_ar": "نزل",
+    "root_lat": "nzl",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 183,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 4,
+      "ar": "وَٱلَّذِينَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ وَبِٱلْـَٔاخِرَةِ هُمْ يُوقِنُونَ",
+      "ur": "اور جو کتاب (اے محمدﷺ) تم پر نازل ہوئی اور جو کتابیں تم سے پہلے (پیغمبروں پر) نازل ہوئیں سب پر ایمان لاتے اور آخرت کا یقین رکھتے ہیں",
+      "en": "And who believe in what has been revealed to you, [O Muhammad], and what was revealed before you, and of the Hereafter they are certain [in faith].",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:4"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 64,
+    "lemma_ar": "خَيْر",
+    "lemma_lat": "khayr",
+    "root_ar": "خير",
+    "root_lat": "khyr",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 178,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 54,
+      "ar": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦ يَٰقَوْمِ إِنَّكُمْ ظَلَمْتُمْ أَنفُسَكُم بِٱتِّخَاذِكُمُ ٱلْعِجْلَ فَتُوبُوٓا۟ إِلَىٰ بَارِئِكُمْ فَٱقْتُلُوٓا۟ أَنفُسَكُمْ ذَٰلِكُمْ خَيْرٌ لَّكُمْ عِندَ بَارِئِكُمْ فَتَابَ عَلَيْكُمْ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+      "ur": "اور جب موسیٰ نے اپنی قوم کے لوگوں سے کہا کہ بھائیو، تم نے بچھڑے کو (معبود) ٹھہرانے میں (بڑا) ظلم کیا ہے، تو اپنے پیدا کرنے والے کے آگے توبہ کرو اور اپنے تئیں ہلاک کر ڈالو۔ تمہارے خالق کے نزدیک تمہارے حق میں یہی بہتر ہے۔ پھر اس نے تمہارا قصور معاف کر دیا۔ وہ بے شک معاف کرنے والا (اور) صاحبِ رحم ہے",
+      "en": "And [recall] when Moses said to his people, \"O my people, indeed you have wronged yourselves by your taking of the calf [for worship]. So repent to your Creator and kill yourselves. That is best for [all of] you in the sight of your Creator.\" Then He accepted your repentance; indeed, He is the Accepting of repentance, the Merciful.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:54"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 65,
+    "lemma_ar": "كَذَّبَ",
+    "lemma_lat": "kadhdhaba",
+    "root_ar": "كذب",
+    "root_lat": "kdhb",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 176,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 39,
+      "ar": "وَٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِـَٔايَٰتِنَآ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ هُمْ فِيهَا خَٰلِدُونَ",
+      "ur": "اور جنہوں نے (اس کو) قبول نہ کیا اور ہماری آیتوں کو جھٹلایا، وہ دوزخ میں جانے والے ہیں (اور) وہ ہمیشہ اس میں رہیں گے",
+      "en": "And those who disbelieve and deny Our signs - those will be companions of the Fire; they will abide therein eternally.\"",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:39"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 66,
+    "lemma_ar": "سَبِيل",
+    "lemma_lat": "sabīl",
+    "root_ar": "سبل",
+    "root_lat": "sbl",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 176,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 108,
+      "ar": "أَمْ تُرِيدُونَ أَن تَسْـَٔلُوا۟ رَسُولَكُمْ كَمَا سُئِلَ مُوسَىٰ مِن قَبْلُ وَمَن يَتَبَدَّلِ ٱلْكُفْرَ بِٱلْإِيمَٰنِ فَقَدْ ضَلَّ سَوَآءَ ٱلسَّبِيلِ",
+      "ur": "کیا تم یہ چاہتے ہو کہ اپنے پیغمبر سے اسی طرح کے سوال کرو، جس طرح کے سوال پہلے موسیٰ سے کئے گئے تھے۔ اور جس شخص نے ایمان (چھوڑ کر اس) کے بدلے کفر لیا، وہ سیدھے رستے سے بھٹک گیا",
+      "en": "Or do you intend to ask your Messenger as Moses was asked before? And whoever exchanges faith for disbelief has certainly strayed from the soundness of the way.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:108"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 67,
+    "lemma_ar": "دَعَا",
+    "lemma_lat": "daʿā",
+    "root_ar": "دعو",
+    "root_lat": "dʿw",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 170,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 23,
+      "ar": "وَإِن كُنتُمْ فِى رَيْبٍ مِّمَّا نَزَّلْنَا عَلَىٰ عَبْدِنَا فَأْتُوا۟ بِسُورَةٍ مِّن مِّثْلِهِۦ وَٱدْعُوا۟ شُهَدَآءَكُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ",
+      "ur": "اور اگر تم کو اس (کتاب) میں، جو ہم نے اپنے بندے (محمدﷺ عربی) پر نازل فرمائی ہے کچھ شک ہو تو اسی طرح کی ایک سورت تم بھی بنا لاؤ اور خدا کے سوا جو تمہارے مددگار ہوں ان کو بھی بلالو اگر تم سچے ہو",
+      "en": "And if you are in doubt about what We have sent down upon Our Servant [Muhammad], then produce a surah the like thereof and call upon your witnesses other than Allah, if you should be truthful.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:23"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 68,
+    "lemma_ar": "ٱتَّقَىٰ",
+    "lemma_lat": "attaqā",
+    "root_ar": "وقي",
+    "root_lat": "wqy",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 166,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 21,
+      "ar": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱعْبُدُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُمْ وَٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+      "ur": "لوگو! اپنے پروردگار کی عبات کرو جس نے تم کو اور تم سے پہلے لوگوں کو پیدا کیا تاکہ تم (اس کے عذاب سے) بچو",
+      "en": "O mankind, worship your Lord, who created you and those before you, that you may become righteous -",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:21"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 69,
+    "lemma_ar": "أَمْر",
+    "lemma_lat": "amr",
+    "root_ar": "امر",
+    "root_lat": "amr",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 166,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 109,
+      "ar": "وَدَّ كَثِيرٌ مِّنْ أَهْلِ ٱلْكِتَٰبِ لَوْ يَرُدُّونَكُم مِّنۢ بَعْدِ إِيمَٰنِكُمْ كُفَّارًا حَسَدًا مِّنْ عِندِ أَنفُسِهِم مِّنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْحَقُّ فَٱعْفُوا۟ وَٱصْفَحُوا۟ حَتَّىٰ يَأْتِىَ ٱللَّهُ بِأَمْرِهِۦٓ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "ur": "بہت سے اہل کتاب اپنے دل کی جلن سے یہ چاہتے ہیں کہ ایمان لا چکنے کے بعد تم کو پھر کافر بنا دیں۔ حالانکہ ان پر حق ظاہر ہو چکا ہے۔ تو تم معاف کردو اور درگزر کرو۔ یہاں تک کہ خدا اپنا (دوسرا) حکم بھیجے۔ بے شک خدا ہر بات پر قادر ہے",
+      "en": "Many of the People of the Scripture wish they could turn you back to disbelief after you have believed, out of envy from themselves [even] after the truth has become clear to them. So pardon and overlook until Allah delivers His command. Indeed, Allah is over all things competent.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:109"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 70,
+    "lemma_ar": "عَلِيم",
+    "lemma_lat": "ʿalīm",
+    "root_ar": "علم",
+    "root_lat": "ʿlm",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 163,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 29,
+      "ar": "هُوَ ٱلَّذِى خَلَقَ لَكُم مَّا فِى ٱلْأَرْضِ جَمِيعًا ثُمَّ ٱسْتَوَىٰٓ إِلَى ٱلسَّمَآءِ فَسَوَّىٰهُنَّ سَبْعَ سَمَٰوَٰتٍ وَهُوَ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "ur": "وہی تو ہے جس نے سب چیزیں جو زمین میں ہیں تمہارے لیے پیدا کیں پھر آسمان کی طرف متوجہ ہوا تو ان کو ٹھیک سات آسمان بنا دیا اور وہ ہر چیز سے خبردار ہے",
+      "en": "It is He who created for you all of that which is on the earth. Then He directed Himself to the heaven, [His being above all creation], and made them seven heavens, and He is Knowing of all things.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:29"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 71,
+    "lemma_ar": "مَع",
+    "lemma_lat": "maʿ",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "LOC",
+    "pos_en": "LOC",
+    "freq": {
+      "count": 159,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 14,
+      "ar": "وَإِذَا لَقُوا۟ ٱلَّذِينَ ءَامَنُوا۟ قَالُوٓا۟ ءَامَنَّا وَإِذَا خَلَوْا۟ إِلَىٰ شَيَٰطِينِهِمْ قَالُوٓا۟ إِنَّا مَعَكُمْ إِنَّمَا نَحْنُ مُسْتَهْزِءُونَ",
+      "ur": "اور یہ لوگ جب مومنوں سے ملتے ہیں تو کہتے ہیں کہ ہم ایمان لے آئے ہیں، اور جب اپنے شیطانوں میں جاتے ہیں تو (ان سے) کہتے ہیں کہ ہم تمھارے ساتھ ہیں اور (پیروانِ محمدﷺ سے) تو ہم ہنسی کیا کرتے ہیں",
+      "en": "And when they meet those who believe, they say, \"We believe\"; but when they are alone with their evil ones, they say, \"Indeed, we are with you; we were only mockers.\"",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:14"
+    },
+    "pos_ar": "LOC"
+  },
+  {
+    "id": 72,
+    "lemma_ar": "بَعْض",
+    "lemma_lat": "baʿḍ",
+    "root_ar": "بعض",
+    "root_lat": "bʿḍ",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 157,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 36,
+      "ar": "فَأَزَلَّهُمَا ٱلشَّيْطَٰنُ عَنْهَا فَأَخْرَجَهُمَا مِمَّا كَانَا فِيهِ وَقُلْنَا ٱهْبِطُوا۟ بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ وَلَكُمْ فِى ٱلْأَرْضِ مُسْتَقَرٌّ وَمَتَٰعٌ إِلَىٰ حِينٍ",
+      "ur": "پھر شیطان نے دونوں کو وہاں سے پھسلا دیا اور جس (عیش ونشاط) میں تھے، اس سے ان کو نکلوا دیا۔ تب ہم نے حکم دیا کہ (بہشت بریں سے) چلے جاؤ۔ تم ایک دوسرے کے دشمن ہو، اور تمہارے لیے زمین میں ایک وقت تک ٹھکانا اور معاش (مقرر کر دیا گیا) ہے",
+      "en": "But Satan caused them to slip out of it and removed them from that [condition] in which they had been. And We said, \"Go down, [all of you], as enemies to one another, and you will have upon the earth a place of settlement and provision for a time.\"",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:36"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 73,
+    "lemma_ar": "لَمَّا",
+    "lemma_lat": "lammā",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "T",
+    "pos_en": "time adverb",
+    "freq": {
+      "count": 156,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 17,
+      "ar": "مَثَلُهُمْ كَمَثَلِ ٱلَّذِى ٱسْتَوْقَدَ نَارًا فَلَمَّآ أَضَآءَتْ مَا حَوْلَهُۥ ذَهَبَ ٱللَّهُ بِنُورِهِمْ وَتَرَكَهُمْ فِى ظُلُمَٰتٍ لَّا يُبْصِرُونَ",
+      "ur": "ان کی مثال اس شخص کی سی ہے کہ جس نے (شبِ تاریک میں) آگ جلائی۔ جب آگ نے اس کے اردگرد کی چیزیں روشن کیں تو خدا نے ان کی روشنی زائل کر دی اور ان کو اندھیروں میں چھوڑ دیا کہ کچھ نہیں دیکھتے",
+      "en": "Their example is that of one who kindled a fire, but when it illuminated what was around him, Allah took away their light and left them in darkness [so] they could not see.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:17"
+    },
+    "pos_ar": "ظرف زمان"
+  },
+  {
+    "id": 74,
+    "lemma_ar": "ا^خِر",
+    "lemma_lat": "ā^khir",
+    "root_ar": "اخر",
+    "root_lat": "akhr",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 155,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 4,
+      "ar": "وَٱلَّذِينَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ وَبِٱلْـَٔاخِرَةِ هُمْ يُوقِنُونَ",
+      "ur": "اور جو کتاب (اے محمدﷺ) تم پر نازل ہوئی اور جو کتابیں تم سے پہلے (پیغمبروں پر) نازل ہوئیں سب پر ایمان لاتے اور آخرت کا یقین رکھتے ہیں",
+      "en": "And who believe in what has been revealed to you, [O Muhammad], and what was revealed before you, and of the Hereafter they are certain [in faith].",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:4"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 75,
+    "lemma_ar": "أَيُّهَا",
+    "lemma_lat": "ayayuhā",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 153,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 21,
+      "ar": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱعْبُدُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُمْ وَٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+      "ur": "لوگو! اپنے پروردگار کی عبات کرو جس نے تم کو اور تم سے پہلے لوگوں کو پیدا کیا تاکہ تم (اس کے عذاب سے) بچو",
+      "en": "O mankind, worship your Lord, who created you and those before you, that you may become righteous -",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:21"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 76,
+    "lemma_ar": "هُم",
+    "lemma_lat": "hum",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "PRON",
+    "pos_en": "pronoun",
+    "freq": {
+      "count": 148,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 8,
+      "ar": "وَمِنَ ٱلنَّاسِ مَن يَقُولُ ءَامَنَّا بِٱللَّهِ وَبِٱلْيَوْمِ ٱلْـَٔاخِرِ وَمَا هُم بِمُؤْمِنِينَ",
+      "ur": "اور بعض لوگ ایسے ہیں جو کہتے ہیں کہ ہم خدا پر اور روزِ آخرت پر ایمان رکھتے ہیں حالانکہ وہ ایمان نہیں رکھتے",
+      "en": "And of the people are some who say, \"We believe in Allah and the Last Day,\" but they are not believers.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:8"
+    },
+    "pos_ar": "ضمير"
+  },
+  {
+    "id": 77,
+    "lemma_ar": "غَيْر",
+    "lemma_lat": "ghayr",
+    "root_ar": "غير",
+    "root_lat": "ghyr",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 147,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 1,
+      "ayah": 7,
+      "ar": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+      "ur": "ان لوگوں کے رستے جن پر تو اپنا فضل وکرم کرتا رہا نہ ان کے جن پر غصے ہوتا رہا اور نہ گمراہوں کے",
+      "en": "The path of those upon whom You have bestowed favor, not of those who have evoked [Your] anger or of those who are astray.",
+      "surah_name_en": "Al-Faatiha",
+      "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
+      "ref": "Al-Faatiha 1:7"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 78,
+    "lemma_ar": "جَنَّة",
+    "lemma_lat": "jannah",
+    "root_ar": "جنن",
+    "root_lat": "jnn",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 147,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 25,
+      "ar": "وَبَشِّرِ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أَنَّ لَهُمْ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ كُلَّمَا رُزِقُوا۟ مِنْهَا مِن ثَمَرَةٍ رِّزْقًا قَالُوا۟ هَٰذَا ٱلَّذِى رُزِقْنَا مِن قَبْلُ وَأُتُوا۟ بِهِۦ مُتَشَٰبِهًا وَلَهُمْ فِيهَآ أَزْوَٰجٌ مُّطَهَّرَةٌ وَهُمْ فِيهَا خَٰلِدُونَ",
+      "ur": "اور جو لوگ ایمان لائے اور نیک عمل کرتے رہے، ان کو خوشخبری سنا دو کہ ان کے لیے (نعمت کے) باغ ہیں، جن کے نیچے نہریں بہہ رہی ہیں۔ جب انہیں ان میں سے کسی قسم کا میوہ کھانے کو دیا جائے گا تو کہیں گے، یہ تو وہی ہے جو ہم کو پہلے دیا گیا تھا۔ اور ان کو ایک دوسرے کے ہم شکل میوے دیئے جائیں گے اور وہاں ان کے لیے پاک بیویاں ہوں گی اور وہ بہشتوں میں ہمیشہ رہیں گے",
+      "en": "And give good tidings to those who believe and do righteous deeds that they will have gardens [in Paradise] beneath which rivers flow. Whenever they are provided with a provision of fruit therefrom, they will say, \"This is what we were provided with before.\" And it is given to them in likeness. And they will have therein purified spouses, and they will abide therein eternally.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:25"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 79,
+    "lemma_ar": "إِلَٰه",
+    "lemma_lat": "ilaāh",
+    "root_ar": "اله",
+    "root_lat": "alh",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 147,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 133,
+      "ar": "أَمْ كُنتُمْ شُهَدَآءَ إِذْ حَضَرَ يَعْقُوبَ ٱلْمَوْتُ إِذْ قَالَ لِبَنِيهِ مَا تَعْبُدُونَ مِنۢ بَعْدِى قَالُوا۟ نَعْبُدُ إِلَٰهَكَ وَإِلَٰهَ ءَابَآئِكَ إِبْرَٰهِـۧمَ وَإِسْمَٰعِيلَ وَإِسْحَٰقَ إِلَٰهًا وَٰحِدًا وَنَحْنُ لَهُۥ مُسْلِمُونَ",
+      "ur": "بھلا جس وقت یعقوب وفات پانے لگے تو تم اس وقت موجود تھے، جب انہوں نے اپنے بیٹوں سے پوچھا کہ میرے بعد تم کس کی عبادت کرو گے، تو انہوں نے کہا کہ آپ کے معبود اور آپ کے باپ دادا ابراہیم اور اسمٰعیل اور اسحاق کے معبود کی عبادت کریں گے جو معبود یکتا ہے اور ہم اُسی کے حکم بردار ہیں",
+      "en": "Or were you witnesses when death approached Jacob, when he said to his sons, \"What will you worship after me?\" They said, \"We will worship your God and the God of your fathers, Abraham and Ishmael and Isaac - one God. And we are Muslims [in submission] to Him.\"",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:133"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 80,
+    "lemma_ar": "نَار",
+    "lemma_lat": "nār",
+    "root_ar": "نور",
+    "root_lat": "nwr",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 145,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 17,
+      "ar": "مَثَلُهُمْ كَمَثَلِ ٱلَّذِى ٱسْتَوْقَدَ نَارًا فَلَمَّآ أَضَآءَتْ مَا حَوْلَهُۥ ذَهَبَ ٱللَّهُ بِنُورِهِمْ وَتَرَكَهُمْ فِى ظُلُمَٰتٍ لَّا يُبْصِرُونَ",
+      "ur": "ان کی مثال اس شخص کی سی ہے کہ جس نے (شبِ تاریک میں) آگ جلائی۔ جب آگ نے اس کے اردگرد کی چیزیں روشن کیں تو خدا نے ان کی روشنی زائل کر دی اور ان کو اندھیروں میں چھوڑ دیا کہ کچھ نہیں دیکھتے",
+      "en": "Their example is that of one who kindled a fire, but when it illuminated what was around him, Allah took away their light and left them in darkness [so] they could not see.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:17"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 81,
+    "lemma_ar": "هَدَى",
+    "lemma_lat": "hadā",
+    "root_ar": "هدي",
+    "root_lat": "hdy",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 144,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 1,
+      "ayah": 6,
+      "ar": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+      "ur": "ہم کو سیدھے رستے چلا",
+      "en": "Guide us to the straight path -",
+      "surah_name_en": "Al-Faatiha",
+      "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
+      "ref": "Al-Faatiha 1:6"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 82,
+    "lemma_ar": "دُون",
+    "lemma_lat": "dūn",
+    "root_ar": "دون",
+    "root_lat": "dwn",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 144,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 23,
+      "ar": "وَإِن كُنتُمْ فِى رَيْبٍ مِّمَّا نَزَّلْنَا عَلَىٰ عَبْدِنَا فَأْتُوا۟ بِسُورَةٍ مِّن مِّثْلِهِۦ وَٱدْعُوا۟ شُهَدَآءَكُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ",
+      "ur": "اور اگر تم کو اس (کتاب) میں، جو ہم نے اپنے بندے (محمدﷺ عربی) پر نازل فرمائی ہے کچھ شک ہو تو اسی طرح کی ایک سورت تم بھی بنا لاؤ اور خدا کے سوا جو تمہارے مددگار ہوں ان کو بھی بلالو اگر تم سچے ہو",
+      "en": "And if you are in doubt about what We have sent down upon Our Servant [Muhammad], then produce a surah the like thereof and call upon your witnesses other than Allah, if you should be truthful.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:23"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 83,
+    "lemma_ar": "حَتَّىٰ",
+    "lemma_lat": "ḥattā",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "P",
+    "pos_en": "preposition",
+    "freq": {
+      "count": 142,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 55,
+      "ar": "وَإِذْ قُلْتُمْ يَٰمُوسَىٰ لَن نُّؤْمِنَ لَكَ حَتَّىٰ نَرَى ٱللَّهَ جَهْرَةً فَأَخَذَتْكُمُ ٱلصَّٰعِقَةُ وَأَنتُمْ تَنظُرُونَ",
+      "ur": "اور جب تم نے (موسیٰ) سے کہا کہ موسیٰ، جب تک ہم خدا کو سامنے نہ دیکھ لیں گے، تم پر ایمان نہیں لائیں گے، تو تم کو بجلی نے آ گھیرا اور تم دیکھ رہے تھے",
+      "en": "And [recall] when you said, \"O Moses, we will never believe you until we see Allah outright\"; so the thunderbolt took you while you were looking on.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:55"
+    },
+    "pos_ar": "حرف جر"
+  },
+  {
+    "id": 84,
+    "lemma_ar": "أَرَادَ",
+    "lemma_lat": "arāda",
+    "root_ar": "رود",
+    "root_lat": "rwd",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 139,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 26,
+      "ar": "إِنَّ ٱللَّهَ لَا يَسْتَحْىِۦٓ أَن يَضْرِبَ مَثَلًا مَّا بَعُوضَةً فَمَا فَوْقَهَا فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ فَيَعْلَمُونَ أَنَّهُ ٱلْحَقُّ مِن رَّبِّهِمْ وَأَمَّا ٱلَّذِينَ كَفَرُوا۟ فَيَقُولُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَٰذَا مَثَلًا يُضِلُّ بِهِۦ كَثِيرًا وَيَهْدِى بِهِۦ كَثِيرًا وَمَا يُضِلُّ بِهِۦٓ إِلَّا ٱلْفَٰسِقِينَ",
+      "ur": "الله اس بات سے عار نہیں کرتا کہ مچھر یا اس سے بڑھ کر کسی چیز (مثلاً مکھی مکڑی وغیرہ) کی مثال بیان فرمائے۔ جو مومن ہیں، وہ یقین کرتے ہیں وہ ان کے پروردگار کی طرف سے سچ ہے اور جو کافر ہیں وہ کہتے ہیں کہ اس مثال سے خدا کی مراد ہی کیا ہے۔ اس سے (خدا) بہتوں کو گمراہ کرتا ہے اور بہتوں کو ہدایت بخشتا ہے اور گمراہ بھی کرتا تو نافرمانوں ہی کو",
+      "en": "Indeed, Allah is not timid to present an example - that of a mosquito or what is smaller than it. And those who have believed know that it is the truth from their Lord. But as for those who disbelieve, they say, \"What did Allah intend by this as an example?\" He misleads many thereby and guides many thereby. And He misleads not except the defiantly disobedient,",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:26"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 85,
+    "lemma_ar": "أَم",
+    "lemma_lat": "am",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "CONJ",
+    "pos_en": "conjunction",
+    "freq": {
+      "count": 137,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 6,
+      "ar": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ سَوَآءٌ عَلَيْهِمْ ءَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ",
+      "ur": "جو لوگ کافر ہیں انہیں تم نصیحت کرو یا نہ کرو ان کے لیے برابر ہے۔ وہ ایمان نہیں لانے کے",
+      "en": "Indeed, those who disbelieve - it is all the same for them whether you warn them or do not warn them - they will not believe.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:6"
+    },
+    "pos_ar": "حرف عطف"
+  },
+  {
+    "id": 86,
+    "lemma_ar": "مُوسَىٰ",
+    "lemma_lat": "mūsā",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "PN",
+    "pos_en": "proper noun",
+    "freq": {
+      "count": 136,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 51,
+      "ar": "وَإِذْ وَٰعَدْنَا مُوسَىٰٓ أَرْبَعِينَ لَيْلَةً ثُمَّ ٱتَّخَذْتُمُ ٱلْعِجْلَ مِنۢ بَعْدِهِۦ وَأَنتُمْ ظَٰلِمُونَ",
+      "ur": "اور جب ہم نے موسیٰ سے چالیس رات کا وعدہ کیا تو تم نے ان کے پیچھے بچھڑے کو (معبود) مقرر کر لیا اور تم ظلم کر رہے تھے",
+      "en": "And [recall] when We made an appointment with Moses for forty nights. Then you took [for worship] the calf after him, while you were wrongdoers.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:51"
+    },
+    "pos_ar": "اسم علم"
+  },
+  {
+    "id": 87,
+    "lemma_ar": "ٱتَّبَعَ",
+    "lemma_lat": "attabaʿa",
+    "root_ar": "تبع",
+    "root_lat": "tbʿ",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 136,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 102,
+      "ar": "وَٱتَّبَعُوا۟ مَا تَتْلُوا۟ ٱلشَّيَٰطِينُ عَلَىٰ مُلْكِ سُلَيْمَٰنَ وَمَا كَفَرَ سُلَيْمَٰنُ وَلَٰكِنَّ ٱلشَّيَٰطِينَ كَفَرُوا۟ يُعَلِّمُونَ ٱلنَّاسَ ٱلسِّحْرَ وَمَآ أُنزِلَ عَلَى ٱلْمَلَكَيْنِ بِبَابِلَ هَٰرُوتَ وَمَٰرُوتَ وَمَا يُعَلِّمَانِ مِنْ أَحَدٍ حَتَّىٰ يَقُولَآ إِنَّمَا نَحْنُ فِتْنَةٌ فَلَا تَكْفُرْ فَيَتَعَلَّمُونَ مِنْهُمَا مَا يُفَرِّقُونَ بِهِۦ بَيْنَ ٱلْمَرْءِ وَزَوْجِهِۦ وَمَا هُم بِضَآرِّينَ بِهِۦ مِنْ أَحَدٍ إِلَّا بِإِذْنِ ٱللَّهِ وَيَتَعَلَّمُونَ مَا يَضُرُّهُمْ وَلَا يَنفَعُهُمْ وَلَقَدْ عَلِمُوا۟ لَمَنِ ٱشْتَرَىٰهُ مَا لَهُۥ فِى ٱلْـَٔاخِرَةِ مِنْ خَلَٰقٍ وَلَبِئْسَ مَا شَرَوْا۟ بِهِۦٓ أَنفُسَهُمْ لَوْ كَانُوا۟ يَعْلَمُونَ",
+      "ur": "اور ان (ہزلیات) کے پیچھے لگ گئے جو سلیمان کے عہدِ سلطنت میں شیاطین پڑھا کرتے تھے اور سلیمان نے مطلق کفر کی بات نہیں کی، بلکہ شیطان ہی کفر کرتے تھے کہ لوگوں کو جادو سکھاتے تھے۔ اور ان باتوں کے بھی (پیچھے لگ گئے) جو شہر بابل میں دو فرشتوں (یعنی) ہاروت اور ماروت پر اتری تھیں۔ اور وہ دونوں کسی کو کچھ نہیں سکھاتے تھے، جب تک یہ نہ کہہ دیتے کہ ہم تو (ذریعہٴ) آزمائش ہیں۔ تم کفر میں نہ پڑو۔ غرض لوگ ان سے (ایسا) جادو سیکھتے، جس سے میاں بیوی میں جدائی ڈال دیں۔ اور خدا کے حکم کے سوا وہ اس (جادو) سے کسی کا کچھ بھی نہیں بگاڑ سکتے تھے۔ اور کچھ ایسے (منتر) سیکھتے جو ان کو نقصان ہی پہنچاتے اور فائدہ کچھ نہ دیتے۔ اور وہ جانتے تھے کہ جو شخص ایسی چیزوں (یعنی سحر اور منتر وغیرہ) کا خریدار ہوگا، اس کا آخرت میں کچھ حصہ نہیں۔ اور جس چیز کے عوض انہوں نے اپنی جانوں کو بیچ ڈالا، وہ بری تھی۔ کاش وہ (اس بات کو) جانتے",
+      "en": "And they followed [instead] what the devils had recited during the reign of Solomon. It was not Solomon who disbelieved, but the devils disbelieved, teaching people magic and that which was revealed to the two angels at Babylon, Harut and Marut. But the two angels do not teach anyone unless they say, \"We are a trial, so do not disbelieve [by practicing magic].\" And [yet] they learn from them that by which they cause separation between a man and his wife. But they do not harm anyone through it except by permission of Allah. And the people learn what harms them and does not benefit them. But the Children of Israel certainly knew that whoever purchased the magic would not have in the Hereafter any share. And wretched is that for which they sold themselves, if they only knew.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:102"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 88,
+    "lemma_ar": "هُمُ",
+    "lemma_lat": "humu",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "PRON",
+    "pos_en": "pronoun",
+    "freq": {
+      "count": 132,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 5,
+      "ar": "أُو۟لَٰٓئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "ur": "یہی لوگ اپنے پروردگار (کی طرف) سے ہدایت پر ہیں اور یہی نجات پانے والے ہیں",
+      "en": "Those are upon [right] guidance from their Lord, and it is those who are the successful.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:5"
+    },
+    "pos_ar": "ضمير"
+  },
+  {
+    "id": 89,
+    "lemma_ar": "قَلْب",
+    "lemma_lat": "qalb",
+    "root_ar": "قلب",
+    "root_lat": "qlb",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 132,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 7,
+      "ar": "خَتَمَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰٓ أَبْصَٰرِهِمْ غِشَٰوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+      "ur": "خدا نے ان کے دلوں اور کانوں پر مہر لگا رکھی ہے اور ان کی آنکھوں پر پردہ (پڑا ہوا) ہے اور ان کے لیے بڑا عذاب (تیار) ہے",
+      "en": "Allah has set a seal upon their hearts and upon their hearing, and over their vision is a veil. And for them is a great punishment.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:7"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 90,
+    "lemma_ar": "عَبْد",
+    "lemma_lat": "ʿabd",
+    "root_ar": "عبد",
+    "root_lat": "ʿbd",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 131,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 23,
+      "ar": "وَإِن كُنتُمْ فِى رَيْبٍ مِّمَّا نَزَّلْنَا عَلَىٰ عَبْدِنَا فَأْتُوا۟ بِسُورَةٍ مِّن مِّثْلِهِۦ وَٱدْعُوا۟ شُهَدَآءَكُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ",
+      "ur": "اور اگر تم کو اس (کتاب) میں، جو ہم نے اپنے بندے (محمدﷺ عربی) پر نازل فرمائی ہے کچھ شک ہو تو اسی طرح کی ایک سورت تم بھی بنا لاؤ اور خدا کے سوا جو تمہارے مددگار ہوں ان کو بھی بلالو اگر تم سچے ہو",
+      "en": "And if you are in doubt about what We have sent down upon Our Servant [Muhammad], then produce a surah the like thereof and call upon your witnesses other than Allah, if you should be truthful.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:23"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 91,
+    "lemma_ar": "أَرْسَلَ",
+    "lemma_lat": "arsala",
+    "root_ar": "رسل",
+    "root_lat": "rsl",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 130,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 119,
+      "ar": "إِنَّآ أَرْسَلْنَٰكَ بِٱلْحَقِّ بَشِيرًا وَنَذِيرًا وَلَا تُسْـَٔلُ عَنْ أَصْحَٰبِ ٱلْجَحِيمِ",
+      "ur": "(اے محمدﷺ) ہم نے تم کو سچائی کے ساتھ خوشخبری سنانے والا اور ڈرانے والا بنا کر بھیجا ہے۔ اور اہل دوزخ کے بارے میں تم سے کچھ پرسش نہیں ہوگی",
+      "en": "Indeed, We have sent you, [O Muhammad], with the truth as a bringer of good tidings and a warner, and you will not be asked about the companions of Hellfire.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:119"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 92,
+    "lemma_ar": "كَٰفِرُون",
+    "lemma_lat": "kaāfirūn",
+    "root_ar": "كفر",
+    "root_lat": "kfr",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 129,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 19,
+      "ar": "أَوْ كَصَيِّبٍ مِّنَ ٱلسَّمَآءِ فِيهِ ظُلُمَٰتٌ وَرَعْدٌ وَبَرْقٌ يَجْعَلُونَ أَصَٰبِعَهُمْ فِىٓ ءَاذَانِهِم مِّنَ ٱلصَّوَٰعِقِ حَذَرَ ٱلْمَوْتِ وَٱللَّهُ مُحِيطٌۢ بِٱلْكَٰفِرِينَ",
+      "ur": "یا ان کی مثال مینہ کی سی ہے کہ آسمان سے (برس رہا ہو اور) اس میں اندھیرے پر اندھیرا (چھا رہا) ہو اور (بادل) گرج (رہا) ہو اور بجلی (کوند رہی) ہو تو یہ کڑک سے (ڈر کر) موت کے خوف سے کانوں میں انگلیاں دے لیں اور الله کافروں کو (ہر طرف سے) گھیرے ہوئے ہے",
+      "en": "Or [it is] like a rainstorm from the sky within which is darkness, thunder and lightning. They put their fingers in their ears against the thunderclaps in dread of death. But Allah is encompassing of the disbelievers.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:19"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 93,
+    "lemma_ar": "ظَالِم",
+    "lemma_lat": "ẓālim",
+    "root_ar": "ظلم",
+    "root_lat": "ẓlm",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 129,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 35,
+      "ar": "وَقُلْنَا يَٰٓـَٔادَمُ ٱسْكُنْ أَنتَ وَزَوْجُكَ ٱلْجَنَّةَ وَكُلَا مِنْهَا رَغَدًا حَيْثُ شِئْتُمَا وَلَا تَقْرَبَا هَٰذِهِ ٱلشَّجَرَةَ فَتَكُونَا مِنَ ٱلظَّٰلِمِينَ",
+      "ur": "اور ہم نے کہا کہ اے آدم تم اور تمہاری بیوی بہشت میں رہو اور جہاں سے چاہو بے روک ٹوک کھاؤ (پیو) لیکن اس درخت کے پاس نہ جانا نہیں تو ظالموں میں (داخل) ہو جاؤ گے",
+      "en": "And We said, \"O Adam, dwell, you and your wife, in Paradise and eat therefrom in [ease and] abundance from wherever you will. But do not approach this tree, lest you be among the wrongdoers.\"",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:35"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 94,
+    "lemma_ar": "أَخَذَ",
+    "lemma_lat": "akhadha",
+    "root_ar": "اخذ",
+    "root_lat": "akhdh",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 127,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 48,
+      "ar": "وَٱتَّقُوا۟ يَوْمًا لَّا تَجْزِى نَفْسٌ عَن نَّفْسٍ شَيْـًٔا وَلَا يُقْبَلُ مِنْهَا شَفَٰعَةٌ وَلَا يُؤْخَذُ مِنْهَا عَدْلٌ وَلَا هُمْ يُنصَرُونَ",
+      "ur": "اور اس دن سے ڈرو جب کوئی کسی کے کچھ کام نہ آئے اور نہ کسی کی سفارش منظور کی جائے اور نہ کسی سے کسی طرح کا بدلہ قبول کیا جائے اور نہ لوگ (کسی اور طرح) مدد حاصل کر سکیں",
+      "en": "And fear a Day when no soul will suffice for another soul at all, nor will intercession be accepted from it, nor will compensation be taken from it, nor will they be aided.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:48"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 95,
+    "lemma_ar": "بَل",
+    "lemma_lat": "bal",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "RET",
+    "pos_en": "RET",
+    "freq": {
+      "count": 127,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 88,
+      "ar": "وَقَالُوا۟ قُلُوبُنَا غُلْفٌۢ بَل لَّعَنَهُمُ ٱللَّهُ بِكُفْرِهِمْ فَقَلِيلًا مَّا يُؤْمِنُونَ",
+      "ur": "اور کہتے ہیں، ہمارے دل پردے میں ہیں۔ (نہیں) بلکہ الله نے ان کے کفر کے سبب ان پر لعنت کر رکھی ہے۔ پس یہ تھوڑے ہی پر ایمان لاتے ہیں",
+      "en": "And they said, \"Our hearts are wrapped.\" But, [in fact], Allah has cursed them for their disbelief, so little is it that they believe.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:88"
+    },
+    "pos_ar": "RET"
+  },
+  {
+    "id": 96,
+    "lemma_ar": "أَهْل",
+    "lemma_lat": "ahl",
+    "root_ar": "اهل",
+    "root_lat": "ahl",
+    "pos": "N",
+    "pos_en": "noun",
+    "freq": {
+      "count": 127,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 105,
+      "ar": "مَّا يَوَدُّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَلَا ٱلْمُشْرِكِينَ أَن يُنَزَّلَ عَلَيْكُم مِّنْ خَيْرٍ مِّن رَّبِّكُمْ وَٱللَّهُ يَخْتَصُّ بِرَحْمَتِهِۦ مَن يَشَآءُ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
+      "ur": "جو لوگ کافر ہیں، اہل کتاب یا مشرک وہ اس بات کو پسند نہیں کرتے کہ تم پر تمہارے پروردگار کی طرف سے خیر (وبرکت) نازل ہو۔ اور خدا تو جس کو چاہتا ہے، اپنی رحمت کے ساتھ خاص کر لیتا ہے اور خدا بڑے فضل کا مالک ہے",
+      "en": "Neither those who disbelieve from the People of the Scripture nor the polytheists wish that any good should be sent down to you from your Lord. But Allah selects for His mercy whom He wills, and Allah is the possessor of great bounty.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:105"
+    },
+    "pos_ar": "اسم"
+  },
+  {
+    "id": 97,
+    "lemma_ar": "ٱتَّخَذَ",
+    "lemma_lat": "attakhadha",
+    "root_ar": "اخذ",
+    "root_lat": "akhdh",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 124,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 51,
+      "ar": "وَإِذْ وَٰعَدْنَا مُوسَىٰٓ أَرْبَعِينَ لَيْلَةً ثُمَّ ٱتَّخَذْتُمُ ٱلْعِجْلَ مِنۢ بَعْدِهِۦ وَأَنتُمْ ظَٰلِمُونَ",
+      "ur": "اور جب ہم نے موسیٰ سے چالیس رات کا وعدہ کیا تو تم نے ان کے پیچھے بچھڑے کو (معبود) مقرر کر لیا اور تم ظلم کر رہے تھے",
+      "en": "And [recall] when We made an appointment with Moses for forty nights. Then you took [for worship] the calf after him, while you were wrongdoers.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:51"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 98,
+    "lemma_ar": "لَعَلّ",
+    "lemma_lat": "laʿall",
+    "root_ar": null,
+    "root_lat": null,
+    "pos": "ACC",
+    "pos_en": "accusative prt",
+    "freq": {
+      "count": 123,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 21,
+      "ar": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱعْبُدُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُمْ وَٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+      "ur": "لوگو! اپنے پروردگار کی عبات کرو جس نے تم کو اور تم سے پہلے لوگوں کو پیدا کیا تاکہ تم (اس کے عذاب سے) بچو",
+      "en": "O mankind, worship your Lord, who created you and those before you, that you may become righteous -",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:21"
+    },
+    "pos_ar": "حرف نصب"
+  },
+  {
+    "id": 99,
+    "lemma_ar": "عَبَدَ",
+    "lemma_lat": "ʿabada",
+    "root_ar": "عبد",
+    "root_lat": "ʿbd",
+    "pos": "V",
+    "pos_en": "verb",
+    "freq": {
+      "count": 122,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 1,
+      "ayah": 5,
+      "ar": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "ur": "(اے پروردگار) ہم تیری ہی عبادت کرتے ہیں اور تجھ ہی سے مدد مانگتے ہیں",
+      "en": "It is You we worship and You we ask for help.",
+      "surah_name_en": "Al-Faatiha",
+      "surah_name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
+      "ref": "Al-Faatiha 1:5"
+    },
+    "pos_ar": "فعل"
+  },
+  {
+    "id": 100,
+    "lemma_ar": "عَظِيم",
+    "lemma_lat": "ʿaẓīm",
+    "root_ar": "عظم",
+    "root_lat": "ʿẓm",
+    "pos": "ADJ",
+    "pos_en": "adjective",
+    "freq": {
+      "count": 120,
+      "source": "Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)",
+      "method": "lemma-based"
+    },
+    "ayah": {
+      "surah": 2,
+      "ayah": 7,
+      "ar": "خَتَمَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰٓ أَبْصَٰرِهِمْ غِشَٰوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+      "ur": "خدا نے ان کے دلوں اور کانوں پر مہر لگا رکھی ہے اور ان کی آنکھوں پر پردہ (پڑا ہوا) ہے اور ان کے لیے بڑا عذاب (تیار) ہے",
+      "en": "Allah has set a seal upon their hearts and upon their hearing, and over their vision is a veil. And for them is a great punishment.",
+      "surah_name_en": "Al-Baqara",
+      "surah_name_ar": "سُورَةُ البَقَرَةِ",
+      "ref": "Al-Baqara 2:7"
+    },
+    "pos_ar": "صفة"
+  }
+]

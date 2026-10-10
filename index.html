@@ -5,723 +5,233 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
 <meta name="theme-color" content="#0a0f1e">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<title>Nūr · Arabic Learning</title>
+<title>Nūr · Qur'anic Arabic</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@400;500;600;700;800&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@400;500;600;700;800&family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600&display=swap" rel="stylesheet">
 
 <style>
-/* ============ TOKENS ============ */
 :root{
-  --bg:#0a0f1e;
-  --bg-2:#0d1424;
-  --surface:#111a2e;
-  --surface-2:#182238;
-  --surface-3:#1e2b45;
-  --line:rgba(120,150,200,.12);
-  --line-2:rgba(120,150,200,.2);
-  --text:#eef3fb;
-  --text-2:#9fb0cc;
-  --text-3:#6a7d9c;
-  --primary:#5b8dff;
-  --primary-2:#7c5cff;
-  --accent:#f5c451;
-  --success:#22c55e;
-  --success-2:#16a34a;
-  --danger:#ef4444;
+  --bg:#0a0f1e;--surface:#111a2e;--surface-2:#182238;--surface-3:#1e2b45;
+  --line:rgba(120,150,200,.12);--line-2:rgba(120,150,200,.22);
+  --text:#eef3fb;--text-2:#9fb0cc;--text-3:#6a7d9c;
+  --primary:#5b8dff;--primary-2:#7c5cff;--accent:#f5c451;
+  --success:#22c55e;--danger:#ef4444;
   --radius:20px;
-  --radius-sm:12px;
-  --shadow-sm:0 2px 8px rgba(0,0,0,.25);
   --shadow:0 12px 32px rgba(0,0,0,.4);
-  --shadow-lg:0 24px 60px rgba(0,0,0,.5);
   --ring-bg:rgba(120,150,200,.12);
   --grad-primary:linear-gradient(135deg,#5b8dff 0%,#7c5cff 100%);
   --grad-gold:linear-gradient(135deg,#f5c451 0%,#f59e0b 100%);
 }
-
 [data-theme="light"]{
-  --bg:#f7f9fc;
-  --bg-2:#eef2f8;
-  --surface:#ffffff;
-  --surface-2:#f1f5fa;
-  --surface-3:#e6ecf5;
-  --line:rgba(20,40,80,.08);
-  --line-2:rgba(20,40,80,.14);
-  --text:#0a1628;
-  --text-2:#4a5a75;
-  --text-3:#8595ad;
-  --shadow-sm:0 2px 8px rgba(20,40,80,.06);
-  --shadow:0 12px 32px rgba(20,40,80,.08);
-  --shadow-lg:0 24px 60px rgba(20,40,80,.12);
+  --bg:#f7f9fc;--surface:#fff;--surface-2:#f1f5fa;--surface-3:#e6ecf5;
+  --line:rgba(20,40,80,.08);--line-2:rgba(20,40,80,.16);
+  --text:#0a1628;--text-2:#4a5a75;--text-3:#8595ad;
+  --shadow:0 12px 32px rgba(20,40,80,.1);
   --ring-bg:rgba(20,40,80,.08);
 }
-
-/* ============ RESET ============ */
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 html,body{height:100%}
 body{
   font-family:'Inter',system-ui,-apple-system,sans-serif;
-  background:var(--bg);
-  color:var(--text);
-  font-size:16px;
-  line-height:1.5;
-  -webkit-font-smoothing:antialiased;
-  overflow-x:hidden;
+  background:var(--bg);color:var(--text);font-size:16px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
   transition:background .3s ease,color .3s ease;
 }
 button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
-img,svg{display:block;max-width:100%}
-
-/* ============ BACKGROUND PATTERN ============ */
 body::before{
-  content:'';
-  position:fixed;inset:0;
+  content:'';position:fixed;inset:0;
   background-image:
     radial-gradient(circle at 20% 10%, rgba(91,141,255,.08) 0%, transparent 40%),
     radial-gradient(circle at 80% 90%, rgba(124,92,255,.08) 0%, transparent 40%);
-  pointer-events:none;
-  z-index:0;
+  pointer-events:none;z-index:0;
 }
 [data-theme="light"] body::before{
   background-image:
-    radial-gradient(circle at 20% 10%, rgba(91,141,255,.06) 0%, transparent 40%),
-    radial-gradient(circle at 80% 90%, rgba(124,92,255,.06) 0%, transparent 40%);
+    radial-gradient(circle at 20% 10%, rgba(91,141,255,.05) 0%, transparent 40%),
+    radial-gradient(circle at 80% 90%, rgba(124,92,255,.05) 0%, transparent 40%);
 }
-
-/* ============ APP SHELL ============ */
 #app{
-  position:relative;
-  max-width:520px;
-  margin:0 auto;
-  min-height:100vh;
-  min-height:100dvh;
-  padding:20px 18px 32px;
+  position:relative;max-width:540px;margin:0 auto;min-height:100vh;
+  min-height:100dvh;padding:20px 18px 32px;
   padding-top:calc(20px + env(safe-area-inset-top));
   padding-bottom:calc(32px + env(safe-area-inset-bottom));
-  z-index:1;
-  display:flex;
-  flex-direction:column;
+  z-index:1;display:flex;flex-direction:column;
 }
-
-/* ============ TOP BAR ============ */
-.topbar{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  margin-bottom:24px;
-}
+.topbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px}
 .brand{display:flex;align-items:center;gap:12px}
 .brand-mark{
-  width:44px;height:44px;
-  border-radius:14px;
-  background:var(--grad-primary);
-  display:grid;place-items:center;
-  box-shadow:0 8px 20px rgba(91,141,255,.35);
-  color:#fff;
-  font-family:'Amiri',serif;
-  font-size:1.4rem;
-  font-weight:700;
-  line-height:1;
-  padding-bottom:4px;
+  width:44px;height:44px;border-radius:14px;background:var(--grad-primary);
+  display:grid;place-items:center;box-shadow:0 8px 20px rgba(91,141,255,.35);
+  color:#fff;font-family:'Amiri',serif;font-size:1.4rem;font-weight:700;
+  line-height:1;padding-bottom:4px;
 }
-.brand-text h1{
-  font-size:1rem;font-weight:700;
-  letter-spacing:-.01em;
-  line-height:1.1;
-}
-.brand-text small{
-  font-size:.68rem;
-  color:var(--text-3);
-  font-weight:500;
-  letter-spacing:.02em;
-  margin-top:2px;
-  display:block;
-}
+.brand-text h1{font-size:1rem;font-weight:700;letter-spacing:-.01em;line-height:1.1}
+.brand-text small{font-size:.68rem;color:var(--text-3);font-weight:500;letter-spacing:.02em;margin-top:2px;display:block}
 .top-actions{display:flex;gap:8px}
 .icon-btn{
-  width:40px;height:40px;
-  border-radius:12px;
-  background:var(--surface);
-  border:1px solid var(--line);
-  display:grid;place-items:center;
-  transition:transform .15s ease,background .15s ease;
-  color:var(--text-2);
+  width:40px;height:40px;border-radius:12px;background:var(--surface);
+  border:1px solid var(--line);display:grid;place-items:center;
+  transition:transform .15s ease,background .15s ease;color:var(--text-2);
 }
 .icon-btn:active{transform:scale(.92)}
-.icon-btn:hover{background:var(--surface-2);color:var(--text)}
 .icon-btn svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-
-/* ============ SCREENS ============ */
-.screen{
-  display:none;
-  flex-direction:column;
-  flex:1;
-  animation:screenIn .35s cubic-bezier(.2,.7,.3,1);
-}
+.screen{display:none;flex-direction:column;flex:1;animation:screenIn .35s cubic-bezier(.2,.7,.3,1)}
 .screen.active{display:flex}
-@keyframes screenIn{
-  from{opacity:0;transform:translateY(12px)}
-  to{opacity:1;transform:none}
-}
-
-/* ============ HERO (home) ============ */
+@keyframes screenIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 .hero{
-  background:var(--surface);
-  border:1px solid var(--line);
-  border-radius:var(--radius);
-  padding:28px 24px;
-  text-align:center;
-  box-shadow:var(--shadow);
-  margin-bottom:18px;
-  position:relative;
-  overflow:hidden;
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:28px 24px;text-align:center;box-shadow:var(--shadow);margin-bottom:18px;
+  position:relative;overflow:hidden;
 }
 .hero::before{
-  content:'';
-  position:absolute;
-  top:-40px;right:-40px;
-  width:140px;height:140px;
-  border-radius:50%;
-  background:var(--grad-primary);
-  opacity:.08;
-  filter:blur(20px);
+  content:'';position:absolute;top:-40px;right:-40px;width:140px;height:140px;
+  border-radius:50%;background:var(--grad-primary);opacity:.08;filter:blur(20px);
 }
-.hero-bism{
-  font-family:'Amiri',serif;
-  font-size:2.4rem;
-  color:var(--accent);
-  margin-bottom:10px;
-  line-height:1;
-}
-.hero h2{
-  font-size:1.2rem;
-  font-weight:700;
-  letter-spacing:-.02em;
-  margin-bottom:6px;
-}
-.hero p{
-  font-size:.88rem;
-  color:var(--text-2);
-  line-height:1.5;
-  max-width:340px;
-  margin:0 auto;
-}
-
-/* ============ PROGRESS RING ============ */
+.hero-bism{font-family:'Amiri',serif;font-size:2.4rem;color:var(--accent);margin-bottom:10px;line-height:1}
+.hero h2{font-size:1.15rem;font-weight:700;letter-spacing:-.02em;margin-bottom:6px}
+.hero p{font-size:.86rem;color:var(--text-2);line-height:1.55;max-width:340px;margin:0 auto}
 .ring-card{
-  background:var(--surface);
-  border:1px solid var(--line);
-  border-radius:var(--radius);
-  padding:28px 20px;
-  box-shadow:var(--shadow);
-  margin-bottom:18px;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  gap:18px;
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:28px 20px;box-shadow:var(--shadow);margin-bottom:18px;
+  display:flex;flex-direction:column;align-items:center;gap:18px;
 }
-.ring-wrap{
-  position:relative;
-  width:180px;
-  height:180px;
-}
+.ring-wrap{position:relative;width:170px;height:170px}
 .ring-svg{width:100%;height:100%;transform:rotate(-90deg)}
-.ring-bg{
-  fill:none;
-  stroke:var(--ring-bg);
-  stroke-width:10;
-}
-.ring-fill{
-  fill:none;
-  stroke:url(#ringGrad);
-  stroke-width:10;
-  stroke-linecap:round;
-  transition:stroke-dashoffset 1s cubic-bezier(.2,.7,.3,1);
-}
-.ring-center{
-  position:absolute;
-  inset:0;
-  display:grid;
-  place-items:center;
-  flex-direction:column;
-}
+.ring-bg{fill:none;stroke:var(--ring-bg);stroke-width:10}
+.ring-fill{fill:none;stroke:url(#ringGrad);stroke-width:10;stroke-linecap:round;transition:stroke-dashoffset 1s cubic-bezier(.2,.7,.3,1)}
+.ring-center{position:absolute;inset:0;display:grid;place-items:center}
 .ring-pct{
-  font-size:2.4rem;
-  font-weight:800;
-  letter-spacing:-.04em;
-  line-height:1;
-  background:var(--grad-primary);
-  -webkit-background-clip:text;
-  background-clip:text;
+  font-size:2.3rem;font-weight:800;letter-spacing:-.04em;line-height:1;
+  background:var(--grad-primary);-webkit-background-clip:text;background-clip:text;
   -webkit-text-fill-color:transparent;
 }
-.ring-label{
-  font-size:.7rem;
-  color:var(--text-3);
-  text-transform:uppercase;
-  letter-spacing:.12em;
-  font-weight:600;
-  margin-top:4px;
-}
-.ring-stats{
-  display:flex;
-  gap:24px;
-  justify-content:center;
-  width:100%;
-}
+.ring-label{font-size:.68rem;color:var(--text-3);text-transform:uppercase;letter-spacing:.12em;font-weight:600;margin-top:4px;text-align:center}
+.ring-stats{display:flex;gap:24px;justify-content:center;width:100%}
 .ring-stat{text-align:center;flex:1}
-.ring-stat .n{
-  font-size:1.3rem;
-  font-weight:800;
-  letter-spacing:-.02em;
-}
-.ring-stat .l{
-  font-size:.7rem;
-  color:var(--text-3);
-  text-transform:uppercase;
-  letter-spacing:.08em;
-  font-weight:600;
-  margin-top:2px;
-}
-
-/* ============ NEXT WORD PREVIEW ============ */
+.ring-stat .n{font-size:1.3rem;font-weight:800;letter-spacing:-.02em}
+.ring-stat .l{font-size:.7rem;color:var(--text-3);text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin-top:2px}
 .preview{
-  background:var(--surface);
-  border:1px solid var(--line);
-  border-radius:var(--radius);
-  padding:22px;
-  text-align:center;
-  box-shadow:var(--shadow-sm);
-  margin-bottom:18px;
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:22px;text-align:center;box-shadow:var(--shadow);margin-bottom:18px;
 }
-.preview-label{
-  font-size:.68rem;
-  color:var(--text-3);
-  text-transform:uppercase;
-  letter-spacing:.14em;
-  font-weight:700;
-  margin-bottom:14px;
-}
-.preview-ar{
-  font-family:'Amiri','Noto Naskh Arabic',serif;
-  font-size:2.6rem;
-  direction:rtl;
-  line-height:1.3;
-  margin-bottom:6px;
-}
-.preview-translit{
-  font-size:.9rem;
-  color:var(--text-2);
-  font-style:italic;
-}
-
-/* ============ BUTTONS ============ */
+.preview-label{font-size:.68rem;color:var(--text-3);text-transform:uppercase;letter-spacing:.14em;font-weight:700;margin-bottom:14px}
+.preview-ar{font-family:'Amiri','Noto Naskh Arabic',serif;font-size:2.8rem;direction:rtl;line-height:1.3;margin-bottom:6px}
+.preview-translit{font-size:.9rem;color:var(--text-2);font-style:italic}
 .btn{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  gap:10px;
-  width:100%;
-  padding:16px 20px;
-  border-radius:16px;
-  font-size:.98rem;
-  font-weight:600;
-  letter-spacing:-.01em;
-  transition:transform .12s ease,filter .15s ease,box-shadow .2s ease;
+  display:flex;align-items:center;justify-content:center;gap:10px;width:100%;
+  padding:15px 20px;border-radius:16px;font-size:.96rem;font-weight:600;
+  letter-spacing:-.01em;transition:transform .12s ease,filter .15s ease,box-shadow .2s ease;
   font-family:inherit;
 }
 .btn:active{transform:scale(.97)}
 .btn svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.btn-primary{
-  background:var(--grad-primary);
-  color:#fff;
-  box-shadow:0 10px 24px rgba(91,141,255,.35);
-}
-.btn-primary:hover{filter:brightness(1.05)}
-.btn-success{
-  background:linear-gradient(135deg,#22c55e,#16a34a);
-  color:#fff;
-  box-shadow:0 10px 24px rgba(34,197,94,.3);
-}
-.btn-secondary{
-  background:var(--surface);
-  border:1px solid var(--line-2);
-  color:var(--text);
-}
-.btn-secondary:hover{background:var(--surface-2)}
-.btn-ghost{
-  background:transparent;
-  color:var(--text-2);
-  border:1px solid transparent;
-}
-.btn-ghost:hover{color:var(--text);background:var(--surface-2)}
-
-/* ============ LEARN SCREEN ============ */
-.learn-top{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  margin-bottom:14px;
-}
-.learn-counter{
-  font-size:.78rem;
-  color:var(--text-3);
-  font-weight:600;
-  letter-spacing:.08em;
-  text-transform:uppercase;
-}
-.progress-line{
-  height:4px;
-  background:var(--ring-bg);
-  border-radius:99px;
-  overflow:hidden;
-  margin-bottom:20px;
-}
-.progress-line-fill{
-  height:100%;
-  background:var(--grad-primary);
-  border-radius:99px;
-  transition:width .6s cubic-bezier(.2,.7,.3,1);
-}
-
+.btn-primary{background:var(--grad-primary);color:#fff;box-shadow:0 10px 24px rgba(91,141,255,.35)}
+.btn-success{background:linear-gradient(135deg,#22c55e,#16a34a);color:#fff;box-shadow:0 10px 24px rgba(34,197,94,.3)}
+.btn-secondary{background:var(--surface);border:1px solid var(--line-2);color:var(--text)}
+.btn-ghost{background:transparent;color:var(--text-2);border:1px solid transparent}
+.learn-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+.learn-counter{font-size:.76rem;color:var(--text-3);font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.progress-line{height:4px;background:var(--ring-bg);border-radius:99px;overflow:hidden;margin-bottom:18px}
+.progress-line-fill{height:100%;background:var(--grad-primary);border-radius:99px;transition:width .6s cubic-bezier(.2,.7,.3,1)}
 .word-card{
-  background:var(--surface);
-  border:1px solid var(--line);
-  border-radius:var(--radius);
-  padding:44px 24px;
-  box-shadow:var(--shadow);
-  text-align:center;
-  flex:1;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  min-height:340px;
-  margin-bottom:20px;
-  position:relative;
-  overflow:hidden;
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:34px 24px 26px;box-shadow:var(--shadow);text-align:center;margin-bottom:14px;
 }
-.word-card::after{
-  content:'';
-  position:absolute;
-  inset:0;
-  background:
-    radial-gradient(circle at 50% 0%, rgba(91,141,255,.06), transparent 60%);
-  pointer-events:none;
+.word-ar{font-family:'Amiri','Noto Naskh Arabic',serif;font-size:4.2rem;line-height:1.3;direction:rtl;margin-bottom:8px;font-weight:700}
+.word-translit{font-size:1rem;color:var(--text-2);font-style:italic;margin-bottom:16px}
+.word-meta{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.chip{
+  background:var(--surface-2);color:var(--text-2);font-size:.72rem;
+  padding:5px 12px;border-radius:99px;font-weight:600;letter-spacing:.02em;
+  border:1px solid var(--line);font-family:'Noto Naskh Arabic',serif;
 }
-.word-ar{
-  font-family:'Amiri','Noto Naskh Arabic',serif;
-  font-size:4.6rem;
-  line-height:1.25;
-  direction:rtl;
-  margin-bottom:12px;
-  font-weight:700;
-  letter-spacing:.01em;
+.chip.gold{color:var(--accent);border-color:rgba(245,196,81,.3)}
+.ayah-card{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:24px 20px 20px;box-shadow:var(--shadow);margin-bottom:16px;
+  position:relative;overflow:hidden;
 }
-.word-translit{
-  font-size:1rem;
-  color:var(--text-2);
-  font-style:italic;
-  margin-bottom:22px;
+.ayah-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--grad-gold);
 }
-.word-meaning{
-  font-size:1.55rem;
-  font-weight:700;
-  letter-spacing:-.02em;
-  padding-top:22px;
-  border-top:1px dashed var(--line-2);
-  max-width:280px;
-  margin:0 auto;
+.ayah-label{
+  font-size:.7rem;color:var(--accent);text-transform:uppercase;
+  letter-spacing:.14em;font-weight:700;margin-bottom:14px;text-align:center;
+  font-family:'Inter',sans-serif;
 }
-
-.learn-actions{
-  display:flex;
-  flex-direction:column;
-  gap:10px;
+.ayah-ar{
+  font-family:'Amiri','Noto Naskh Arabic',serif;font-size:1.65rem;
+  direction:rtl;line-height:2;margin-bottom:16px;text-align:center;color:var(--text);
 }
-.learn-row{display:flex;gap:10px}
-.learn-row .btn{flex:1}
-
-/* ============ DONE SCREEN ============ */
+.ayah-trans{
+  padding:12px 0;border-top:1px dashed var(--line-2);
+  font-size:.94rem;line-height:1.65;
+}
+.ayah-trans.ur{
+  font-family:'Noto Nastaliq Urdu','Amiri',serif;
+  direction:rtl;text-align:right;font-size:1.05rem;line-height:2.3;color:var(--text);
+}
+.ayah-trans.en{text-align:left;color:var(--text-2)}
+.ayah-trans-lang{
+  font-size:.62rem;color:var(--text-3);text-transform:uppercase;
+  letter-spacing:.12em;font-weight:700;margin-bottom:6px;
+  font-family:'Inter',sans-serif;
+}
+.actions{display:flex;flex-direction:column;gap:10px}
+.actions-row{display:flex;gap:10px}
+.actions-row .btn{flex:1}
 .done-hero{
-  background:var(--surface);
-  border:1px solid var(--line);
-  border-radius:var(--radius);
-  padding:48px 24px;
-  text-align:center;
-  box-shadow:var(--shadow);
-  margin-bottom:20px;
-  position:relative;
-  overflow:hidden;
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:48px 24px;text-align:center;box-shadow:var(--shadow);margin-bottom:20px;
 }
-.done-emoji{
-  font-size:4.5rem;
-  margin-bottom:16px;
-  animation:pop .6s cubic-bezier(.2,1.4,.4,1);
-  display:inline-block;
-}
-@keyframes pop{
-  0%{transform:scale(0);opacity:0}
-  60%{transform:scale(1.15)}
-  100%{transform:scale(1);opacity:1}
-}
+.done-emoji{font-size:4.5rem;margin-bottom:16px;display:inline-block;animation:pop .6s cubic-bezier(.2,1.4,.4,1)}
+@keyframes pop{0%{transform:scale(0);opacity:0}60%{transform:scale(1.15)}100%{transform:scale(1);opacity:1}}
 .done-title{
-  font-size:1.6rem;
-  font-weight:800;
-  letter-spacing:-.03em;
-  margin-bottom:8px;
-  background:var(--grad-gold);
-  -webkit-background-clip:text;
-  background-clip:text;
-  -webkit-text-fill-color:transparent;
+  font-size:1.6rem;font-weight:800;letter-spacing:-.03em;margin-bottom:8px;
+  background:var(--grad-gold);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
 }
-.done-text{
-  color:var(--text-2);
-  font-size:.92rem;
-  line-height:1.6;
-  max-width:300px;
-  margin:0 auto;
-}
-
-/* ============ REVIEW SCREEN ============ */
-.review-head{
-  text-align:center;
-  margin-bottom:20px;
-}
-.review-head h2{
-  font-size:1.3rem;
-  font-weight:700;
-  letter-spacing:-.02em;
-  margin-bottom:6px;
-}
-.review-head p{
-  color:var(--text-3);
-  font-size:.85rem;
-}
-.review-word{
-  background:var(--surface);
-  border:1px solid var(--line);
-  border-radius:var(--radius);
-  padding:32px 20px;
-  text-align:center;
-  box-shadow:var(--shadow-sm);
-  margin-bottom:18px;
-}
-.review-word .ar{
-  font-family:'Amiri','Noto Naskh Arabic',serif;
-  font-size:3.2rem;
-  direction:rtl;
-  line-height:1.3;
-  margin-bottom:8px;
-}
-.review-word .tr{
-  font-size:.92rem;
-  color:var(--text-2);
-  font-style:italic;
-}
-.options{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:10px;
-  margin-bottom:14px;
-}
+.done-text{color:var(--text-2);font-size:.92rem;line-height:1.6;max-width:320px;margin:0 auto}
+.options{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
 .option{
-  background:var(--surface);
-  border:1.5px solid var(--line-2);
-  border-radius:14px;
-  padding:18px 12px;
-  font-size:.95rem;
-  font-weight:600;
-  color:var(--text);
-  min-height:72px;
-  display:grid;
-  place-items:center;
-  text-align:center;
-  transition:all .2s ease;
-  font-family:inherit;
-  letter-spacing:-.01em;
+  background:var(--surface);border:1.5px solid var(--line-2);border-radius:14px;
+  padding:18px 12px;font-size:.95rem;font-weight:600;color:var(--text);
+  min-height:72px;display:grid;place-items:center;text-align:center;
+  transition:all .2s ease;font-family:inherit;letter-spacing:-.01em;
 }
 .option:active{transform:scale(.97)}
-.option.correct{
-  border-color:var(--success);
-  background:rgba(34,197,94,.1);
-  color:var(--success);
-}
-.option.wrong{
-  border-color:var(--danger);
-  background:rgba(239,68,68,.1);
-  color:var(--danger);
-}
+.option.correct{border-color:var(--success);background:rgba(34,197,94,.1);color:var(--success)}
+.option.wrong{border-color:var(--danger);background:rgba(239,68,68,.1);color:var(--danger)}
 .option:disabled{cursor:not-allowed}
-
-/* ============ SETTINGS ============ */
-.settings-group{
-  background:var(--surface);
-  border:1px solid var(--line);
-  border-radius:var(--radius);
-  padding:6px;
-  margin-bottom:14px;
-  box-shadow:var(--shadow-sm);
+.review-head{text-align:center;margin-bottom:18px}
+.review-head h2{font-size:1.3rem;font-weight:700;letter-spacing:-.02em;margin-bottom:6px}
+.review-head p{color:var(--text-3);font-size:.85rem}
+.loading{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:80px 20px;gap:16px;color:var(--text-3);
 }
-.setting-row{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  padding:14px 16px;
-  border-radius:14px;
-  transition:background .15s ease;
+.spinner{
+  width:40px;height:40px;border:3px solid var(--line-2);
+  border-top-color:var(--primary);border-radius:50%;animation:spin .8s linear infinite;
 }
-.setting-row + .setting-row{border-top:1px solid var(--line)}
-.setting-label{
-  display:flex;
-  align-items:center;
-  gap:12px;
-  color:var(--text);
-  font-size:.95rem;
-  font-weight:600;
-}
-.setting-label svg{
-  width:20px;height:20px;
-  stroke:var(--text-2);
-  fill:none;
-  stroke-width:2;
-  stroke-linecap:round;
-  stroke-linejoin:round;
-}
-.setting-value{
-  color:var(--text-3);
-  font-size:.88rem;
-  font-weight:500;
-}
-select.setting-select{
-  background:var(--surface-2);
-  border:1px solid var(--line-2);
-  color:var(--text);
-  padding:8px 12px;
-  border-radius:10px;
-  font-size:.88rem;
-  font-family:inherit;
-  font-weight:500;
-  outline:none;
-  cursor:pointer;
-}
-.toggle{
-  position:relative;
-  width:48px;
-  height:28px;
-  background:var(--surface-3);
-  border-radius:99px;
-  cursor:pointer;
-  transition:background .25s ease;
-  border:none;
-  flex-shrink:0;
-}
-.toggle::after{
-  content:'';
-  position:absolute;
-  top:3px;left:3px;
-  width:22px;height:22px;
-  border-radius:50%;
-  background:#fff;
-  box-shadow:0 2px 6px rgba(0,0,0,.2);
-  transition:transform .25s cubic-bezier(.2,.7,.3,1);
-}
-.toggle.on{background:var(--grad-primary)}
-.toggle.on::after{transform:translateX(20px)}
-
-/* ============ TOAST ============ */
-.toast-wrap{
-  position:fixed;
-  bottom:calc(24px + env(safe-area-inset-bottom));
-  left:50%;
-  transform:translateX(-50%);
-  z-index:1000;
-  display:flex;
-  flex-direction:column;
-  gap:8px;
-  align-items:center;
-  pointer-events:none;
-  width:calc(100% - 36px);
-  max-width:400px;
-}
-.toast{
-  background:var(--surface);
-  border:1px solid var(--line-2);
-  color:var(--text);
-  padding:12px 18px;
-  border-radius:14px;
-  font-size:.88rem;
-  font-weight:600;
-  box-shadow:var(--shadow-lg);
-  display:flex;
-  align-items:center;
-  gap:10px;
-  animation:toastIn .35s cubic-bezier(.2,1.2,.4,1);
-  max-width:100%;
-}
+@keyframes spin{to{transform:rotate(360deg)}}
+.toast-wrap{position:fixed;bottom:calc(24px + env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);z-index:1000;display:flex;flex-direction:column;gap:8px;align-items:center;pointer-events:none;width:calc(100% - 36px);max-width:400px}
+.toast{background:var(--surface);border:1px solid var(--line-2);color:var(--text);padding:12px 18px;border-radius:14px;font-size:.88rem;font-weight:600;box-shadow:var(--shadow);display:flex;align-items:center;gap:10px;animation:toastIn .35s cubic-bezier(.2,1.2,.4,1);max-width:100%}
 .toast.success{border-color:rgba(34,197,94,.4)}
 .toast.error{border-color:rgba(239,68,68,.4)}
-.toast svg{width:18px;height:18px;flex-shrink:0;stroke-width:2.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
-.toast.success svg{stroke:var(--success)}
-.toast.error svg{stroke:var(--danger)}
-@keyframes toastIn{
-  from{opacity:0;transform:translateY(20px) scale(.95)}
-  to{opacity:1;transform:none}
-}
+@keyframes toastIn{from{opacity:0;transform:translateY(20px) scale(.95)}to{opacity:1;transform:none}}
 .toast.out{animation:toastOut .3s ease forwards}
-@keyframes toastOut{
-  to{opacity:0;transform:translateY(20px) scale(.95)}
-}
-
-/* ============ EMPTY ============ */
-.empty{
-  text-align:center;
-  padding:60px 20px;
-  color:var(--text-3);
-}
-.empty svg{
-  width:64px;height:64px;
-  stroke:var(--text-3);
-  fill:none;
-  stroke-width:1.5;
-  margin:0 auto 16px;
-  opacity:.5;
-}
-.empty h3{
-  font-size:1.05rem;
-  font-weight:700;
-  color:var(--text-2);
-  margin-bottom:6px;
-}
-.empty p{
-  font-size:.88rem;
-  line-height:1.6;
-  max-width:280px;
-  margin:0 auto;
-}
-
-/* ============ FOOTER ============ */
-.foot{
-  text-align:center;
-  color:var(--text-3);
-  font-size:.72rem;
-  margin-top:auto;
-  padding-top:24px;
-  letter-spacing:.02em;
-  opacity:.7;
-}
-
-/* ============ RESPONSIVE ============ */
-@media (max-height:640px){
-  .word-card{min-height:260px;padding:28px 20px}
-  .word-ar{font-size:3.6rem}
+@keyframes toastOut{to{opacity:0;transform:translateY(20px) scale(.95)}}
+.foot{text-align:center;color:var(--text-3);font-size:.7rem;margin-top:auto;padding-top:24px;letter-spacing:.02em;opacity:.7;line-height:1.7}
+@media (max-height:660px){
+  .word-ar{font-size:3.5rem}
   .ring-wrap{width:140px;height:140px}
   .ring-pct{font-size:1.9rem}
+  .ayah-ar{font-size:1.4rem}
 }
 </style>
 </head>
-
 <body>
 
 <svg width="0" height="0" style="position:absolute">
@@ -734,32 +244,33 @@ select.setting-select{
 </svg>
 
 <div id="app">
-
-  <!-- ============ TOPBAR ============ -->
   <div class="topbar">
     <div class="brand">
       <div class="brand-mark">ن</div>
       <div class="brand-text">
         <h1>Nūr</h1>
-        <small>Arabic · one word at a time</small>
+        <small>Qur'anic Arabic · word by word</small>
       </div>
     </div>
     <div class="top-actions">
       <button class="icon-btn" id="themeToggle" aria-label="Theme">
         <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
       </button>
-      <button class="icon-btn" id="settingsBtn" aria-label="Settings">
-        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
-      </button>
     </div>
   </div>
 
-  <!-- ============ SCREEN: HOME ============ -->
-  <section class="screen active" id="screen-home">
+  <section class="screen active" id="screen-loading">
+    <div class="loading">
+      <div class="spinner"></div>
+      <div>Loading Qur'anic words…</div>
+    </div>
+  </section>
+
+  <section class="screen" id="screen-home">
     <div class="hero">
       <div class="hero-bism">﷽</div>
-      <h2 id="homeGreeting">Seekho, samjho, bolo</h2>
-      <p id="homeSub">Ek waqt mein ek lafz. Pehle suno, phir samjho, phir yaad karo.</p>
+      <h2>Qur'an samajhna shuru karein</h2>
+      <p>Top 100 Qur'anic lafz — asli ayah, Urdu aur English tarjume ke saath.</p>
     </div>
 
     <div class="ring-card">
@@ -769,97 +280,112 @@ select.setting-select{
           <circle class="ring-fill" id="ringFill" cx="90" cy="90" r="78"/>
         </svg>
         <div class="ring-center">
-          <div class="ring-pct" id="ringPct">0%</div>
-          <div class="ring-label" id="ringLabel">Progress</div>
+          <div>
+            <div class="ring-pct" id="ringPct">0%</div>
+            <div class="ring-label">Progress</div>
+          </div>
         </div>
       </div>
       <div class="ring-stats">
-        <div class="ring-stat">
-          <div class="n" id="statMastered">0</div>
-          <div class="l" id="lblMastered">Mastered</div>
-        </div>
-        <div class="ring-stat">
-          <div class="n" id="statRemaining">25</div>
-          <div class="l" id="lblRemaining">Remaining</div>
-        </div>
-        <div class="ring-stat">
-          <div class="n" id="statTotal">25</div>
-          <div class="l" id="lblTotal">Total</div>
-        </div>
+        <div class="ring-stat"><div class="n" id="statMastered">0</div><div class="l">Mastered</div></div>
+        <div class="ring-stat"><div class="n" id="statRemaining">100</div><div class="l">Remaining</div></div>
+        <div class="ring-stat"><div class="n" id="statTotal">100</div><div class="l">Total</div></div>
       </div>
     </div>
 
     <div class="preview" id="previewCard">
-      <div class="preview-label" id="lblNext">Next word</div>
+      <div class="preview-label">Next word</div>
       <div class="preview-ar" id="previewAr">—</div>
       <div class="preview-translit" id="previewTranslit"></div>
     </div>
 
-    <div class="learn-actions">
+    <div class="actions">
       <button class="btn btn-primary" id="startBtn">
         <svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor" stroke="none"/></svg>
-        <span id="btnStart">Start Learning</span>
+        Start Learning
       </button>
       <button class="btn btn-secondary" id="reviewBtn">
         <svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>
-        <span id="btnReview">Review</span>
+        Review Mastered
       </button>
     </div>
 
-    <div class="foot">Nūr · Made for the Ummah</div>
+    <div class="foot">
+      Data: Quranic Arabic Corpus v0.4 (Kais Dukes, GNU GPL)<br>
+      Tarjuma: Fateh Muhammad Jalandhri (Urdu) · Saheeh International (English)<br>
+      Audio: Mishary Rashid Alafasy · Made for the Ummah
+    </div>
   </section>
 
-  <!-- ============ SCREEN: LEARN ============ -->
   <section class="screen" id="screen-learn">
     <div class="learn-top">
-      <div class="learn-counter" id="learnCounter">Word 1 / 25</div>
+      <div class="learn-counter" id="learnCounter">Word 1 / 100</div>
       <button class="icon-btn" id="learnClose" aria-label="Close">
         <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
       </button>
     </div>
-    <div class="progress-line">
-      <div class="progress-line-fill" id="learnLine" style="width:0%"></div>
-    </div>
+    <div class="progress-line"><div class="progress-line-fill" id="learnLine" style="width:0%"></div></div>
 
     <div class="word-card">
       <div class="word-ar" id="learnAr">—</div>
       <div class="word-translit" id="learnTranslit">—</div>
-      <div class="word-meaning" id="learnMeaning">—</div>
+      <div class="word-meta">
+        <span class="chip" id="chipRoot" style="display:none"></span>
+        <span class="chip gold" id="chipFreq"></span>
+        <span class="chip" id="chipPos"></span>
+      </div>
     </div>
 
-    <div class="learn-actions">
-      <button class="btn btn-secondary" id="listenBtn">
-        <svg viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="currentColor" stroke="none"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
-        <span id="btnListen">Listen</span>
-      </button>
+    <div class="ayah-card">
+      <div class="ayah-label" id="ayahLabel">Qur'an · —</div>
+      <div class="ayah-ar" id="ayahAr"></div>
+      <div class="ayah-trans ur">
+        <div class="ayah-trans-lang">اردو · Fateh Muhammad Jalandhri</div>
+        <div id="ayahUr"></div>
+      </div>
+      <div class="ayah-trans en">
+        <div class="ayah-trans-lang">English · Saheeh International</div>
+        <div id="ayahEn"></div>
+      </div>
+    </div>
+
+    <div class="actions">
+      <div class="actions-row">
+        <button class="btn btn-secondary" id="playAyahBtn">
+          <svg viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="currentColor" stroke="none"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+          Ayah
+        </button>
+        <button class="btn btn-secondary" id="playWordBtn">
+          <svg viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="currentColor" stroke="none"/></svg>
+          Word
+        </button>
+      </div>
       <button class="btn btn-success" id="learnedBtn">
         <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
-        <span id="btnLearned">I Learned This</span>
+        I Learned This
       </button>
     </div>
   </section>
 
-  <!-- ============ SCREEN: DONE ============ -->
   <section class="screen" id="screen-done">
     <div class="done-hero">
       <div class="done-emoji">🎉</div>
-      <div class="done-title" id="doneTitle">Mubarak Ho!</div>
+      <div class="done-title">Mubarak Ho!</div>
       <p class="done-text" id="doneText"></p>
     </div>
-    <div class="learn-actions">
-      <button class="btn btn-primary" id="doneStart">
-        <svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>
-        <span id="btnDoneStart">Start Over</span>
-      </button>
-      <button class="btn btn-secondary" id="doneReview">
+    <div class="actions">
+      <button class="btn btn-primary" id="doneReview">
         <svg viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-        <span id="btnDoneReview">Review Words</span>
+        Review All Words
+      </button>
+      <button class="btn btn-secondary" id="doneRestart">
+        <svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>
+        Start Over
       </button>
     </div>
-    <div class="foot">Nūr · Made for the Ummah</div>
+    <div class="foot">Made for the Ummah</div>
   </section>
 
-  <!-- ============ SCREEN: REVIEW ============ -->
   <section class="screen" id="screen-review">
     <div class="learn-top">
       <div class="learn-counter" id="reviewCounter">Review</div>
@@ -869,364 +395,161 @@ select.setting-select{
     </div>
     <div id="reviewBody"></div>
   </section>
-
-  <!-- ============ SCREEN: SETTINGS ============ -->
-  <section class="screen" id="screen-settings">
-    <div class="learn-top">
-      <div class="learn-counter" id="settingsTitle">Settings</div>
-      <button class="icon-btn" id="settingsClose" aria-label="Close">
-        <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-      </button>
-    </div>
-
-    <div class="settings-group">
-      <div class="setting-row">
-        <div class="setting-label">
-          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-          <span id="lblLanguage">Language</span>
-        </div>
-        <select class="setting-select" id="langSelect"></select>
-      </div>
-
-      <div class="setting-row">
-        <div class="setting-label">
-          <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-          <span id="lblTheme">Dark Mode</span>
-        </div>
-        <button class="toggle" id="themeToggleSettings"></button>
-      </div>
-    </div>
-
-    <div class="settings-group">
-      <div class="setting-row" id="resetRow" style="cursor:pointer">
-        <div class="setting-label" style="color:var(--danger)">
-          <svg viewBox="0 0 24 24" style="stroke:var(--danger)"><path d="M3 6h18"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
-          <span id="lblReset">Reset All Progress</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="foot">Nūr · v2.0 · Made for the Ummah</div>
-  </section>
-
 </div>
 
 <div class="toast-wrap" id="toastWrap"></div>
 
 <script>
 /* =========================================================
-   Nūr — Arabic Learning
+   Nūr — Qur'anic Arabic Learning
+   Data: Quranic Arabic Corpus v0.4 (Leeds) + Tanzil translations
    ========================================================= */
 
-/* ---------- i18n ---------- */
-const STRINGS = {
-  en:{greeting:'Learn, understand, speak', sub:'One word at a time. Listen, understand, remember.',
-      start:'Start Learning', review:'Review', mastered:'Mastered', remaining:'Remaining', total:'Total',
-      next:'Next word', word:'Word', listen:'Listen', learned:'I Learned This',
-      mubarak:'Mubarak Ho!', doneText:'You completed all {n} words. Review them now, or start fresh.',
-      startOver:'Start Over', reviewWords:'Review Words', settings:'Settings', language:'Language',
-      darkMode:'Dark Mode', reset:'Reset All Progress', resetConfirm:'Delete all progress? This cannot be undone.',
-      correct:'Correct!', wrong:'Not quite', noWords:'Nothing to review yet',
-      emptyTitle:'No words mastered', emptyText:'Learn a few words first, then come back to review.',
-      reviewDone:'Review Complete', reviewScore:'{c} correct · {w} wrong', backToHome:'Back to Home',
-      resetDone:'Progress reset', learnedToast:'Word mastered!', youSaid:'You said' }
-};
-const STRINGS_UR = {
-  ur:{greeting:'سیکھو، سمجھو، بولو', sub:'ایک وقت میں ایک لفظ۔ سنو، سمجھو، یاد کرو۔',
-      start:'سیکھنا شروع کریں', review:'دہرائیں', mastered:'مکمل', remaining:'باقی', total:'کل',
-      next:'اگلا لفظ', word:'لفظ', listen:'سنیں', learned:'میں نے سیکھ لیا',
-      mubarak:'مبارک ہو!', doneText:'آپ نے تمام {n} الفاظ مکمل کر لیے۔',
-      startOver:'دوبارہ شروع', reviewWords:'دہرائیں', settings:'ترتیبات', language:'زبان',
-      darkMode:'ڈارک موڈ', reset:'سب صاف کریں', resetConfirm:'سب پروگریس صاف کرنی ہے؟',
-      correct:'بالکل درست!', wrong:'غلط', noWords:'ابھی کچھ نہیں', emptyTitle:'کوئی لفظ نہیں',
-      emptyText:'پہلے کچھ الفاظ سیکھیں۔', reviewDone:'دہرائی مکمل', reviewScore:'{c} درست · {w} غلط',
-      backToHome:'واپس', resetDone:'سب صاف ہو گیا', learnedToast:'لفظ مکمل!', youSaid:'آپ نے کہا' }
-};
-const STRINGS_HI = {
-  hi:{greeting:'सीखो, समझो, बोलो', sub:'एक समय में एक शब्द।',
-      start:'सीखना शुरू करें', review:'दोहराएं', mastered:'पूर्ण', remaining:'शेष', total:'कुल',
-      next:'अगला शब्द', word:'शब्द', listen:'सुनें', learned:'मैंने सीख लिया',
-      mubarak:'मुबारक हो!', doneText:'आपने सभी {n} शब्द पूरे कर लिए।',
-      startOver:'फिर से शुरू', reviewWords:'दोहराएं', settings:'सेटिंग्स', language:'भाषा',
-      darkMode:'डार्क मोड', reset:'सब रीसेट करें', resetConfirm:'सारी प्रगति हटाएं?',
-      correct:'सही!', wrong:'गलत', noWords:'कुछ नहीं', emptyTitle:'कोई शब्द नहीं',
-      emptyText:'पहले कुछ शब्द सीखें।', reviewDone:'दोहराव पूरा', reviewScore:'{c} सही · {w} गलत',
-      backToHome:'वापस', resetDone:'रीसेट हो गया', learnedToast:'शब्द पूर्ण!', youSaid:'आपने कहा' }
-};
-const STRINGS_BN = {
-  bn:{greeting:'শিখুন, বুঝুন, বলুন', sub:'একবারে একটি শব্দ।',
-      start:'শেখা শুরু করুন', review:'পর্যালোচনা', mastered:'সম্পূর্ণ', remaining:'বাকি', total:'মোট',
-      next:'পরবর্তী শব্দ', word:'শব্দ', listen:'শুনুন', learned:'আমি শিখেছি',
-      mubarak:'অভিনন্দন!', doneText:'আপনি সব {n} শব্দ সম্পূর্ণ করেছেন।',
-      startOver:'আবার শুরু', reviewWords:'পর্যালোচনা', settings:'সেটিংস', language:'ভাষা',
-      darkMode:'ডার্ক মোড', reset:'সব রিসেট', resetConfirm:'সব অগ্রগতি মুছবেন?',
-      correct:'সঠিক!', wrong:'ভুল', noWords:'কিছু নেই', emptyTitle:'কোনো শব্দ নেই',
-      emptyText:'প্রথমে কিছু শব্দ শিখুন।', reviewDone:'পর্যালোচনা সম্পূর্ণ', reviewScore:'{c} সঠিক · {w} ভুল',
-      backToHome:'ফিরুন', resetDone:'রিসেট হয়েছে', learnedToast:'শব্দ সম্পূর্ণ!', youSaid:'আপনি বলেছেন' }
-};
-const STRINGS_ID = {
-  id:{greeting:'Belajar, pahami, ucapkan', sub:'Satu kata sekali.',
-      start:'Mulai Belajar', review:'Ulas', mastered:'Selesai', remaining:'Tersisa', total:'Total',
-      next:'Kata berikutnya', word:'Kata', listen:'Dengar', learned:'Saya sudah belajar',
-      mubarak:'Selamat!', doneText:'Anda menyelesaikan semua {n} kata.',
-      startOver:'Mulai Ulang', reviewWords:'Ulas Kata', settings:'Pengaturan', language:'Bahasa',
-      darkMode:'Mode Gelap', reset:'Reset Semua', resetConfirm:'Hapus semua progres?',
-      correct:'Benar!', wrong:'Salah', noWords:'Tidak ada', emptyTitle:'Belum ada kata',
-      emptyText:'Pelajari beberapa kata dulu.', reviewDone:'Ulasan Selesai', reviewScore:'{c} benar · {w} salah',
-      backToHome:'Kembali', resetDone:'Direset', learnedToast:'Kata selesai!', youSaid:'Anda bilang' }
-};
-const STRINGS_TR = {
-  tr:{greeting:'Öğren, anla, konuş', sub:'Her seferinde bir kelime.',
-      start:'Öğrenmeye Başla', review:'Tekrar', mastered:'Tamamlandı', remaining:'Kalan', total:'Toplam',
-      next:'Sonraki kelime', word:'Kelime', listen:'Dinle', learned:'Öğrendim',
-      mubarak:'Tebrikler!', doneText:'Tüm {n} kelimeyi tamamladınız.',
-      startOver:'Baştan Başla', reviewWords:'Tekrar Et', settings:'Ayarlar', language:'Dil',
-      darkMode:'Koyu Mod', reset:'Tümünü Sıfırla', resetConfirm:'Tüm ilerleme silinsin mi?',
-      correct:'Doğru!', wrong:'Yanlış', noWords:'Yok', emptyTitle:'Kelime yok',
-      emptyText:'Önce birkaç kelime öğren.', reviewDone:'Tekrar Bitti', reviewScore:'{c} doğru · {w} yanlış',
-      backToHome:'Geri', resetDone:'Sıfırlandı', learnedToast:'Kelime tamam!', youSaid:'Dediniz' }
-};
-const ALL_STRINGS = Object.assign({}, STRINGS, STRINGS_UR, STRINGS_HI, STRINGS_BN, STRINGS_ID, STRINGS_TR);
-
-const LANGS = [
-  {code:'en', name:'English',    label:'English'},
-  {code:'ur', name:'اردو',       label:'اردو'},
-  {code:'hi', name:'हिन्दी',     label:'हिन्दी'},
-  {code:'bn', name:'বাংলা',      label:'বাংলা'},
-  {code:'id', name:'Indonesia',  label:'Indonesia'},
-  {code:'tr', name:'Türkçe',     label:'Türkçe'}
-];
-
-/* ---------- Words with meanings in all languages ---------- */
-const WORDS = [
-  {ar:'كِتَاب',   tr:'kitāb',    m:{en:'book',     ur:'کتاب',      hi:'किताब',    bn:'বই',       id:'buku',         tr:'kitap'}},
-  {ar:'قَلَم',    tr:'qalam',    m:{en:'pen',      ur:'قلم',       hi:'कलम',      bn:'কলম',      id:'pena',         tr:'kalem'}},
-  {ar:'بَاب',     tr:'bāb',      m:{en:'door',     ur:'دروازہ',    hi:'दरवाज़ा',  bn:'দরজা',     id:'pintu',        tr:'kapı'}},
-  {ar:'مَاء',     tr:'mā’',      m:{en:'water',    ur:'پانی',      hi:'पानी',     bn:'পানি',     id:'air',          tr:'su'}},
-  {ar:'نَار',     tr:'nār',      m:{en:'fire',     ur:'آگ',        hi:'आग',       bn:'আগুন',     id:'api',          tr:'ateş'}},
-  {ar:'شَمْس',    tr:'shams',    m:{en:'sun',      ur:'سورج',      hi:'सूरज',     bn:'সূর্য',    id:'matahari',     tr:'güneş'}},
-  {ar:'قَمَر',    tr:'qamar',    m:{en:'moon',     ur:'چاند',      hi:'चाँद',     bn:'চাঁদ',     id:'bulan',        tr:'ay'}},
-  {ar:'سَمَاء',   tr:'samā’',    m:{en:'sky',      ur:'آسمان',     hi:'आसमान',    bn:'আকাশ',     id:'langit',       tr:'gökyüzü'}},
-  {ar:'أَرْض',    tr:'arḍ',      m:{en:'earth',    ur:'زمین',      hi:'धरती',     bn:'পৃথিবী',   id:'bumi',         tr:'toprak'}},
-  {ar:'يَوْم',    tr:'yawm',     m:{en:'day',      ur:'دن',        hi:'दिन',      bn:'দিন',      id:'hari',         tr:'gün'}},
-  {ar:'لَيْل',    tr:'layl',     m:{en:'night',    ur:'رات',       hi:'रात',      bn:'রাত',      id:'malam',        tr:'gece'}},
-  {ar:'رَجُل',    tr:'rajul',    m:{en:'man',      ur:'آدمی',      hi:'आदमी',     bn:'পুরুষ',    id:'pria',         tr:'adam'}},
-  {ar:'اِمْرَأَة', tr:'imra’ah', m:{en:'woman',    ur:'عورت',      hi:'औरत',      bn:'নারী',     id:'wanita',       tr:'kadın'}},
-  {ar:'وَلَد',    tr:'walad',    m:{en:'boy',      ur:'لڑکا',      hi:'लड़का',     bn:'ছেলে',     id:'anak lk',      tr:'oğlan'}},
-  {ar:'بِنْت',    tr:'bint',     m:{en:'girl',     ur:'لڑکی',      hi:'लड़की',     bn:'মেয়ে',     id:'anak pr',      tr:'kız'}},
-  {ar:'بَيْت',    tr:'bayt',     m:{en:'house',    ur:'گھر',       hi:'घर',       bn:'বাড়ি',     id:'rumah',        tr:'ev'}},
-  {ar:'مَسْجِد',  tr:'masjid',   m:{en:'mosque',   ur:'مسجد',      hi:'मस्जिद',   bn:'মসজিদ',    id:'masjid',       tr:'cami'}},
-  {ar:'مُعَلِّم', tr:'mu‘allim', m:{en:'teacher',  ur:'استاد',     hi:'शिक्षक',   bn:'শিক্ষক',   id:'guru',         tr:'öğretmen'}},
-  {ar:'طَالِب',   tr:'ṭālib',    m:{en:'student',  ur:'طالبِ علم', hi:'छात्र',    bn:'শিক্ষার্থী',id:'murid',        tr:'öğrenci'}},
-  {ar:'مَدِينَة', tr:'madīnah',  m:{en:'city',     ur:'شہر',       hi:'शहर',      bn:'শহর',       id:'kota',         tr:'şehir'}},
-  {ar:'يَكْتُب',  tr:'yaktub',   m:{en:'he writes',ur:'وہ لکھتا ہے',hi:'वह लिखता', bn:'সে লেখে',   id:'dia menulis',  tr:'o yazar'}},
-  {ar:'يَقْرَأ',  tr:'yaqra’',   m:{en:'he reads', ur:'وہ پڑھتا ہے',hi:'वह पढ़ता',  bn:'সে পড়ে',    id:'dia membaca',  tr:'o okur'}},
-  {ar:'يَأْكُل',  tr:'ya’kul',   m:{en:'he eats',  ur:'وہ کھاتا ہے',hi:'वह खाता',  bn:'সে খায়',   id:'dia makan',    tr:'o yer'}},
-  {ar:'يَشْرَب',  tr:'yashrab',  m:{en:'he drinks',ur:'وہ پیتا ہے', hi:'वह पीता',  bn:'সে পান করে',id:'dia minum',    tr:'o içer'}},
-  {ar:'يَعْلَم',  tr:'ya‘lam',   m:{en:'he knows', ur:'وہ جانتا ہے',hi:'वह जानता', bn:'সে জানে',   id:'dia tahu',     tr:'o bilir'}}
-];
-
-/* ---------- Storage ---------- */
-const KEY = {idx:'nur_idx', done:'nur_done', lang:'nur_lang', theme:'nur_theme'};
+const KEY = { idx:'nur_idx_v3', done:'nur_done_v3', theme:'nur_theme_v3' };
 const store = {
   get(k, def){ try{ const v = localStorage.getItem(k); return v===null?def:JSON.parse(v); }catch{ return def; } },
-  set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch{} },
-  del(k){ try{ localStorage.removeItem(k); }catch{} }
+  set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch{} }
 };
 
-/* ---------- State ---------- */
-const state = {
-  idx: 0,
-  mastered: [],
-  lang: 'en',
-  theme: 'dark',
-  screen: 'home',
-  review: null
-};
+const state = { idx:0, mastered:[], theme:'dark', screen:'loading', review:null, words:[] };
 
-/* ---------- Helpers ---------- */
 const $ = id => document.getElementById(id);
-function t(key){ return (ALL_STRINGS[state.lang] && ALL_STRINGS[state.lang][key]) || ALL_STRINGS.en[key] || key; }
-function fmt(str, obj){ return str.replace(/\{(\w+)\}/g, (_,k)=>obj[k]!==undefined?obj[k]:''); }
 function el(html){ const d = document.createElement('div'); d.innerHTML = html.trim(); return d.firstChild; }
 
-/* ---------- Screen switching ---------- */
 function go(name){
   state.screen = name;
-  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
-  const target = $('screen-' + name);
-  if(target) target.classList.add('active');
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  const t = $('screen-' + name);
+  if(t) t.classList.add('active');
   window.scrollTo({top:0, behavior:'smooth'});
 }
 
-/* ---------- Toast ---------- */
 function toast(msg, type){
   type = type || 'info';
-  const icons = {
-    success:'<svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>',
-    error:  '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>',
-    info:   '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>'
-  };
-  const node = el('<div class="toast ' + type + '">' + icons[type] + '<span>' + msg + '</span></div>');
-  $('toastWrap').appendChild(node);
-  setTimeout(()=>{ node.classList.add('out'); setTimeout(()=>node.remove(), 300); }, 2200);
+  const n = el('<div class="toast ' + type + '"><span>' + msg + '</span></div>');
+  $('toastWrap').appendChild(n);
+  setTimeout(()=>{ n.classList.add('out'); setTimeout(()=>n.remove(), 300); }, 2200);
 }
 
-/* ---------- Speech ---------- */
+function applyTheme(){
+  document.documentElement.setAttribute('data-theme', state.theme);
+  const m = document.querySelector('meta[name="theme-color"]');
+  if(m) m.setAttribute('content', state.theme==='dark'?'#0a0f1e':'#f7f9fc');
+}
+
+async function loadData(){
+  try{
+    const r = await fetch('data/top100.json');
+    if(!r.ok) throw new Error('HTTP ' + r.status);
+    state.words = await r.json();
+    return true;
+  }catch(e){
+    console.error('Load failed:', e);
+    return false;
+  }
+}
+
 const Speech = {
-  speak(text, rate){
+  tts(text, rate){
     rate = rate || 0.85;
     if(!('speechSynthesis' in window)) return false;
     try{
       speechSynthesis.cancel();
       const u = new SpeechSynthesisUtterance(text);
-      u.lang = 'ar-SA';
-      u.rate = rate;
+      u.lang = 'ar-SA'; u.rate = rate;
       const voices = speechSynthesis.getVoices();
-      const ar = voices.find(v=>v.lang && v.lang.toLowerCase().startsWith('ar'));
+      const ar = voices.find(v => v.lang && v.lang.toLowerCase().startsWith('ar'));
       if(ar) u.voice = ar;
       speechSynthesis.speak(u);
       return true;
     }catch{ return false; }
+  },
+  ayahAudio(surah, ayah){
+    const pad = n => String(n).padStart(3, '0');
+    const url = `https://everyayah.com/data/Mishary_Alafasy_128kbps/${pad(surah)}${pad(ayah)}.mp3`;
+    try{
+      const audio = new Audio(url);
+      audio.play().catch(err => {
+        console.warn('Audio play failed:', err);
+        toast('Audio load nahi hua. Internet check karo.', 'error');
+      });
+      return audio;
+    }catch{ return null; }
   }
 };
 
-/* ---------- Persistence ---------- */
-function load(){
-  state.idx      = store.get(KEY.idx, 0);
-  state.mastered = store.get(KEY.done, []);
-  state.lang     = store.get(KEY.lang, 'en');
-  state.theme    = store.get(KEY.theme, 'dark');
-  if(!Array.isArray(state.mastered)) state.mastered = [];
-  if(typeof state.idx !== 'number' || state.idx < 0) state.idx = 0;
-}
-function save(){
-  store.set(KEY.idx, state.idx);
-  store.set(KEY.done, state.mastered);
-  store.set(KEY.lang, state.lang);
-  store.set(KEY.theme, state.theme);
-}
-
-/* ---------- Apply theme ---------- */
-function applyTheme(){
-  document.documentElement.setAttribute('data-theme', state.theme);
-  const meta = document.querySelector('meta[name="theme-color"]');
-  if(meta) meta.setAttribute('content', state.theme==='dark'?'#0a0f1e':'#f7f9fc');
-  const tg = $('themeToggleSettings');
-  if(tg) tg.classList.toggle('on', state.theme==='dark');
-}
-
-/* ---------- Apply language to UI ---------- */
-function applyLang(){
-  $('homeGreeting').textContent = t('greeting');
-  $('homeSub').textContent      = t('sub');
-  $('lblNext').textContent      = t('next');
-  $('btnStart').textContent     = t('start');
-  $('btnReview').textContent    = t('review');
-  $('lblMastered').textContent  = t('mastered');
-  $('lblRemaining').textContent = t('remaining');
-  $('lblTotal').textContent     = t('total');
-  $('btnListen').textContent    = t('listen');
-  $('btnLearned').textContent   = t('learned');
-  $('btnDoneStart').textContent = t('startOver');
-  $('btnDoneReview').textContent= t('reviewWords');
-  $('doneTitle').textContent    = t('mubarak');
-  $('settingsTitle').textContent= t('settings');
-  $('lblLanguage').textContent  = t('language');
-  $('lblTheme').textContent     = t('darkMode');
-  $('lblReset').textContent     = t('reset');
-  const ls = $('langSelect');
-  if(ls) ls.value = state.lang;
-}
-
-/* ---------- Home render ---------- */
 function renderHome(){
-  const total = WORDS.length;
-  const done  = state.mastered.length;
-  const pct   = total ? Math.round(done/total*100) : 0;
+  const total = state.words.length;
+  const done = state.mastered.length;
+  const pct = total ? Math.round(done/total*100) : 0;
 
-  // Ring
-  const R = 78;
-  const C = 2 * Math.PI * R;
+  const R = 78, C = 2 * Math.PI * R;
   const fill = $('ringFill');
   fill.style.strokeDasharray = C;
   fill.style.strokeDashoffset = C - (C * pct / 100);
   $('ringPct').textContent = pct + '%';
-
-  $('statMastered').textContent  = done;
+  $('statMastered').textContent = done;
   $('statRemaining').textContent = total - done;
-  $('statTotal').textContent     = total;
+  $('statTotal').textContent = total;
 
-  // Review button state
   const revBtn = $('reviewBtn');
-  if(done === 0){
-    revBtn.style.opacity = .5;
-    revBtn.style.pointerEvents = 'none';
-  } else {
-    revBtn.style.opacity = 1;
-    revBtn.style.pointerEvents = 'auto';
-  }
+  if(done === 0){ revBtn.style.opacity = .5; revBtn.style.pointerEvents = 'none'; }
+  else { revBtn.style.opacity = 1; revBtn.style.pointerEvents = 'auto'; }
 
-  // Next preview
   if(state.idx >= total){
-    $('previewAr').textContent = '🎉';
-    $('previewTranslit').textContent = '';
-    $('previewCard').style.display = 'none';
-    $('startBtn').style.display = 'none';
     go('done');
-    $('doneText').textContent = fmt(t('doneText'), {n: total});
+    $('doneText').textContent = `Aap ne tamam ${total} Qur'anic lafz mukammal kar liye. Ab review karte raho.`;
     return;
   }
-
-  $('previewCard').style.display = '';
-  $('startBtn').style.display = '';
-  const w = WORDS[state.idx];
-  $('previewAr').textContent = w.ar;
-  $('previewTranslit').textContent = w.tr;
-  $('btnStart').textContent = t('start');
-
+  const w = state.words[state.idx];
+  $('previewAr').textContent = w.lemma_ar;
+  $('previewTranslit').textContent = w.lemma_lat;
   go('home');
 }
 
-/* ---------- Learn render ---------- */
 function renderLearn(){
-  const total = WORDS.length;
+  const total = state.words.length;
   if(state.idx >= total){ renderHome(); return; }
-  const w = WORDS[state.idx];
+  const w = state.words[state.idx];
 
-  $('learnCounter').textContent = t('word') + ' ' + (state.idx+1) + ' / ' + total;
-  const pct = (state.idx / total) * 100;
-  $('learnLine').style.width = pct + '%';
+  $('learnCounter').textContent = `Word ${state.idx+1} / ${total}`;
+  $('learnLine').style.width = ((state.idx / total) * 100) + '%';
 
-  $('learnAr').textContent       = w.ar;
-  $('learnTranslit').textContent = w.tr;
-  $('learnMeaning').textContent  = w.m[state.lang] || w.m.en;
+  $('learnAr').textContent = w.lemma_ar;
+  $('learnTranslit').textContent = w.lemma_lat;
+
+  const rootChip = $('chipRoot');
+  if(w.root_ar){
+    rootChip.textContent = `جذر: ${w.root_ar}`;
+    rootChip.style.display = '';
+  } else {
+    rootChip.style.display = 'none';
+  }
+
+  $('chipFreq').textContent = `${w.freq.count.toLocaleString()}×`;
+  $('chipPos').textContent = w.pos_ar || w.pos_en || '';
+
+  $('ayahLabel').textContent = `Qur'an · ${w.ayah.ref}`;
+  $('ayahAr').textContent = w.ayah.ar;
+  $('ayahUr').textContent = w.ayah.ur;
+  $('ayahEn').textContent = w.ayah.en;
 
   go('learn');
-  setTimeout(()=>Speech.speak(w.ar), 300);
 }
 
-/* ---------- Mark learned ---------- */
 function markLearned(){
-  if(state.idx >= WORDS.length) return;
+  if(state.idx >= state.words.length) return;
   if(!state.mastered.includes(state.idx)) state.mastered.push(state.idx);
   state.idx++;
-  save();
-  toast(t('learnedToast'), 'success');
-  if(state.idx >= WORDS.length){
-    renderHome();
-  } else {
-    renderLearn();
-  }
+  store.set(KEY.idx, state.idx);
+  store.set(KEY.done, state.mastered);
+  toast('Word mastered!', 'success');
+  if(state.idx >= state.words.length) renderHome();
+  else renderLearn();
 }
 
-/* ---------- Review ---------- */
 function startReview(){
-  if(state.mastered.length === 0){
-    toast(t('noWords'), 'info');
-    return;
-  }
-  // shuffle
+  if(state.mastered.length === 0){ toast('Pehle kuch words master karo.', 'info'); return; }
   const ids = state.mastered.slice();
   for(let i=ids.length-1;i>0;i--){ const j = Math.floor(Math.random()*(i+1)); [ids[i],ids[j]]=[ids[j],ids[i]]; }
   state.review = { queue: ids, i: 0, correct: 0, wrong: 0 };
@@ -1236,152 +559,120 @@ function startReview(){
 
 function renderReview(){
   const R = state.review;
+  if(!R){ renderHome(); return; }
   const body = $('reviewBody');
-  if(!R){ go('home'); return; }
 
   if(R.i >= R.queue.length){
-    // Summary
-    $('reviewCounter').textContent = t('reviewDone');
+    $('reviewCounter').textContent = 'Review Complete';
     body.innerHTML = `
       <div class="done-hero">
         <div class="done-emoji">${R.wrong===0?'🌟':'📚'}</div>
-        <div class="done-title">${t('reviewDone')}</div>
-        <p class="done-text">${fmt(t('reviewScore'), {c:R.correct, w:R.wrong})}</p>
+        <div class="done-title">Mukammal!</div>
+        <p class="done-text">✅ ${R.correct} correct &nbsp;·&nbsp; ❌ ${R.wrong} wrong</p>
       </div>
-      <div class="learn-actions">
-        <button class="btn btn-primary" id="revHome">
-          <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
-          <span>${t('backToHome')}</span>
-        </button>
-      </div>
-    `;
-    $('revHome').addEventListener('click', ()=>{ state.review=null; renderHome(); });
+      <div class="actions">
+        <button class="btn btn-primary" id="revHome">Back to Home</button>
+      </div>`;
+    $('revHome').addEventListener('click', ()=>{ state.review = null; renderHome(); });
     return;
   }
 
   const wid = R.queue[R.i];
-  const w = WORDS[wid];
-  $('reviewCounter').textContent = (R.i+1) + ' / ' + R.queue.length;
+  const w = state.words[wid];
+  $('reviewCounter').textContent = `${R.i+1} / ${R.queue.length}`;
 
-  // Build 4 options
-  const correctMeaning = w.m[state.lang] || w.m.en;
-  const pool = WORDS.filter((_,i)=>i!==wid);
+  const correct = w.lemma_lat;
+  const pool = state.words.filter((_,i)=>i!==wid);
   const wrongs = [];
-  while(wrongs.length < 3 && pool.length){
+  let safety = 0;
+  while(wrongs.length < 3 && pool.length && safety < 50){
     const x = pool.splice(Math.floor(Math.random()*pool.length),1)[0];
-    wrongs.push(x.m[state.lang] || x.m.en);
+    if(x.lemma_lat !== correct && !wrongs.includes(x.lemma_lat)) wrongs.push(x.lemma_lat);
+    safety++;
   }
-  const opts = [correctMeaning, ...wrongs].sort(()=>Math.random()-.5);
+  const opts = [correct, ...wrongs].sort(()=>Math.random()-.5);
 
   body.innerHTML = `
     <div class="review-head">
-      <h2>${t('review')}</h2>
-      <p>${t('word')} ${R.i+1} / ${R.queue.length}</p>
+      <h2>Which word is this?</h2>
+      <p>Match the Arabic to its transliteration</p>
     </div>
-    <div class="review-word">
-      <div class="ar">${w.ar}</div>
-      <div class="tr">${w.tr}</div>
+    <div class="word-card">
+      <div class="word-ar">${w.lemma_ar}</div>
     </div>
     <div class="options" id="reviewOpts">
       ${opts.map(o=>`<button class="option" data-val="${o.replace(/"/g,'&quot;')}">${o}</button>`).join('')}
-    </div>
-  `;
+    </div>`;
 
   document.querySelectorAll('#reviewOpts .option').forEach(btn=>{
     btn.addEventListener('click', ()=>{
       const chosen = btn.dataset.val;
-      const ok = chosen === correctMeaning;
+      const ok = chosen === correct;
       document.querySelectorAll('#reviewOpts .option').forEach(b=>b.disabled = true);
-      if(ok){
-        btn.classList.add('correct');
-        R.correct++;
-        toast(t('correct'), 'success');
-      } else {
-        btn.classList.add('wrong');
-        R.wrong++;
+      if(ok){ btn.classList.add('correct'); R.correct++; toast('Correct!', 'success'); }
+      else {
+        btn.classList.add('wrong'); R.wrong++; toast('Not quite', 'error');
         document.querySelectorAll('#reviewOpts .option').forEach(b=>{
-          if(b.dataset.val === correctMeaning) b.classList.add('correct');
+          if(b.dataset.val === correct) b.classList.add('correct');
         });
-        toast(t('wrong'), 'error');
       }
       setTimeout(()=>{ R.i++; renderReview(); }, 900);
     });
   });
 }
 
-/* ---------- Reset ---------- */
-function resetAll(){
-  if(!confirm(t('resetConfirm'))) return;
-  state.idx = 0;
-  state.mastered = [];
-  save();
-  toast(t('resetDone'), 'success');
-  renderHome();
-}
-
-/* ---------- Bind events ---------- */
 function bind(){
-  // Theme toggle (topbar + settings)
   $('themeToggle').addEventListener('click', ()=>{
-    state.theme = state.theme==='dark' ? 'light' : 'dark';
-    save(); applyTheme();
+    state.theme = state.theme === 'dark' ? 'light' : 'dark';
+    store.set(KEY.theme, state.theme);
+    applyTheme();
   });
-  $('themeToggleSettings').addEventListener('click', ()=>{
-    state.theme = state.theme==='dark' ? 'light' : 'dark';
-    save(); applyTheme();
-  });
-
-  // Settings
-  $('settingsBtn').addEventListener('click', ()=> go('settings'));
-  $('settingsClose').addEventListener('click', ()=> renderHome());
-
-  // Language select
-  const ls = $('langSelect');
-  ls.innerHTML = LANGS.map(l=>`<option value="${l.code}">${l.label}</option>`).join('');
-  ls.value = state.lang;
-  ls.addEventListener('change', ()=>{
-    state.lang = ls.value;
-    save();
-    applyLang();
-    // Re-render current word meaning if on learn
-    if(state.screen === 'learn' && state.idx < WORDS.length){
-      const w = WORDS[state.idx];
-      $('learnMeaning').textContent = w.m[state.lang] || w.m.en;
-    }
-    if(state.screen === 'review') renderReview();
-  });
-
-  // Reset
-  $('resetRow').addEventListener('click', resetAll);
-
-  // Home
-  $('startBtn').addEventListener('click', ()=>{ if(state.idx<WORDS.length) renderLearn(); });
+  $('startBtn').addEventListener('click', ()=>{ if(state.idx < state.words.length) renderLearn(); });
   $('reviewBtn').addEventListener('click', startReview);
-
-  // Learn
-  $('learnClose').addEventListener('click', ()=> renderHome());
-  $('listenBtn').addEventListener('click', ()=>{
-    if(state.idx<WORDS.length) Speech.speak(WORDS[state.idx].ar);
+  $('learnClose').addEventListener('click', renderHome);
+  $('playWordBtn').addEventListener('click', ()=>{
+    if(state.idx < state.words.length) Speech.tts(state.words[state.idx].lemma_ar);
+  });
+  $('playAyahBtn').addEventListener('click', ()=>{
+    if(state.idx < state.words.length){
+      const w = state.words[state.idx];
+      Speech.ayahAudio(w.ayah.surah, w.ayah.ayah);
+    }
   });
   $('learnedBtn').addEventListener('click', markLearned);
-
-  // Done
-  $('doneStart').addEventListener('click', resetAll);
+  $('reviewClose').addEventListener('click', ()=>{ state.review = null; renderHome(); });
   $('doneReview').addEventListener('click', startReview);
-
-  // Review close
-  $('reviewClose').addEventListener('click', ()=>{ state.review=null; renderHome(); });
+  $('doneRestart').addEventListener('click', ()=>{
+    if(!confirm('Sab progress delete karni hai?')) return;
+    state.idx = 0; state.mastered = [];
+    store.set(KEY.idx, 0); store.set(KEY.done, []);
+    renderHome();
+  });
 }
 
-/* ---------- Boot ---------- */
-(function boot(){
+(async function boot(){
   if('speechSynthesis' in window){
     try{ speechSynthesis.getVoices(); }catch{}
     speechSynthesis.onvoiceschanged = ()=>{ try{ speechSynthesis.getVoices(); }catch{} };
   }
-  load();
+  state.idx = store.get(KEY.idx, 0);
+  state.mastered = store.get(KEY.done, []);
+  state.theme = store.get(KEY.theme, 'dark');
+  if(!Array.isArray(state.mastered)) state.mastered = [];
   applyTheme();
-  applyLang();
+
+  const ok = await loadData();
+  if(!ok){
+    $('screen-loading').innerHTML = `
+      <div class="loading">
+        <div style="font-size:2rem">⚠️</div>
+        <div style="font-weight:700;color:var(--text)">Data load nahi hua</div>
+        <div style="font-size:.85rem;text-align:center;max-width:280px">
+          Check karo ke <code>data/top100.json</code> file mojood hai.
+        </div>
+      </div>`;
+    return;
+  }
   bind();
   renderHome();
 })();
