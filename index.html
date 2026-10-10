@@ -443,7 +443,7 @@ body::before{
    Data: Quranic Arabic Corpus v0.4 (Leeds) + Tanzil translations
    ========================================================= */
 
-const KEY = { idx:'nur_idx_v3', done:'nur_done_v3', theme:'nur_theme_v3' };
+const KEY = { idx:'nur_idx_v4', done:'nur_done_v4', theme:'nur_theme_v4', schema:'nur_schema_v4' };
 const store = {
   get(k, def){ try{ const v = localStorage.getItem(k); return v===null?def:JSON.parse(v); }catch{ return def; } },
   set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch{} }
@@ -566,6 +566,15 @@ function highlightLemma(ayahAr, wordNum){
   return result.join('');
 }
 
+
+/* ─── Stable ID helpers ─── */
+function getWordById(id){
+  return state.words.find(w => w.id === id) || null;
+}
+function getIndexById(id){
+  return state.words.findIndex(w => w.id === id);
+}
+
 function renderHome(){
   const total = state.words.length;
   const done = state.mastered.length;
@@ -629,10 +638,12 @@ function renderLearn(){
 
 function markLearned(){
   if(state.idx >= state.words.length) return;
-  if(!state.mastered.includes(state.idx)) state.mastered.push(state.idx);
+  const wordId = state.words[state.idx].id;
+  if(!state.mastered.includes(wordId)) state.mastered.push(wordId);
   state.idx++;
   store.set(KEY.idx, state.idx);
   store.set(KEY.done, state.mastered);
+  store.set(KEY.schema, 4);
   toast('Word mastered!', 'success');
   if(state.idx >= state.words.length) renderHome();
   else renderLearn();
@@ -640,7 +651,7 @@ function markLearned(){
 
 function startReview(){
   if(state.mastered.length === 0){ toast('Pehle kuch words master karo.', 'info'); return; }
-  const ids = state.mastered.slice();
+  const ids = state.mastered.slice();  // yeh ab word IDs hain (stable)
   for(let i=ids.length-1;i>0;i--){ const j = Math.floor(Math.random()*(i+1)); [ids[i],ids[j]]=[ids[j],ids[i]]; }
   state.review = { queue: ids, i: 0, correct: 0, wrong: 0 };
   renderReview();
@@ -667,8 +678,9 @@ function renderReview(){
     return;
   }
 
-  const wid = R.queue[R.i];
-  const w = state.words[wid];
+  const wordId = R.queue[R.i];
+  const w = getWordById(wordId);
+  if(!w){ R.i++; renderReview(); return; }
   $('reviewCounter').textContent = `${R.i+1} / ${R.queue.length}`;
 
   const correct = w.meaning.en;
@@ -752,6 +764,15 @@ function bind(){
   state.mastered = store.get(KEY.done, []);
   state.theme = store.get(KEY.theme, 'dark');
   if(!Array.isArray(state.mastered)) state.mastered = [];
+  
+  // Migrate old index-based progress → stable IDs
+  const schema = store.get(KEY.schema, 0);
+  if(schema < 4 && state.mastered.length > 0){
+    console.log('Migrating old progress to stable IDs...');
+    // Old mastered array had indices; convert to word IDs (only after loadData)
+    // Defer migration to after data loads
+    window.__needsMigration = true;
+  }
   applyTheme();
 
   const ok = await loadData();
@@ -766,6 +787,22 @@ function bind(){
       </div>`;
     return;
   }
+  // Handle old progress migration
+  if(window.__needsMigration){
+    try{
+      const migrated = [];
+      for(const oldId of state.mastered){
+        if(typeof oldId === 'number' && oldId >= 0 && oldId < state.words.length){
+          migrated.push(state.words[oldId].id);  // convert index → word ID
+        }
+      }
+      state.mastered = migrated;
+      store.set(KEY.done, state.mastered);
+      store.set(KEY.schema, 4);
+      console.log('Migrated', migrated.length, 'words to stable IDs');
+    }catch(e){ console.warn('Migration failed:', e); state.mastered = []; }
+  }
+  
   bind();
   renderHome();
 })();
