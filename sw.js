@@ -1,13 +1,10 @@
-// Nūr — Service Worker
-// Caches app shell + data for offline use.
-
-const VERSION = 'nur-v4';
+// Nūr — Service Worker v2
+const VERSION = 'nur-v5';
 const CACHE_STATIC = 'nur-static-' + VERSION;
 const CACHE_DATA   = 'nur-data-' + VERSION;
 const CACHE_AUDIO  = 'nur-audio-' + VERSION;
 const CACHE_FONTS  = 'nur-fonts-' + VERSION;
 
-// Files needed for app shell (offline-first)
 const STATIC = [
   './',
   './index.html',
@@ -19,37 +16,34 @@ const STATIC = [
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_STATIC).then(cache => {
-      console.log('[SW] Caching app shell');
       return cache.addAll(STATIC).catch(err => {
-        console.warn('[SW] Some files failed:', err);
+        console.warn('[SW] Install cache fail:', err);
       });
     }).then(() => self.skipWaiting())
   );
 });
 
-// ─── Activate — clean old caches ───
+// ─── Activate ───
 self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys().then(keys => Promise.all(
-      keys.filter(k => !k.includes(VERSION))
-          .map(k => caches.delete(k))
+      keys.filter(k => !k.includes(VERSION)).map(k => caches.delete(k))
     )).then(() => self.clients.claim())
   );
 });
 
-// ─── Fetch — smart routing ───
+// ─── Fetch ───
 self.addEventListener('fetch', event => {
   const req = event.request;
   const url = new URL(req.url);
 
-  // Only GET
   if(req.method !== 'GET') return;
 
-  // 1. Audio (EveryAyah) — cache-first
+  // 1. Audio — cache-first (with ignoreSearch)
   if(url.hostname === 'everyayah.com'){
     event.respondWith(
       caches.open(CACHE_AUDIO).then(cache =>
-        cache.match(req).then(cached => {
+        cache.match(req, {ignoreSearch: true}).then(cached => {
           if(cached) return cached;
           return fetch(req).then(res => {
             if(res.ok) cache.put(req, res.clone());
@@ -61,24 +55,24 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // 2. Google Fonts — cache-first (long-term)
-  if(url.hostname.includes('fonts.googleapis.com') || 
+  // 2. Fonts — cache-first
+  if(url.hostname.includes('fonts.googleapis.com') ||
      url.hostname.includes('fonts.gstatic.com')){
     event.respondWith(
       caches.open(CACHE_FONTS).then(cache =>
-        cache.match(req).then(cached => {
+        cache.match(req, {ignoreSearch: true}).then(cached => {
           if(cached) return cached;
           return fetch(req).then(res => {
             if(res.ok) cache.put(req, res.clone());
             return res;
-          });
+          }).catch(() => new Response('', {status: 200, headers: {'Content-Type':'text/css'}}));
         })
       )
     );
     return;
   }
 
-  // 3. Data (top100.json) — network-first (fresh data priority)
+  // 3. Data — network-first with ignoreSearch fallback
   if(url.pathname.includes('top100.json')){
     event.respondWith(
       fetch(req).then(res => {
@@ -87,27 +81,37 @@ self.addEventListener('fetch', event => {
           caches.open(CACHE_DATA).then(c => c.put(req, copy));
         }
         return res;
-      }).catch(() => caches.match(req))
+      }).catch(() =>
+        caches.open(CACHE_DATA).then(cache =>
+          cache.match(req, {ignoreSearch: true}).then(cached =>
+            cached || caches.open(CACHE_STATIC).then(c2 =>
+              c2.match('./data/top100.json', {ignoreSearch: true})
+            )
+          )
+        )
+      )
     );
     return;
   }
 
-  // 4. Same-origin HTML/JS/CSS — cache-first
+  // 4. Same-origin — cache-first
   if(url.origin === self.location.origin){
     event.respondWith(
-      caches.match(req).then(cached => cached || fetch(req).then(res => {
-        if(res.ok && res.type === 'basic'){
-          const copy = res.clone();
-          caches.open(CACHE_STATIC).then(c => c.put(req, copy));
-        }
-        return res;
-      }).catch(() => caches.match('./index.html')))
+      caches.match(req, {ignoreSearch: true}).then(cached => {
+        if(cached) return cached;
+        return fetch(req).then(res => {
+          if(res.ok && res.type === 'basic'){
+            const copy = res.clone();
+            caches.open(CACHE_STATIC).then(c => c.put(req, copy));
+          }
+          return res;
+        }).catch(() => caches.match('./index.html'));
+      })
     );
     return;
   }
 });
 
-// ─── Allow client to trigger skipWaiting ───
 self.addEventListener('message', event => {
   if(event.data && event.data.type === 'SKIP_WAITING'){
     self.skipWaiting();
