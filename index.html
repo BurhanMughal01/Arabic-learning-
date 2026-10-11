@@ -456,7 +456,7 @@ window.__INLINE_DATA__ = [{"id": 1, "lemma_bw": "min", "lemma_ar": "مِن", "ro
    Data: Quranic Arabic Corpus v0.4 (Leeds) + Tanzil translations
    ========================================================= */
 
-const KEY = { idx:'nur_idx_v4', done:'nur_done_v4', theme:'nur_theme_v4', schema:'nur_schema_v4' };
+const KEY = { idx:'nur_idx_v5', curId:'nur_current_id_v5', done:'nur_done_v5', theme:'nur_theme_v5', schema:'nur_schema_v5' };
 const store = {
   get(k, def){ try{ const v = localStorage.getItem(k); return v===null?def:JSON.parse(v); }catch{ return def; } },
   set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch{} }
@@ -600,6 +600,21 @@ function getIndexById(id){
   return state.words.findIndex(w => w.id === id);
 }
 
+
+/* ─── Current position helpers (stable ID based) ─── */
+function saveCurrentId(){
+  if(state.idx < state.words.length){
+    const id = state.words[state.idx].id;
+    store.set(KEY.curId, id);
+  }
+}
+function loadCurrentIndex(){
+  const savedId = store.get(KEY.curId, null);
+  if(savedId === null) return 0;  // fresh start
+  const idx = state.words.findIndex(w => w.id === savedId);
+  return idx >= 0 ? idx : 0;      // fallback to 0 if not found
+}
+
 function renderHome(){
   const total = state.words.length;
   const done = state.mastered.length;
@@ -666,9 +681,11 @@ function markLearned(){
   const wordId = state.words[state.idx].id;
   if(!state.mastered.includes(wordId)) state.mastered.push(wordId);
   state.idx++;
+  // Save both: stable ID for cross-data safety, index for quick resume
+  saveCurrentId();
   store.set(KEY.idx, state.idx);
   store.set(KEY.done, state.mastered);
-  store.set(KEY.schema, 4);
+  store.set(KEY.schema, 5);
   toast('Word mastered!', 'success');
   if(state.idx >= state.words.length) renderHome();
   else renderLearn();
@@ -775,7 +792,7 @@ function bind(){
   $('doneRestart').addEventListener('click', ()=>{
     if(!confirm('Sab progress delete karni hai?')) return;
     state.idx = 0; state.mastered = [];
-    store.set(KEY.idx, 0); store.set(KEY.done, []);
+    store.set(KEY.idx, 0); store.set(KEY.done, []); store.set(KEY.curId, null);
     renderHome();
   });
 }
@@ -785,19 +802,18 @@ function bind(){
     try{ speechSynthesis.getVoices(); }catch{}
     speechSynthesis.onvoiceschanged = ()=>{ try{ speechSynthesis.getVoices(); }catch{} };
   }
-  state.idx = store.get(KEY.idx, 0);
   state.mastered = store.get(KEY.done, []);
   state.theme = store.get(KEY.theme, 'dark');
   if(!Array.isArray(state.mastered)) state.mastered = [];
   
-  // Migrate old index-based progress → stable IDs
+  // Migration flags
   const schema = store.get(KEY.schema, 0);
-  if(schema < 4 && state.mastered.length > 0){
+  if(schema < 5 && state.mastered.length > 0){
     console.log('Migrating old progress to stable IDs...');
-    // Old mastered array had indices; convert to word IDs (only after loadData)
-    // Defer migration to after data loads
     window.__needsMigration = true;
   }
+  // idx will be resolved after data loads (by stable currentId)
+  state.idx = 0;
   applyTheme();
 
   const ok = await loadData();
@@ -812,20 +828,38 @@ function bind(){
       </div>`;
     return;
   }
-  // Handle old progress migration
+  // 1. Handle old mastered migration (index → IDs)
   if(window.__needsMigration){
     try{
       const migrated = [];
       for(const oldId of state.mastered){
         if(typeof oldId === 'number' && oldId >= 0 && oldId < state.words.length){
-          migrated.push(state.words[oldId].id);  // convert index → word ID
+          migrated.push(state.words[oldId].id);
         }
       }
       state.mastered = migrated;
       store.set(KEY.done, state.mastered);
-      store.set(KEY.schema, 4);
-      console.log('Migrated', migrated.length, 'words to stable IDs');
+      store.set(KEY.schema, 5);
+      console.log('Migrated', migrated.length, 'mastered words to stable IDs');
     }catch(e){ console.warn('Migration failed:', e); state.mastered = []; }
+  }
+  
+  // 2. Resolve current position — prefer stable currentId, fallback to index
+  const savedCurId = store.get(KEY.curId, null);
+  if(savedCurId !== null){
+    const idx = state.words.findIndex(w => w.id === savedCurId);
+    if(idx >= 0){
+      state.idx = idx;
+      console.log('Resumed at word ID', savedCurId, '→ index', idx);
+    } else {
+      // Word ID not found in current data — start fresh
+      console.warn('Saved word ID', savedCurId, 'not found. Starting fresh.');
+      state.idx = 0;
+    }
+  } else {
+    // No stable ID yet — try old index
+    const oldIdx = store.get(KEY.idx, 0);
+    state.idx = Math.max(0, Math.min(oldIdx, state.words.length - 1));
   }
   
   bind();
