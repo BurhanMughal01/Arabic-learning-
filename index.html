@@ -456,7 +456,7 @@ window.__INLINE_DATA__ = [{"id": 1, "lemma_bw": "min", "lemma_ar": "مِن", "ro
    Data: Quranic Arabic Corpus v0.4 (Leeds) + Tanzil translations
    ========================================================= */
 
-const KEY = { idx:'nur_idx_v5', curId:'nur_current_id_v5', done:'nur_done_v5', theme:'nur_theme_v5', schema:'nur_schema_v5' };
+const KEY = { idx:'nur_idx_v5', curId:'nur_current_id_v5', done:'nur_done_v5', theme:'nur_theme_v5', schema:'nur_schema_v5', completed:'nur_completed_v5' };
 const store = {
   get(k, def){ try{ const v = localStorage.getItem(k); return v===null?def:JSON.parse(v); }catch{ return def; } },
   set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch{} }
@@ -606,6 +606,11 @@ function saveCurrentId(){
   if(state.idx < state.words.length){
     const id = state.words[state.idx].id;
     store.set(KEY.curId, id);
+    store.set(KEY.completed, false);
+  } else {
+    // All words completed — clear current ID, mark completed
+    store.set(KEY.curId, null);
+    store.set(KEY.completed, true);
   }
 }
 function loadCurrentIndex(){
@@ -792,7 +797,8 @@ function bind(){
   $('doneRestart').addEventListener('click', ()=>{
     if(!confirm('Sab progress delete karni hai?')) return;
     state.idx = 0; state.mastered = [];
-    store.set(KEY.idx, 0); store.set(KEY.done, []); store.set(KEY.curId, null);
+    store.set(KEY.idx, 0); store.set(KEY.done, []); 
+    store.set(KEY.curId, null); store.set(KEY.completed, false);
     renderHome();
   });
 }
@@ -845,14 +851,19 @@ function bind(){
   }
   
   // 2. Resolve current position — prefer stable currentId, fallback to index
+  const isCompleted = store.get(KEY.completed, false);
   const savedCurId = store.get(KEY.curId, null);
-  if(savedCurId !== null){
+  
+  if(isCompleted){
+    // All words already completed
+    state.idx = state.words.length;
+    console.log('Resumed in COMPLETED state — all words mastered');
+  } else if(savedCurId !== null){
     const idx = state.words.findIndex(w => w.id === savedCurId);
     if(idx >= 0){
       state.idx = idx;
       console.log('Resumed at word ID', savedCurId, '→ index', idx);
     } else {
-      // Word ID not found in current data — start fresh
       console.warn('Saved word ID', savedCurId, 'not found. Starting fresh.');
       state.idx = 0;
     }
