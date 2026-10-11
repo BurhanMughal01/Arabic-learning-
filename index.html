@@ -709,7 +709,7 @@ function renderReview(){
   $('reviewCounter').textContent = `${R.i+1} / ${R.queue.length}`;
 
   const correct = w.meaning.en;
-  const pool = state.words.filter((_,i)=>i!==wid);
+  const pool = state.words.filter(x => x.id !== wordId);
   const wrongs = [];
   let safety = 0;
   while(wrongs.length < 3 && pool.length && safety < 50){
